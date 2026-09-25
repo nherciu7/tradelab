@@ -84,7 +84,8 @@ export type Projection = {
   contractsAtStart: number | null;
 };
 
-// All three in one account: split into thirds at the start of every year, one per system.
+// All three in one account, the same money taking turns: B across the turn of each month,
+// C in June, A in the last days of each month (contracts sized on the whole account).
 // Each simulated year uses the SAME real calendar year for all three (the years they share),
 // so good and bad years line up the way they really did (backtest trap #16).
 export function commonYears(pools: Pools) {
@@ -93,7 +94,7 @@ export function commonYears(pools: Pools) {
   return pools.a.etf.filter((y) => b.has(y.year) && c.has(y.year))
     .map((y) => ({ year: y.year, a: y.months, b: b.get(y.year)!, c: c.get(y.year)! }));
 }
-export const minCombinedEur = (pools: Pools) => Math.ceil(3 * pools.capPerContractEur);
+export const minCombinedEur = (pools: Pools) => Math.ceil(pools.capPerContractEur);
 
 export function project(system: ProjectionId, amount: number, years: number, pools: Pools,
   opts: { period?: "etf" | "fred"; paths?: number; seed?: number } = {}): Projection {
@@ -110,14 +111,12 @@ export function project(system: ProjectionId, amount: number, years: number, poo
     for (let y = 0; y < years; y++) {
       if (system === "all") {
         const yr = common[Math.floor(next() * common.length)];
-        let a = eq / 3, b = eq / 3, c = eq / 3;          // re-split at the start of each year
         for (let m = 0; m < 12; m++) {
-          a += contractsWhileTrading(a, cap, pools.marginEur) * yr.a[m] / pools.eurusd;
-          b *= 1 + yr.b[m];
-          if (m === 5) c *= 1 + yr.c;
-          table[y * 12 + m + 1][p] = a + b + c;
+          eq *= 1 + yr.b[m];                               // B: first days of the month
+          if (m === 5) eq *= 1 + yr.c;                     // C: late June
+          eq += contractsWhileTrading(eq, cap, pools.marginEur) * yr.a[m] / pools.eurusd;   // A: month end
+          table[y * 12 + m + 1][p] = eq;
         }
-        eq = a + b + c;
       } else if (system === "a") {
         const pool = pools.a[period];
         const yr = pool[Math.floor(next() * pool.length)];
@@ -148,7 +147,7 @@ export function project(system: ProjectionId, amount: number, years: number, poo
     bands: { p10: band(10), p25: band(25), p50: band(50), p75: band(75), p90: band(90) },
     end: { p10: percentile(last, 10), p50: percentile(last, 50), p90: percentile(last, 90) },
     belowStart: last.filter((v) => v < amount).length / paths,
-    contractsAtStart: system === "a" ? contractsFor(amount, cap) : system === "all" ? contractsFor(amount / 3, cap) : null,
+    contractsAtStart: system === "a" || system === "all" ? contractsFor(amount, cap) : null,
   };
 }
 

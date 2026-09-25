@@ -15,7 +15,7 @@ const SYSTEMS: { id: ProjectionId; name: string; short: string }[] = [
 // only="all": the compact "all three in one account" version, without the system buttons.
 export default function Projection({ pools, only }: { pools: Pools; only?: "all" }) {
   const [system, setSystem] = useState<ProjectionId>(only ?? "a");
-  const [amount, setAmount] = useState(only ? 3000 : 1000);
+  const [amount, setAmount] = useState(1000);
   const [years, setYears] = useState(3);
   const [period, setPeriod] = useState<"etf" | "fred">("etf");
   const id = useId();
@@ -65,7 +65,7 @@ export default function Projection({ pools, only }: { pools: Pools; only?: "all"
 
       {tooSmall ? (
         <p className="money-what" data-testid={t("too-small")}>{system === "all"
-          ? `Running all three needs at least €${minCombinedEur(pools).toLocaleString("en-US")}, so that System A's third buys one contract.`
+          ? `Running all three needs at least €${minCombinedEur(pools).toLocaleString("en-US")}, enough for one System A contract.`
           : `System A needs at least €${Math.ceil(pools.capPerContractEur)} for one contract.`}</p>
       ) : (
         <>
@@ -119,7 +119,7 @@ export default function Projection({ pools, only }: { pools: Pools; only?: "all"
       <p className="note">
         How this works: 2,000 possible futures, each made of real years from the backtest picked at random.
         {system === "all"
-          ? " The account is split into thirds every January: one third trades System A (one contract per €594), one third System B, one third System C. Each simulated year uses the same real year for all three, 2003 to 2025, so good and bad years line up as they really did."
+          ? " The same money takes turns: System B across the turn of each month, System C in June, System A in the last days of each month (one contract per €594 of the whole account). B and C are counted without borrowing, on the whole account; with whole futures contracts, B needs about €3,000. Each simulated year uses the same real year for all three, 2003 to 2025, so good and bad years line up as they really did."
           : system === "a" ? " Profits buy one more contract per €594 as the account grows, and losses sell them; the account keeps one contract as long as it covers the broker's margin." : " Profits stay in and compound. No borrowing."}
         {" "}Before taxes and currency costs. Hypothetical: the future can be worse than any year in the past.
       </p>

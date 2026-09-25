@@ -136,7 +136,7 @@ test("combined projection: €3,000 for 5 years matches the model, and it's labe
   await expect(box.getByTestId("combo-p90")).toHaveText(eur(p.end.p90));
   await expect(box.getByTestId("combo-below")).toHaveText(`${Math.round(p.belowStart * 100)}%`);
   await expect(box.getByTestId("combo-label")).toHaveText("backtest-based, hypothetical, before taxes and FX");
-  await box.getByTestId("combo-amount").fill("1500");
+  await box.getByTestId("combo-amount").fill("500");
   await expect(box.getByTestId("combo-too-small")).toBeVisible();
 });
 
@@ -144,8 +144,10 @@ test("combined projection sanity: same real year for all three, and between its 
   const years = commonYears(P).map((y) => y.year);
   expect(years[0]).toBe(2003);
   expect(years.at(-1)).toBe(2025);
-  const all = project("all", 3000, 5, P), a = project("a", 3000, 5, P);
-  expect(all.end.p50).toBeGreaterThan(3000);
-  expect(all.end.p50).toBeLessThan(a.end.p50);             // B and C are unlevered, so they dilute A
+  // same money taking turns: B and C add to A, so all three beat A alone at every point
+  const all = project("all", 1000, 5, P), a = project("a", 1000, 5, P);
+  expect(all.end.p50).toBeGreaterThan(a.end.p50);
+  expect(all.end.p10).toBeGreaterThan(a.end.p10);
   expect(all.end.p10).toBeLessThanOrEqual(all.end.p50);
+  expect(project("all", 1000, 1, P).end.p50).toBeGreaterThan(1000);
 });

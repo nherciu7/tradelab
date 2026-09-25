@@ -163,7 +163,7 @@ Two things before you play with it. It's built from the past, and the future can
 
 ### All three together
 
-The three systems trade at different times: A in the last days of each month, B across the turn of the month, C in June and December. So one account can run all three. Here the money is split into thirds, one per system, and split again every January. Each simulated year uses the same real year for all three systems, so their good and bad years line up the way they really did.
+The three systems trade at different times: A in the last days of each month, B across the turn of the month, C in June and December. So the same money can run all three, taking turns, and their results add up. Each simulated year uses the same real year for all three systems, so their good and bad years line up the way they really did. Start with the same amount as above to compare it with System A alone.
 
 [[projection:all]]
 
