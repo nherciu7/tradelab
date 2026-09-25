@@ -1,0 +1,334 @@
+{
+ "_meta": {
+  "sources": [
+   "CLAUDE.md section 4 (numbering)",
+   "public docs/BACKTEST_TRAPS.md"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "traps": [
+  {
+   "n": 1,
+   "category": "Peeking at the future",
+   "title": "The engine knew an order wouldn't fill",
+   "plain": "It checked the future to see an order expire, then took a later setup instead. That alone made a fake t of 5.74."
+  },
+  {
+   "n": 2,
+   "category": "Peeking at the future",
+   "title": "Losing trades quietly deleted",
+   "plain": "Trades where the stop was hit on the entry bar were dropped. They were real losses."
+  },
+  {
+   "n": 3,
+   "category": "Peeking at the future",
+   "title": "Profit counted before the trade existed",
+   "plain": "The bar's high may have printed before the order filled. Only the stop may count on that bar."
+  },
+  {
+   "n": 4,
+   "category": "Peeking at the future",
+   "title": "Filled just by touching the price",
+   "plain": "A limit order isn't filled because the price touched it. Require the price to trade through by one tick."
+  },
+  {
+   "n": 5,
+   "category": "Peeking at the future",
+   "title": "A stop on the wrong side of the entry",
+   "plain": "The engine booked wins that could not lose. It now crashes if this ever happens."
+  },
+  {
+   "n": 6,
+   "category": "Peeking at the future",
+   "title": "Checking the stop before the trade opened",
+   "plain": "The exit logic started at the session open instead of the entry, so it tested prices from before the trade."
+  },
+  {
+   "n": 7,
+   "category": "Peeking at the future",
+   "title": "Two price series lined up by row number",
+   "plain": "Row 500 of one file isn't the same day as row 500 of another. Always join on dates."
+  },
+  {
+   "n": 8,
+   "category": "Costs",
+   "title": "A control built by flipping a net result",
+   "plain": "Negating a result after costs turns the cost into a gain."
+  },
+  {
+   "n": 9,
+   "category": "Costs",
+   "title": "Costs charged wrongly",
+   "plain": "The wrong instrument's cost, costs left out of a 'net' number, or the same cost charged thousands of times."
+  },
+  {
+   "n": 10,
+   "category": "Costs",
+   "title": "Interest counted as edge",
+   "plain": "ETF returns include coupon interest that a futures trader never earns. Strip it out before comparing."
+  },
+  {
+   "n": 11,
+   "category": "Costs",
+   "title": "A 'hedged pair' that was one position",
+   "plain": "99% of the money sat in one leg, so the 'edge' was just the interest rate."
+  },
+  {
+   "n": 12,
+   "category": "Data and calendars",
+   "title": "A date filter with a hole in it",
+   "plain": "Keeping only days 24–31 and 1–4 quietly built four-week trades out of three-day ones."
+  },
+  {
+   "n": 13,
+   "category": "Data and calendars",
+   "title": "Time zones",
+   "plain": "Minute data came in UTC. Convert once, with daylight saving, and check it against a known event."
+  },
+  {
+   "n": 14,
+   "category": "Simulation and statistics",
+   "title": "An income average that flattered everything",
+   "plain": "Dividing each path's payouts by its own lifetime inflated income tenfold. Use total paid over total months."
+  },
+  {
+   "n": 15,
+   "category": "Simulation and statistics",
+   "title": "A rule that moved with the thing being tested",
+   "plain": "The simulated payout gate changed with the setting being tested, so the comparison was rigged."
+  },
+  {
+   "n": 16,
+   "category": "Simulation and statistics",
+   "title": "Mixing months that happen together",
+   "plain": "Legs that move together must be drawn from the same month, or the risk looks smaller than it is."
+  },
+  {
+   "n": 17,
+   "category": "Simulation and statistics",
+   "title": "Several accounts treated as independent",
+   "plain": "One signal feeds them all, so they win and lose together."
+  },
+  {
+   "n": 18,
+   "category": "Simulation and statistics",
+   "title": "Positive in one unit, negative in another",
+   "plain": "A trade can make money per dollar traded and lose money per dollar risked. Report both."
+  },
+  {
+   "n": 19,
+   "category": "Simulation and statistics",
+   "title": "Closing prices hide the worst moment",
+   "plain": "An account is closed out by the worst price during the day, not the closing price."
+  },
+  {
+   "n": 20,
+   "category": "Simulation and statistics",
+   "title": "Assuming you can always try again",
+   "plain": "With one fee and one account, a blow-up is final. Plan for the first attempt."
+  },
+  {
+   "n": 21,
+   "category": "Simulation and statistics",
+   "title": "A safer sizing rule that never got paid",
+   "plain": "It cut blow-ups but stalled below the payout line."
+  },
+  {
+   "n": 22,
+   "category": "Simulation and statistics",
+   "title": "Labels swapped",
+   "plain": "Gross and net, harsh and lenient were mixed up at least once. Check every label."
+  },
+  {
+   "n": 23,
+   "category": "Sources",
+   "title": "Review sites were wrong",
+   "plain": "Only a firm's own written answer counts."
+  },
+  {
+   "n": 24,
+   "category": "Sources",
+   "title": "AI research reports mixed real sources with wrong numbers",
+   "plain": "Every figure has to be checked at the original source."
+  },
+  {
+   "n": 25,
+   "category": "Data and calendars",
+   "title": "An unfinished month counted as a month end",
+   "plain": "The last day in the data was treated as the month's last day, adding a trade that never happened."
+  },
+  {
+   "n": 26,
+   "category": "Costs",
+   "title": "Returns added instead of compounded",
+   "plain": "A tick up and back down counted as a small win. Compound returns over the window."
+  },
+  {
+   "n": 27,
+   "category": "Simulation and statistics",
+   "title": "The pass check ignored the sign",
+   "plain": "It checked the size of t, not its direction, so a trade losing money at t −5.95 passed."
+  },
+  {
+   "n": 28,
+   "category": "Stocks",
+   "title": "Only today's survivors",
+   "plain": "A stock list built from companies alive today leaves out every company that went bust."
+  },
+  {
+   "n": 29,
+   "category": "Stocks",
+   "title": "Losers that silently vanish",
+   "plain": "When a stock is delisted its price series just stops. Book the final loss."
+  },
+  {
+   "n": 30,
+   "category": "Stocks",
+   "title": "Using a report before it was published",
+   "plain": "A December annual report is public in February or March. Use the filing date."
+  },
+  {
+   "n": 31,
+   "category": "Stocks",
+   "title": "Using corrected numbers nobody had at the time",
+   "plain": "Use the numbers as first reported, not later corrections."
+  },
+  {
+   "n": 32,
+   "category": "Stocks",
+   "title": "Insider trades dated too early",
+   "plain": "Insiders report days after they trade. The signal date is the filing date."
+  },
+  {
+   "n": 33,
+   "category": "Stocks",
+   "title": "Earnings released after the close",
+   "plain": "Day 0 is the first session the news could actually be traded."
+  },
+  {
+   "n": 34,
+   "category": "Stocks",
+   "title": "Tickers get reused",
+   "plain": "The same ticker can belong to different companies over time. Track companies by their SEC ID."
+  },
+  {
+   "n": 35,
+   "category": "Stocks",
+   "title": "Mixing adjusted and unadjusted prices",
+   "plain": "Dividing a split-adjusted price by unadjusted earnings gives nonsense ratios."
+  },
+  {
+   "n": 36,
+   "category": "Stocks",
+   "title": "Counting correlated trades as independent",
+   "plain": "Stocks held in the same month move together. Measure t on the monthly portfolio."
+  },
+  {
+   "n": 37,
+   "category": "Stocks",
+   "title": "The penny-stock bounce",
+   "plain": "Tiny prices bounce between bid and ask. Use a $1 floor and buy at the next close."
+  },
+  {
+   "n": 38,
+   "category": "Stocks",
+   "title": "Papers profit from the short side",
+   "plain": "Much of a published result comes from shorting. A long-only account can't collect that part."
+  },
+  {
+   "n": 39,
+   "category": "Stocks",
+   "title": "500 stocks on paper, 10 in real life",
+   "plain": "Test the portfolio a small account can actually hold, with its costs."
+  },
+  {
+   "n": 40,
+   "category": "Stocks",
+   "title": "The wrong yardstick",
+   "plain": "Compare small stocks with small stocks, not with the S&P 500."
+  },
+  {
+   "n": 41,
+   "category": "Stocks",
+   "title": "Tuning the book's rules",
+   "plain": "Graham's numbers are tested as written. Any tuning counts as a new idea."
+  },
+  {
+   "n": 42,
+   "category": "Stocks",
+   "title": "Currency",
+   "plain": "The account is in euros and the stocks are in dollars. Count the exchange fees."
+  },
+  {
+   "n": 43,
+   "category": "Stocks",
+   "title": "Days with no trading",
+   "plain": "A day with zero volume shows a fake flat return. Require real trading on entry and exit days."
+  },
+  {
+   "n": 44,
+   "category": "Stocks",
+   "title": "A bad decade for the idea",
+   "plain": "The free data starts in value investing's worst decade. Say so, but don't lower the bar."
+  },
+  {
+   "n": 45,
+   "category": "Vendor data",
+   "title": "Companies filed under their last ticker",
+   "plain": "WaMu's NYSE history sat under its later OTC ticker. Never filter the download by exchange."
+  },
+  {
+   "n": 46,
+   "category": "Vendor data",
+   "title": "The same stock twice",
+   "plain": "One history under two codes. Detect it by identical returns, not by name."
+  },
+  {
+   "n": 47,
+   "category": "Vendor data",
+   "title": "Glued-together price histories",
+   "plain": "A +144,000% day and a $1,000,000 placeholder price. Every move beyond ×3 in a day gets explained first."
+  },
+  {
+   "n": 48,
+   "category": "Vendor data",
+   "title": "A typo worth trillions",
+   "plain": "Seagate was listed with 317 trillion shares. Check company size against a second source."
+  },
+  {
+   "n": 49,
+   "category": "Vendor data",
+   "title": "Timestamps in the wrong time zone",
+   "plain": "Some SEC filing times marked UTC weren't UTC."
+  },
+  {
+   "n": 50,
+   "category": "Vendor data",
+   "title": "Foreign listings in a US filter",
+   "plain": "A filter for US company listings also caught foreign ones."
+  },
+  {
+   "n": 51,
+   "category": "Vendor data",
+   "title": "One bad stock skews the index",
+   "plain": "When a size-weighted check disagrees, look at the biggest contributors first."
+  },
+  {
+   "n": 52,
+   "category": "Vendor data",
+   "title": "An invisible character broke a search",
+   "plain": "An automated edit wrote a hidden backspace into code, so a search silently matched nothing."
+  },
+  {
+   "n": 53,
+   "category": "Peeking at the future",
+   "title": "A placebo that peeked",
+   "plain": "The fake dates were picked next to future earnings jumps, so the placebo looked like a discovery."
+  }
+ ],
+ "count": 53
+}

@@ -1,0 +1,98 @@
+# Every number the copy shows through a {{token}} comes from here.
+# src:    <file in site/data>:<path inside it>
+# dp:     decimals shown (default 0)
+# prefix / suffix: text around the number ("$", "€", "%", " bps")
+# sign:   true shows "+" on positive numbers
+# abs:    true drops the minus (for "down $278" style sentences)
+# round:  round to a multiple first (10 turns 269.69 into 270)
+# thousands: true adds a comma separator
+# scale:  multiply first (0.01 turns bps into %)
+# Negative numbers use a real minus sign (−).
+
+# --- the project
+ideas_tested:      { src: "summary.json:ideas.tested" }
+ideas_about:       { src: "summary.json:ideas.about" }
+ideas_rejected:    { src: "summary.json:ideas.rejected" }
+survivors:         { src: "summary.json:ideas.survivors" }
+traps:             { src: "summary.json:ideas.traps" }
+graveyard_listed:  { src: "summary.json:ideas.graveyard_listed" }
+stock_series:      { src: "summary.json:facts.stock_series", thousands: true }
+minute_bars:       { src: "summary.json:facts.minute_bars_million", suffix: " million" }
+data_spend:        { src: "summary.json:facts.data_spend_usd", prefix: "$", dp: 2 }
+v0_first:          { src: "summary.json:facts.v0_first_corr", dp: 2 }
+v0_final:          { src: "summary.json:facts.v0_final_corr", dp: 3 }
+v0_fixes:          { src: "summary.json:facts.v0_fixes" }
+
+# --- ICT
+ict_bug_t:         { src: "summary.json:facts.ict_bug_t", dp: 2 }
+ict_configs:       { src: "summary.json:facts.ict_configs", thousands: true }
+ict_spec_t:        { src: "summary.json:facts.ict_spec_t", dp: 2 }
+ict_oos_t:         { src: "summary.json:facts.ict_oos_t", dp: 2 }
+ict_pbo:           { src: "summary.json:facts.ict_pbo_pct", suffix: "%" }
+
+# --- stocks
+penny_doubled:     { src: "summary.json:stocks.penny_doubled_pct", dp: 1, suffix: "%" }
+penny_halved:      { src: "summary.json:stocks.penny_halved_pct", dp: 1, suffix: "%" }
+penny_delisted:    { src: "summary.json:stocks.penny_delisted_pct", dp: 1, suffix: "%" }
+penny_median:      { src: "summary.json:stocks.penny_median_pct", dp: 1, suffix: "%", abs: true }
+penny_young_halved: { src: "summary.json:stocks.penny_young_halved_pct", dp: 1, suffix: "%" }
+penny_young_median: { src: "summary.json:stocks.penny_young_median_pct", dp: 1, suffix: "%", abs: true }
+s8_deposited:      { src: "summary.json:stocks.s8_deposits_usd", prefix: "$", thousands: true }
+s8_end:            { src: "summary.json:stocks.s8_end_usd", prefix: "$" }
+
+# --- System A (2YY, per contract, $2.50 round turn)
+a_months:          { src: "summary.json:system_a.etf.months" }
+a_net_month:       { src: "summary.json:system_a.etf.net_usd_month", prefix: "$", dp: 2 }
+a_net_month_round: { src: "summary.json:system_a.etf.net_usd_month", prefix: "$" }
+a_win:             { src: "summary.json:system_a.etf.win_pct", dp: 1, suffix: "%" }
+a_t:               { src: "summary.json:system_a.etf.t", dp: 2 }
+a_sharpe:          { src: "summary.json:system_a.etf.sharpe", dp: 2 }
+a_worst_month:     { src: "summary.json:system_a.etf.worst_month_usd", prefix: "$", abs: true }
+a_worst_month_s:   { src: "summary.json:system_a.etf.worst_month_usd", prefix: "$" }
+a_worst_dip:       { src: "summary.json:system_a.etf.worst_dip_usd", prefix: "$", abs: true }
+a_capital_eur:     { src: "summary.json:system_a.etf.capital_eur", prefix: "€" }
+a_capital_usd:     { src: "summary.json:system_a.etf.capital_usd", prefix: "$" }
+a_typical_year:    { src: "calculator.json:periods.etf.per_contract_eur.median", prefix: "€", round: 10 }
+a_losing_years:    { src: "calculator.json:periods.etf.losing_years" }
+a_years:           { src: "calculator.json:periods.etf.n_years" }
+a_winning_years:   { src: "calculator.json:periods.etf.winning_years" }
+a_worst_year:      { src: "calculator.json:periods.etf.per_contract_eur.worst", prefix: "€", abs: true }
+a_old_months:      { src: "summary.json:system_a.fred.months" }
+a_old_net_month:   { src: "summary.json:system_a.fred.net_usd_month", prefix: "$", dp: 2 }
+a_old_t:           { src: "summary.json:system_a.fred.t", dp: 2 }
+a_old_typical_year: { src: "calculator.json:periods.fred.per_contract_eur.median", prefix: "€", round: 10 }
+a_old_losing_years: { src: "calculator.json:periods.fred.losing_years" }
+a_old_years:       { src: "calculator.json:periods.fred.n_years" }
+a_old_worst_year:  { src: "calculator.json:periods.fred.per_contract_eur.worst", prefix: "€", abs: true }
+a_old_worst_month: { src: "summary.json:system_a.fred.worst_month_usd", prefix: "$", abs: true }
+a_old_capital_eur: { src: "summary.json:system_a.fred.capital_eur", prefix: "€" }
+a_shy_month_end:   { src: "summary.json:system_a.shy_month_end_bps", dp: 2 }
+a_rank1_funds:     { src: "summary.json:system_a.month_end_rank1_funds" }
+a_funds:           { src: "summary.json:system_a.funds" }
+a_margin:          { src: "summary.json:facts.sysa_margin_usd", prefix: "$" }
+
+# --- System B (6 indices, bps of notional)
+b_months:          { src: "summary.json:system_b.months" }
+b_mean:            { src: "summary.json:system_b.mean_bps", dp: 1 }
+b_per10k:          { src: "summary.json:system_b.mean_bps", prefix: "$" }
+b_win:             { src: "summary.json:system_b.win_pct", dp: 1, suffix: "%" }
+b_t:               { src: "summary.json:system_b.t", dp: 2 }
+b_worst_month_pct: { src: "summary.json:system_b.worst_month_bps", dp: 1, abs: true, scale: 0.01, suffix: "%" }
+b_worst_month_s:   { src: "summary.json:system_b.worst_month_bps", dp: 1, scale: 0.01, suffix: "%" }
+b_max_dd_s:        { src: "summary.json:system_b.max_drawdown_pct", dp: 1, suffix: "%" }
+b_max_dd:          { src: "summary.json:system_b.max_drawdown_pct", dp: 1, abs: true, suffix: "%" }
+b_2016_t:          { src: "summary.json:system_b.from_2016_t", dp: 2 }
+b_mes_margin:      { src: "summary.json:system_b.mes_margin_usd", prefix: "$", thousands: true }
+
+# --- System C (IWM vs SPY, bps, 8 bps cost per leg-trade)
+c_events:          { src: "summary.json:system_c.events" }
+c_into:            { src: "summary.json:system_c.into.mean_bps", dp: 1 }
+c_into_per10k:     { src: "summary.json:system_c.into.mean_bps", prefix: "$" }
+c_into_wins:       { src: "summary.json:system_c.into.wins" }
+c_into_win:        { src: "summary.json:system_c.into.win_pct", dp: 1, suffix: "%" }
+c_into_t:          { src: "summary.json:system_c.into.t", dp: 2 }
+c_into_worst:      { src: "summary.json:system_c.into.worst_bps", abs: true }
+c_into_worst_s:    { src: "summary.json:system_c.into.worst_bps" }
+c_unwind:          { src: "summary.json:system_c.unwind.mean_bps" }
+c_unwind_t:        { src: "summary.json:system_c.unwind.t", dp: 2 }
+c_unwind_worst:    { src: "summary.json:system_c.unwind.worst_bps", abs: true }

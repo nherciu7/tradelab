@@ -1,0 +1,8 @@
+content/_preview/
+node_modules/
+.next/
+out/
+test-results/
+playwright-report/
+_directions/
+public/og.png

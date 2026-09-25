@@ -1,0 +1,84 @@
+[
+  {
+    "id": "pdr-break",
+    "name": "Breakout of yesterday's range",
+    "idea": "When the price breaks above yesterday's high (or below its low), jump in. The move should keep going.",
+    "headline": "PDR break 2R",
+    "family": ["PDR break 1.5R", "PDR break 2R", "PDR break 3R", "PDR break wide stop", "PDR break + trend filter", "PDR break + BE at 1R"],
+    "sketch": "breakout"
+  },
+  {
+    "id": "asian-range",
+    "name": "Overnight range breakout (the \"Asian range\")",
+    "idea": "Mark the high and low of the quiet overnight session. Trade the break when Europe or New York opens.",
+    "headline": "ON range break 2R",
+    "family": ["ON range break 1.5R", "ON range break 2R", "ON range break wide stop", "ON range break + BE"],
+    "sketch": "range-break"
+  },
+  {
+    "id": "range-fade",
+    "name": "Fading the overnight range (a reversal)",
+    "idea": "The opposite bet: when the price pokes out of the overnight range, expect it to fall back in.",
+    "headline": "ON range fade",
+    "family": ["ON range fade"],
+    "sketch": "fade"
+  },
+  {
+    "id": "gap-fill",
+    "name": "Gap fill",
+    "idea": "When the market opens far from yesterday's close, bet that it drifts back to close the gap.",
+    "headline": "Gap fill > 0.5 range",
+    "family": ["Gap fill > 0.25 range", "Gap fill > 0.5 range", "Gap fill > 1.0 range"],
+    "sketch": "gap-fill"
+  },
+  {
+    "id": "gap-go",
+    "name": "Gap and go",
+    "idea": "The opposite of gap fill: a big opening gap means strong buyers, so follow it.",
+    "headline": "Gap continue > 0.25",
+    "family": ["Gap continue > 0.25", "Gap continue > 0.5"],
+    "sketch": "gap-go"
+  },
+  {
+    "id": "nr7",
+    "name": "Narrow-range breakout (NR7)",
+    "idea": "After the quietest day of the last seven, a big move often follows. Trade the break of that quiet day's range.",
+    "headline": "NR7 breakout 2.5R",
+    "family": ["NR7 breakout 1.5R", "NR7 breakout 2.5R"],
+    "sketch": "nr7",
+    "comment": "The closest of the chart patterns: it made money in all four markets. But with only 892 trades, a t of 1.10 is well within what luck produces."
+  },
+  {
+    "id": "vwap-revert",
+    "name": "VWAP reversion",
+    "idea": "VWAP is the day's average price, weighted by volume. When the price stretches far from it, bet on the snap back.",
+    "headline": "VWAP revert 2.0 sd",
+    "family": ["VWAP revert 1.5 sd", "VWAP revert 2.0 sd", "VWAP revert 2.5 sd"],
+    "sketch": "vwap-revert"
+  },
+  {
+    "id": "vwap-trend",
+    "name": "VWAP trend",
+    "idea": "When the price crosses above the day's average price, the buyers are in control. Go with them.",
+    "headline": "VWAP trend cross",
+    "family": ["VWAP trend cross"],
+    "sketch": "vwap-trend"
+  },
+  {
+    "id": "late-day",
+    "name": "Late-day momentum (and its reverse)",
+    "idea": "If the day has been strong, the last hour continues it, because funds finish their buying. The fade version bets the opposite.",
+    "headline": "Late-day momentum",
+    "family": ["Late-day momentum", "Late-day fade"],
+    "sketch": "late-day"
+  },
+  {
+    "id": "ict",
+    "name": "ICT: liquidity sweep and fair value gap",
+    "idea": "Wait for the price to dip below a recent low (\"sweeping the liquidity\"), then shoot up and leave a gap. Buy when it comes back into the gap.",
+    "headline": "ict",
+    "family": [],
+    "sketch": "ict",
+    "comment": "Coded exactly as taught (the 2022 model), on 8 markets. Tested separately and audited, unlike the rest of this gallery."
+  }
+]

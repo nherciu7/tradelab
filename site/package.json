@@ -1,0 +1,37 @@
+{
+  "name": "tradelab-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/og.mjs",
+    "build": "next build",
+    "serve": "node scripts/serve.mjs",
+    "preview:copy": "node scripts/preview.mjs",
+    "scan:copy": "node scripts/style-scan.mjs",
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/source-serif-4": "^5.2.9",
+    "marked": "^18.0.14",
+    "next": "16.3.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.0",
+    "@playwright/test": "^1.63.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "satori": "^0.33.5",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.0"
+  }
+}

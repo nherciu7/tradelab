@@ -1,0 +1,7 @@
+[
+  {
+    "phrase": "Are seasonal anomalies real?",
+    "rules": ["punct:question"],
+    "reason": "Title of the Lakonishok and Smidt (1988) paper, quoted as the link text of the citation on the System B page. A title, not a rhetorical question."
+  }
+]

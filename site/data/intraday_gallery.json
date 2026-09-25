@@ -1,0 +1,985 @@
+{
+ "_meta": {
+  "sources": [
+   "reports/battery_corrected.csv (earlier batch, not re-audited)"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "configs": [
+  {
+   "config": "PDR break 1.5R",
+   "signal": "prev_day_range",
+   "trades": 5168,
+   "per100_risked": -0.95,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.52,
+   "worst_t": -2.31,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1325,
+     "per100_risked": 3.16,
+     "win_pct": 51.2,
+     "t": 1.52
+    },
+    {
+     "market": "DOW",
+     "trades": 1424,
+     "per100_risked": -3.3,
+     "win_pct": 48.5,
+     "t": -1.64
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1460,
+     "per100_risked": 0.37,
+     "win_pct": 50.3,
+     "t": 0.18
+    },
+    {
+     "market": "FTSE",
+     "trades": 959,
+     "per100_risked": -5.17,
+     "win_pct": 45.6,
+     "t": -2.31
+    }
+   ]
+  },
+  {
+   "config": "PDR break 2R",
+   "signal": "prev_day_range",
+   "trades": 5168,
+   "per100_risked": -0.52,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.81,
+   "worst_t": -2.06,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1325,
+     "per100_risked": 3.98,
+     "win_pct": 51.2,
+     "t": 1.81
+    },
+    {
+     "market": "DOW",
+     "trades": 1424,
+     "per100_risked": -3.57,
+     "win_pct": 47.7,
+     "t": -1.71
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1460,
+     "per100_risked": 1.16,
+     "win_pct": 50.3,
+     "t": 0.54
+    },
+    {
+     "market": "FTSE",
+     "trades": 959,
+     "per100_risked": -4.79,
+     "win_pct": 45.7,
+     "t": -2.06
+    }
+   ]
+  },
+  {
+   "config": "PDR break 3R",
+   "signal": "prev_day_range",
+   "trades": 5168,
+   "per100_risked": -0.09,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 2.03,
+   "worst_t": -1.86,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1325,
+     "per100_risked": 4.7,
+     "win_pct": 50.3,
+     "t": 2.03
+    },
+    {
+     "market": "DOW",
+     "trades": 1424,
+     "per100_risked": -3.5,
+     "win_pct": 47.4,
+     "t": -1.64
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1460,
+     "per100_risked": 1.77,
+     "win_pct": 49.9,
+     "t": 0.79
+    },
+    {
+     "market": "FTSE",
+     "trades": 959,
+     "per100_risked": -4.46,
+     "win_pct": 45.3,
+     "t": -1.86
+    }
+   ]
+  },
+  {
+   "config": "PDR break wide stop",
+   "signal": "prev_day_range",
+   "trades": 5168,
+   "per100_risked": -0.1,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.89,
+   "worst_t": -1.81,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1325,
+     "per100_risked": 2.48,
+     "win_pct": 51.6,
+     "t": 1.89
+    },
+    {
+     "market": "DOW",
+     "trades": 1424,
+     "per100_risked": -2.28,
+     "win_pct": 49.6,
+     "t": -1.81
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1460,
+     "per100_risked": 1.07,
+     "win_pct": 52.5,
+     "t": 0.84
+    },
+    {
+     "market": "FTSE",
+     "trades": 959,
+     "per100_risked": -2.21,
+     "win_pct": 46.0,
+     "t": -1.64
+    }
+   ]
+  },
+  {
+   "config": "PDR break + trend filter",
+   "signal": "prev_day_range",
+   "trades": 2932,
+   "per100_risked": -0.31,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.89,
+   "worst_t": -3.05,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 732,
+     "per100_risked": 5.7,
+     "win_pct": 51.4,
+     "t": 1.89
+    },
+    {
+     "market": "DOW",
+     "trades": 811,
+     "per100_risked": -1.56,
+     "win_pct": 48.3,
+     "t": -0.56
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 878,
+     "per100_risked": 1.25,
+     "win_pct": 50.7,
+     "t": 0.45
+    },
+    {
+     "market": "FTSE",
+     "trades": 511,
+     "per100_risked": -9.61,
+     "win_pct": 43.2,
+     "t": -3.05
+    }
+   ]
+  },
+  {
+   "config": "PDR break + BE at 1R",
+   "signal": "prev_day_range",
+   "trades": 5168,
+   "per100_risked": -1.09,
+   "markets": 4,
+   "markets_made_money": 1,
+   "best_t": 1.37,
+   "worst_t": -2.33,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1325,
+     "per100_risked": 2.81,
+     "win_pct": 49.6,
+     "t": 1.37
+    },
+    {
+     "market": "DOW",
+     "trades": 1424,
+     "per100_risked": -3.06,
+     "win_pct": 47.5,
+     "t": -1.54
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1460,
+     "per100_risked": -0.03,
+     "win_pct": 48.7,
+     "t": -0.01
+    },
+    {
+     "market": "FTSE",
+     "trades": 959,
+     "per100_risked": -5.16,
+     "win_pct": 44.7,
+     "t": -2.33
+    }
+   ]
+  },
+  {
+   "config": "ON range break 1.5R",
+   "signal": "overnight_range",
+   "trades": 5403,
+   "per100_risked": -0.74,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 0.83,
+   "worst_t": -2.28,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1415,
+     "per100_risked": 0.2,
+     "win_pct": 46.9,
+     "t": 0.08
+    },
+    {
+     "market": "DOW",
+     "trades": 1512,
+     "per100_risked": -0.9,
+     "win_pct": 47.8,
+     "t": -0.4
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1533,
+     "per100_risked": 1.91,
+     "win_pct": 48.5,
+     "t": 0.83
+    },
+    {
+     "market": "FTSE",
+     "trades": 943,
+     "per100_risked": -6.22,
+     "win_pct": 45.7,
+     "t": -2.28
+    }
+   ]
+  },
+  {
+   "config": "ON range break 2R",
+   "signal": "overnight_range",
+   "trades": 5403,
+   "per100_risked": -0.54,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.24,
+   "worst_t": -2.21,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1415,
+     "per100_risked": 0.39,
+     "win_pct": 46.1,
+     "t": 0.16
+    },
+    {
+     "market": "DOW",
+     "trades": 1512,
+     "per100_risked": -1.39,
+     "win_pct": 47.2,
+     "t": -0.6
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1533,
+     "per100_risked": 2.97,
+     "win_pct": 48.0,
+     "t": 1.24
+    },
+    {
+     "market": "FTSE",
+     "trades": 943,
+     "per100_risked": -6.25,
+     "win_pct": 45.4,
+     "t": -2.21
+    }
+   ]
+  },
+  {
+   "config": "ON range break wide stop",
+   "signal": "overnight_range",
+   "trades": 5403,
+   "per100_risked": -0.7,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 0.35,
+   "worst_t": -1.94,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1415,
+     "per100_risked": 0.41,
+     "win_pct": 48.8,
+     "t": 0.3
+    },
+    {
+     "market": "DOW",
+     "trades": 1512,
+     "per100_risked": -1.51,
+     "win_pct": 50.4,
+     "t": -1.14
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1533,
+     "per100_risked": 0.49,
+     "win_pct": 51.5,
+     "t": 0.35
+    },
+    {
+     "market": "FTSE",
+     "trades": 943,
+     "per100_risked": -3.02,
+     "win_pct": 47.1,
+     "t": -1.94
+    }
+   ]
+  },
+  {
+   "config": "ON range break + BE",
+   "signal": "overnight_range",
+   "trades": 5403,
+   "per100_risked": -0.85,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 0.79,
+   "worst_t": -2.57,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1415,
+     "per100_risked": 0.38,
+     "win_pct": 45.1,
+     "t": 0.16
+    },
+    {
+     "market": "DOW",
+     "trades": 1512,
+     "per100_risked": -0.88,
+     "win_pct": 45.0,
+     "t": -0.4
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1533,
+     "per100_risked": 1.77,
+     "win_pct": 46.8,
+     "t": 0.79
+    },
+    {
+     "market": "FTSE",
+     "trades": 943,
+     "per100_risked": -6.92,
+     "win_pct": 43.5,
+     "t": -2.57
+    }
+   ]
+  },
+  {
+   "config": "ON range fade",
+   "signal": "overnight_range",
+   "trades": 5403,
+   "per100_risked": -1.12,
+   "markets": 4,
+   "markets_made_money": 1,
+   "best_t": 0.16,
+   "worst_t": -1.24,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1415,
+     "per100_risked": -2.88,
+     "win_pct": 46.7,
+     "t": -1.24
+    },
+    {
+     "market": "DOW",
+     "trades": 1512,
+     "per100_risked": -0.98,
+     "win_pct": 46.1,
+     "t": -0.43
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1533,
+     "per100_risked": -0.61,
+     "win_pct": 45.7,
+     "t": -0.26
+    },
+    {
+     "market": "FTSE",
+     "trades": 943,
+     "per100_risked": 0.45,
+     "win_pct": 49.0,
+     "t": 0.16
+    }
+   ]
+  },
+  {
+   "config": "Gap fill > 0.25 range",
+   "signal": "gap_fill",
+   "trades": 3689,
+   "per100_risked": -2.47,
+   "markets": 4,
+   "markets_made_money": 1,
+   "best_t": 0.4,
+   "worst_t": -2.75,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 984,
+     "per100_risked": -5.43,
+     "win_pct": 54.6,
+     "t": -2.75
+    },
+    {
+     "market": "DOW",
+     "trades": 953,
+     "per100_risked": -3.05,
+     "win_pct": 54.4,
+     "t": -1.52
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 991,
+     "per100_risked": 0.82,
+     "win_pct": 56.5,
+     "t": 0.4
+    },
+    {
+     "market": "FTSE",
+     "trades": 761,
+     "per100_risked": -2.22,
+     "win_pct": 55.2,
+     "t": -1.01
+    }
+   ]
+  },
+  {
+   "config": "Gap fill > 0.5 range",
+   "signal": "gap_fill",
+   "trades": 2054,
+   "per100_risked": -1.69,
+   "markets": 4,
+   "markets_made_money": 1,
+   "best_t": 1.32,
+   "worst_t": -1.74,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 517,
+     "per100_risked": -5.18,
+     "win_pct": 50.9,
+     "t": -1.74
+    },
+    {
+     "market": "DOW",
+     "trades": 505,
+     "per100_risked": -2.04,
+     "win_pct": 50.1,
+     "t": -0.67
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 551,
+     "per100_risked": 3.89,
+     "win_pct": 53.5,
+     "t": 1.32
+    },
+    {
+     "market": "FTSE",
+     "trades": 481,
+     "per100_risked": -3.97,
+     "win_pct": 50.3,
+     "t": -1.32
+    }
+   ]
+  },
+  {
+   "config": "Gap fill > 1.0 range",
+   "signal": "gap_fill",
+   "trades": 655,
+   "per100_risked": -1.21,
+   "markets": 4,
+   "markets_made_money": 1,
+   "best_t": 0.9,
+   "worst_t": -1.03,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 151,
+     "per100_risked": -0.63,
+     "win_pct": 55.0,
+     "t": -0.12
+    },
+    {
+     "market": "DOW",
+     "trades": 173,
+     "per100_risked": -4.02,
+     "win_pct": 46.2,
+     "t": -0.93
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 170,
+     "per100_risked": 4.26,
+     "win_pct": 54.1,
+     "t": 0.9
+    },
+    {
+     "market": "FTSE",
+     "trades": 161,
+     "per100_risked": -4.51,
+     "win_pct": 46.6,
+     "t": -1.03
+    }
+   ]
+  },
+  {
+   "config": "Gap continue > 0.25",
+   "signal": "gap_go",
+   "trades": 3689,
+   "per100_risked": 0.42,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.39,
+   "worst_t": -0.81,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 984,
+     "per100_risked": 3.23,
+     "win_pct": 50.7,
+     "t": 1.39
+    },
+    {
+     "market": "DOW",
+     "trades": 953,
+     "per100_risked": 1.18,
+     "win_pct": 51.5,
+     "t": 0.5
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 991,
+     "per100_risked": -1.95,
+     "win_pct": 49.5,
+     "t": -0.81
+    },
+    {
+     "market": "FTSE",
+     "trades": 761,
+     "per100_risked": -1.09,
+     "win_pct": 47.8,
+     "t": -0.44
+    }
+   ]
+  },
+  {
+   "config": "Gap continue > 0.5",
+   "signal": "gap_go",
+   "trades": 2054,
+   "per100_risked": -0.3,
+   "markets": 4,
+   "markets_made_money": 3,
+   "best_t": 0.87,
+   "worst_t": -1.37,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 517,
+     "per100_risked": 2.87,
+     "win_pct": 49.1,
+     "t": 0.87
+    },
+    {
+     "market": "DOW",
+     "trades": 505,
+     "per100_risked": 0.05,
+     "win_pct": 49.9,
+     "t": 0.01
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 551,
+     "per100_risked": -4.53,
+     "win_pct": 48.5,
+     "t": -1.37
+    },
+    {
+     "market": "FTSE",
+     "trades": 481,
+     "per100_risked": 0.8,
+     "win_pct": 48.4,
+     "t": 0.24
+    }
+   ]
+  },
+  {
+   "config": "NR7 breakout 1.5R",
+   "signal": "nr7_break",
+   "trades": 892,
+   "per100_risked": 2.19,
+   "markets": 4,
+   "markets_made_money": 3,
+   "best_t": 1.04,
+   "worst_t": -0.17,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 226,
+     "per100_risked": 4.92,
+     "win_pct": 51.3,
+     "t": 1.04
+    },
+    {
+     "market": "DOW",
+     "trades": 241,
+     "per100_risked": 2.7,
+     "win_pct": 49.8,
+     "t": 0.58
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 260,
+     "per100_risked": -0.81,
+     "win_pct": 50.0,
+     "t": -0.17
+    },
+    {
+     "market": "FTSE",
+     "trades": 165,
+     "per100_risked": 2.44,
+     "win_pct": 46.1,
+     "t": 0.45
+    }
+   ]
+  },
+  {
+   "config": "NR7 breakout 2.5R",
+   "signal": "nr7_break",
+   "trades": 892,
+   "per100_risked": 3.26,
+   "markets": 4,
+   "markets_made_money": 4,
+   "best_t": 1.1,
+   "worst_t": 0.24,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 226,
+     "per100_risked": 3.75,
+     "win_pct": 50.9,
+     "t": 0.76
+    },
+    {
+     "market": "DOW",
+     "trades": 241,
+     "per100_risked": 5.53,
+     "win_pct": 49.8,
+     "t": 1.1
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 260,
+     "per100_risked": 1.23,
+     "win_pct": 50.4,
+     "t": 0.24
+    },
+    {
+     "market": "FTSE",
+     "trades": 165,
+     "per100_risked": 2.49,
+     "win_pct": 47.9,
+     "t": 0.46
+    }
+   ]
+  },
+  {
+   "config": "VWAP revert 2.0 sd",
+   "signal": "vwap_revert",
+   "trades": 6189,
+   "per100_risked": -2.35,
+   "markets": 4,
+   "markets_made_money": 0,
+   "best_t": -0.45,
+   "worst_t": -3.65,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1650,
+     "per100_risked": -2.8,
+     "win_pct": 78.7,
+     "t": -2.98
+    },
+    {
+     "market": "DOW",
+     "trades": 1677,
+     "per100_risked": -1.89,
+     "win_pct": 75.3,
+     "t": -1.95
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1706,
+     "per100_risked": -3.64,
+     "win_pct": 73.2,
+     "t": -3.65
+    },
+    {
+     "market": "FTSE",
+     "trades": 1156,
+     "per100_risked": -0.47,
+     "win_pct": 80.1,
+     "t": -0.45
+    }
+   ]
+  },
+  {
+   "config": "VWAP revert 2.5 sd",
+   "signal": "vwap_revert",
+   "trades": 5902,
+   "per100_risked": -2.94,
+   "markets": 4,
+   "markets_made_money": 0,
+   "best_t": -0.71,
+   "worst_t": -3.71,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1580,
+     "per100_risked": -3.72,
+     "win_pct": 73.0,
+     "t": -3.55
+    },
+    {
+     "market": "DOW",
+     "trades": 1601,
+     "per100_risked": -2.55,
+     "win_pct": 69.0,
+     "t": -2.41
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1631,
+     "per100_risked": -3.97,
+     "win_pct": 67.7,
+     "t": -3.71
+    },
+    {
+     "market": "FTSE",
+     "trades": 1090,
+     "per100_risked": -0.84,
+     "win_pct": 75.0,
+     "t": -0.71
+    }
+   ]
+  },
+  {
+   "config": "VWAP revert 1.5 sd",
+   "signal": "vwap_revert",
+   "trades": 6210,
+   "per100_risked": -2.39,
+   "markets": 4,
+   "markets_made_money": 0,
+   "best_t": -0.56,
+   "worst_t": -4.16,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1656,
+     "per100_risked": -2.06,
+     "win_pct": 82.7,
+     "t": -2.39
+    },
+    {
+     "market": "DOW",
+     "trades": 1683,
+     "per100_risked": -2.46,
+     "win_pct": 78.6,
+     "t": -2.71
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1711,
+     "per100_risked": -3.9,
+     "win_pct": 76.6,
+     "t": -4.16
+    },
+    {
+     "market": "FTSE",
+     "trades": 1160,
+     "per100_risked": -0.54,
+     "win_pct": 83.5,
+     "t": -0.56
+    }
+   ]
+  },
+  {
+   "config": "VWAP trend cross",
+   "signal": "vwap_trend",
+   "trades": 6110,
+   "per100_risked": -1.94,
+   "markets": 4,
+   "markets_made_money": 1,
+   "best_t": 0.21,
+   "worst_t": -3.87,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 1626,
+     "per100_risked": 0.37,
+     "win_pct": 50.4,
+     "t": 0.21
+    },
+    {
+     "market": "DOW",
+     "trades": 1666,
+     "per100_risked": -1.76,
+     "win_pct": 48.8,
+     "t": -1.03
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1677,
+     "per100_risked": -0.76,
+     "win_pct": 49.6,
+     "t": -0.44
+    },
+    {
+     "market": "FTSE",
+     "trades": 1141,
+     "per100_risked": -7.22,
+     "win_pct": 45.9,
+     "t": -3.87
+    }
+   ]
+  },
+  {
+   "config": "Late-day momentum",
+   "signal": "late_day",
+   "trades": 3883,
+   "per100_risked": -0.93,
+   "markets": 4,
+   "markets_made_money": 2,
+   "best_t": 1.11,
+   "worst_t": -1.81,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 961,
+     "per100_risked": 0.52,
+     "win_pct": 46.5,
+     "t": 0.23
+    },
+    {
+     "market": "DOW",
+     "trades": 1112,
+     "per100_risked": -2.47,
+     "win_pct": 48.7,
+     "t": -1.64
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1149,
+     "per100_risked": 1.53,
+     "win_pct": 52.5,
+     "t": 1.11
+    },
+    {
+     "market": "FTSE",
+     "trades": 661,
+     "per100_risked": -4.75,
+     "win_pct": 46.0,
+     "t": -1.81
+    }
+   ]
+  },
+  {
+   "config": "Late-day fade",
+   "signal": "late_day",
+   "trades": 3883,
+   "per100_risked": -2.06,
+   "markets": 4,
+   "markets_made_money": 0,
+   "best_t": -0.25,
+   "worst_t": -2.45,
+   "by_market": [
+    {
+     "market": "DAX",
+     "trades": 961,
+     "per100_risked": -3.34,
+     "win_pct": 50.4,
+     "t": -1.48
+    },
+    {
+     "market": "DOW",
+     "trades": 1112,
+     "per100_risked": -0.46,
+     "win_pct": 47.8,
+     "t": -0.31
+    },
+    {
+     "market": "NASDAQ",
+     "trades": 1149,
+     "per100_risked": -3.36,
+     "win_pct": 44.8,
+     "t": -2.45
+    },
+    {
+     "market": "FTSE",
+     "trades": 661,
+     "per100_risked": -0.66,
+     "win_pct": 49.6,
+     "t": -0.25
+    }
+   ]
+  }
+ ],
+ "ict": {
+  "config": "ICT 2022 model, real killzone 08:30-11:00",
+  "trades": 866,
+  "per100_risked": -8.37,
+  "t": -1.51,
+  "markets_made_money": 2,
+  "markets": 8
+ },
+ "pass_bar_t": 2.8,
+ "label": "earlier batch, not re-audited",
+ "note": "R is the amount risked on one trade; 'per €100 risked' = average result per trade x 100. Whole sample; the batch's own cost model."
+}

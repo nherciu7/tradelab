@@ -1,0 +1,190 @@
+{
+ "_meta": {
+  "sources": [
+   "all of the above",
+   "scripts/site/site_catalog.py (quoted facts with sources)"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "facts": {
+  "ideas_tested": 139,
+  "ideas_about": 152,
+  "survivors": 3,
+  "traps": 53,
+  "minute_bars_million": 13.1,
+  "stock_series": 50879,
+  "unit_tests_stocks": 42,
+  "data_spend_usd": 19.99,
+  "v0_first_corr": 0.47,
+  "ict_bug_t": 5.74,
+  "v0_final_corr": 0.984,
+  "v0_momentum_corr": 0.836,
+  "v0_fixes": 11,
+  "v0_collapses": 8,
+  "eurusd": 1.08,
+  "sysa_margin_usd": 363,
+  "sysa_zt_net_bps": 5.89,
+  "sysa_zt_t": 7.25,
+  "sysa_decay_t": -0.36,
+  "sysb_mes_margin_usd": 2863,
+  "sysb_mechanisms_rejected": 5,
+  "sysc_dec_turnover_pct": 5.37,
+  "sysc_jun_turnover_pct": 10.43,
+  "trend_t": 2.61,
+  "trend_capital_eur": 20000,
+  "ict_spec_t": -1.51,
+  "ict_oos_t": 0.9,
+  "ict_pbo_pct": 51,
+  "ict_configs": 34560
+ },
+ "ideas": {
+  "tested": 139,
+  "about": 150,
+  "survivors": 3,
+  "rejected": 136,
+  "graveyard_listed": 62,
+  "traps": 53
+ },
+ "system_a": {
+  "etf": {
+   "months": 289,
+   "first": "2002-08",
+   "last": "2026-08",
+   "gross_usd_month": 31.32,
+   "net_usd_month": 28.82,
+   "cost_usd": 2.5,
+   "t": 6.92,
+   "sharpe": 1.41,
+   "win_pct": 66.1,
+   "sd_usd_month": 70.78,
+   "half1_usd_month": 31.07,
+   "half2_usd_month": 26.58,
+   "worst_month_usd": -175.12,
+   "worst_month": "2022-04",
+   "best_month_usd": 360.24,
+   "best_month": "2008-02",
+   "worst_dip_usd": -278.35,
+   "capital_usd": 641.35,
+   "capital_eur": 593.84
+  },
+  "fred": {
+   "months": 307,
+   "first": "1976-06",
+   "last": "2001-12",
+   "gross_usd_month": 26.92,
+   "net_usd_month": 24.42,
+   "cost_usd": 2.5,
+   "t": 2.71,
+   "sharpe": 0.54,
+   "win_pct": 53.1,
+   "sd_usd_month": 157.97,
+   "half1_usd_month": 16.3,
+   "half2_usd_month": 32.49,
+   "worst_month_usd": -480.43,
+   "worst_month": "1980-07",
+   "best_month_usd": 969.57,
+   "best_month": "1981-10",
+   "worst_dip_usd": -477.93,
+   "capital_usd": 840.93,
+   "capital_eur": 778.64
+  },
+  "calendar_years": {
+   "etf": {
+    "n_years": 23,
+    "losing_years": 1,
+    "median_eur": 269.69
+   },
+   "fred": {
+    "n_years": 25,
+    "losing_years": 10,
+    "median_eur": 180.41
+   }
+  },
+  "shy_month_end_bps": 7.46,
+  "shy_t": 9.42,
+  "shy_win_pct": 72.7,
+  "other_windows_bps": [
+   1.97,
+   0.81,
+   3.2,
+   0.9,
+   0.93
+  ],
+  "month_end_rank1_funds": 9,
+  "funds": 10,
+  "kill": "Cumulative result per contract below −$161 after 6 month-ends, −$123 after 12, +$36 after 24; or 4 or fewer winning months out of the first 12; or a single-month loss above $400."
+ },
+ "system_b": {
+  "months": 391,
+  "first": "1991-02",
+  "last": "2026-09",
+  "mean_bps": 43.1,
+  "t": 5.36,
+  "win_pct": 50.1,
+  "sd_bps": 159.0,
+  "half1_bps": 45.79,
+  "half2_bps": 40.42,
+  "worst_month_bps": -403.8,
+  "worst_month": "2009-03",
+  "best_month_bps": 741.7,
+  "best_month": "2020-11",
+  "max_drawdown_pct": -12.7,
+  "from_2016_months": 121,
+  "from_2016_mean_bps": 43.86,
+  "from_2016_t": 2.99,
+  "mes_margin_usd": 2863,
+  "kill": "Cumulative below −505 bps after 6 turns, −562 after 12, −492 after 24; or a drawdown deeper than −19%."
+ },
+ "system_c": {
+  "events": 27,
+  "first": 2000,
+  "last": 2026,
+  "cost_bps_per_leg_trade": 8.0,
+  "into": {
+   "mean_bps": 58.8,
+   "t": 3.33,
+   "win_pct": 70.4,
+   "wins": 19,
+   "sd_bps": 91.6,
+   "worst_bps": -76.2,
+   "worst_year": 2005,
+   "best_bps": 245.5
+  },
+  "unwind": {
+   "mean_bps": 55.4,
+   "t": 1.65,
+   "win_pct": 59.3,
+   "wins": 16,
+   "sd_bps": 174.2,
+   "worst_bps": -246.3,
+   "worst_year": 2005,
+   "best_bps": 404.0
+  },
+  "total": {
+   "mean_bps": 114.2,
+   "t": 2.62,
+   "win_pct": 63.0,
+   "wins": 17,
+   "sd_bps": 226.8,
+   "worst_bps": -322.5,
+   "worst_year": 2005,
+   "best_bps": 484.6
+  },
+  "kill": "Cumulative below −137 bps after 2 events, −124 after 4; drop the December event if its first three runs sum below zero."
+ },
+ "stocks": {
+  "penny_doubled_pct": 12.6,
+  "penny_halved_pct": 23.2,
+  "penny_delisted_pct": 8.2,
+  "penny_median_pct": -6.7,
+  "penny_young_halved_pct": 32.5,
+  "penny_young_median_pct": -19.5,
+  "stock_months": 1396595,
+  "s8_deposits_usd": 7631.55,
+  "s8_end_usd": 356.2
+ }
+}

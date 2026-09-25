@@ -1,0 +1,3646 @@
+{
+ "_meta": {
+  "sources": [
+   "scripts/p1a_sysA_window.py",
+   "data/cache/SHY.parquet (not published)",
+   "data/raw/fred/DGS2.csv (not published)"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:34+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "unit": "net $ per 2YY contract per month, $2.50 round turn, drift-stripped",
+ "periods": {
+  "etf": {
+   "label": "Aug 2002 – Aug 2026 (ETF era)",
+   "rows": [
+    {
+     "month": "2002-08",
+     "net_usd": 105.87,
+     "worst_dip_usd": 16.78,
+     "cum_usd": 105.87
+    },
+    {
+     "month": "2002-09",
+     "net_usd": 195.37,
+     "worst_dip_usd": -47.71,
+     "cum_usd": 301.24
+    },
+    {
+     "month": "2002-10",
+     "net_usd": 188.73,
+     "worst_dip_usd": 48.8,
+     "cum_usd": 489.97
+    },
+    {
+     "month": "2002-11",
+     "net_usd": 21.97,
+     "worst_dip_usd": -37.31,
+     "cum_usd": 511.94
+    },
+    {
+     "month": "2002-12",
+     "net_usd": 97.74,
+     "worst_dip_usd": 10.2,
+     "cum_usd": 609.68
+    },
+    {
+     "month": "2003-01",
+     "net_usd": -3.93,
+     "worst_dip_usd": -66.63,
+     "cum_usd": 605.75
+    },
+    {
+     "month": "2003-02",
+     "net_usd": 40.68,
+     "worst_dip_usd": -33.46,
+     "cum_usd": 646.43
+    },
+    {
+     "month": "2003-03",
+     "net_usd": 110.98,
+     "worst_dip_usd": -15.44,
+     "cum_usd": 757.4
+    },
+    {
+     "month": "2003-04",
+     "net_usd": 47.09,
+     "worst_dip_usd": -75.55,
+     "cum_usd": 804.49
+    },
+    {
+     "month": "2003-05",
+     "net_usd": 21.39,
+     "worst_dip_usd": -21.79,
+     "cum_usd": 825.88
+    },
+    {
+     "month": "2003-06",
+     "net_usd": -48.5,
+     "worst_dip_usd": -164.4,
+     "cum_usd": 777.38
+    },
+    {
+     "month": "2003-07",
+     "net_usd": -87.12,
+     "worst_dip_usd": -186.97,
+     "cum_usd": 690.26
+    },
+    {
+     "month": "2003-08",
+     "net_usd": 8.88,
+     "worst_dip_usd": -79.73,
+     "cum_usd": 699.14
+    },
+    {
+     "month": "2003-09",
+     "net_usd": 136.19,
+     "worst_dip_usd": -15.42,
+     "cum_usd": 835.33
+    },
+    {
+     "month": "2003-10",
+     "net_usd": -106.27,
+     "worst_dip_usd": -139.52,
+     "cum_usd": 729.07
+    },
+    {
+     "month": "2003-11",
+     "net_usd": -74.28,
+     "worst_dip_usd": -90.98,
+     "cum_usd": 654.79
+    },
+    {
+     "month": "2003-12",
+     "net_usd": 12.74,
+     "worst_dip_usd": -94.52,
+     "cum_usd": 667.53
+    },
+    {
+     "month": "2004-01",
+     "net_usd": -105.76,
+     "worst_dip_usd": -263.5,
+     "cum_usd": 561.77
+    },
+    {
+     "month": "2004-02",
+     "net_usd": 46.82,
+     "worst_dip_usd": -5.22,
+     "cum_usd": 608.59
+    },
+    {
+     "month": "2004-03",
+     "net_usd": -16.71,
+     "worst_dip_usd": -78.75,
+     "cum_usd": 591.88
+    },
+    {
+     "month": "2004-04",
+     "net_usd": -100.11,
+     "worst_dip_usd": -146.34,
+     "cum_usd": 491.77
+    },
+    {
+     "month": "2004-05",
+     "net_usd": 92.66,
+     "worst_dip_usd": 16.7,
+     "cum_usd": 584.44
+    },
+    {
+     "month": "2004-06",
+     "net_usd": 60.78,
+     "worst_dip_usd": -140.83,
+     "cum_usd": 645.22
+    },
+    {
+     "month": "2004-07",
+     "net_usd": 112.03,
+     "worst_dip_usd": -41.35,
+     "cum_usd": 757.25
+    },
+    {
+     "month": "2004-08",
+     "net_usd": 60.06,
+     "worst_dip_usd": -34.67,
+     "cum_usd": 817.31
+    },
+    {
+     "month": "2004-09",
+     "net_usd": -23.19,
+     "worst_dip_usd": -97.71,
+     "cum_usd": 794.12
+    },
+    {
+     "month": "2004-10",
+     "net_usd": -16.78,
+     "worst_dip_usd": -101.41,
+     "cum_usd": 777.34
+    },
+    {
+     "month": "2004-11",
+     "net_usd": -42.7,
+     "worst_dip_usd": -82.74,
+     "cum_usd": 734.64
+    },
+    {
+     "month": "2004-12",
+     "net_usd": 24.48,
+     "worst_dip_usd": -34.89,
+     "cum_usd": 759.12
+    },
+    {
+     "month": "2005-01",
+     "net_usd": -3.89,
+     "worst_dip_usd": -41.4,
+     "cum_usd": 755.24
+    },
+    {
+     "month": "2005-02",
+     "net_usd": -81.82,
+     "worst_dip_usd": -124.77,
+     "cum_usd": 673.41
+    },
+    {
+     "month": "2005-03",
+     "net_usd": 106.89,
+     "worst_dip_usd": -9.16,
+     "cum_usd": 780.3
+    },
+    {
+     "month": "2005-04",
+     "net_usd": 22.11,
+     "worst_dip_usd": 3.83,
+     "cum_usd": 802.41
+    },
+    {
+     "month": "2005-05",
+     "net_usd": 28.46,
+     "worst_dip_usd": -48.03,
+     "cum_usd": 830.87
+    },
+    {
+     "month": "2005-06",
+     "net_usd": -23.33,
+     "worst_dip_usd": -79.17,
+     "cum_usd": 807.54
+    },
+    {
+     "month": "2005-07",
+     "net_usd": -36.51,
+     "worst_dip_usd": -47.03,
+     "cum_usd": 771.03
+    },
+    {
+     "month": "2005-08",
+     "net_usd": 217.45,
+     "worst_dip_usd": -9.14,
+     "cum_usd": 988.48
+    },
+    {
+     "month": "2005-09",
+     "net_usd": -56.05,
+     "worst_dip_usd": -79.64,
+     "cum_usd": 932.44
+    },
+    {
+     "month": "2005-10",
+     "net_usd": 9.23,
+     "worst_dip_usd": -11.83,
+     "cum_usd": 941.66
+    },
+    {
+     "month": "2005-11",
+     "net_usd": -30.05,
+     "worst_dip_usd": -66.83,
+     "cum_usd": 911.62
+    },
+    {
+     "month": "2005-12",
+     "net_usd": -4.48,
+     "worst_dip_usd": -28.22,
+     "cum_usd": 907.13
+    },
+    {
+     "month": "2006-01",
+     "net_usd": -23.51,
+     "worst_dip_usd": -57.69,
+     "cum_usd": 883.62
+    },
+    {
+     "month": "2006-02",
+     "net_usd": 55.36,
+     "worst_dip_usd": -18.41,
+     "cum_usd": 938.98
+    },
+    {
+     "month": "2006-03",
+     "net_usd": -16.97,
+     "worst_dip_usd": -71.06,
+     "cum_usd": 922.0
+    },
+    {
+     "month": "2006-04",
+     "net_usd": 48.95,
+     "worst_dip_usd": -71.27,
+     "cum_usd": 970.95
+    },
+    {
+     "month": "2006-05",
+     "net_usd": -69.73,
+     "worst_dip_usd": -67.23,
+     "cum_usd": 901.22
+    },
+    {
+     "month": "2006-06",
+     "net_usd": 102.06,
+     "worst_dip_usd": -62.29,
+     "cum_usd": 1003.28
+    },
+    {
+     "month": "2006-07",
+     "net_usd": 88.5,
+     "worst_dip_usd": 3.97,
+     "cum_usd": 1091.78
+    },
+    {
+     "month": "2006-08",
+     "net_usd": 88.08,
+     "worst_dip_usd": -61.81,
+     "cum_usd": 1179.87
+    },
+    {
+     "month": "2006-09",
+     "net_usd": -3.84,
+     "worst_dip_usd": -14.43,
+     "cum_usd": 1176.02
+    },
+    {
+     "month": "2006-10",
+     "net_usd": 81.45,
+     "worst_dip_usd": 1.3,
+     "cum_usd": 1257.48
+    },
+    {
+     "month": "2006-11",
+     "net_usd": 74.74,
+     "worst_dip_usd": -9.13,
+     "cum_usd": 1332.22
+    },
+    {
+     "month": "2006-12",
+     "net_usd": -59.09,
+     "worst_dip_usd": -96.09,
+     "cum_usd": 1273.13
+    },
+    {
+     "month": "2007-01",
+     "net_usd": 68.57,
+     "worst_dip_usd": -22.34,
+     "cum_usd": 1341.7
+    },
+    {
+     "month": "2007-02",
+     "net_usd": 114.29,
+     "worst_dip_usd": 3.91,
+     "cum_usd": 1455.99
+    },
+    {
+     "month": "2007-03",
+     "net_usd": -10.41,
+     "worst_dip_usd": -66.78,
+     "cum_usd": 1445.57
+    },
+    {
+     "month": "2007-04",
+     "net_usd": 9.26,
+     "worst_dip_usd": -68.1,
+     "cum_usd": 1454.83
+    },
+    {
+     "month": "2007-05",
+     "net_usd": -56.37,
+     "worst_dip_usd": -73.57,
+     "cum_usd": 1398.46
+    },
+    {
+     "month": "2007-06",
+     "net_usd": 75.1,
+     "worst_dip_usd": -38.21,
+     "cum_usd": 1473.56
+    },
+    {
+     "month": "2007-07",
+     "net_usd": 68.16,
+     "worst_dip_usd": -40.55,
+     "cum_usd": 1541.72
+    },
+    {
+     "month": "2007-08",
+     "net_usd": -29.77,
+     "worst_dip_usd": -170.01,
+     "cum_usd": 1511.95
+    },
+    {
+     "month": "2007-09",
+     "net_usd": -3.83,
+     "worst_dip_usd": -54.43,
+     "cum_usd": 1508.12
+    },
+    {
+     "month": "2007-10",
+     "net_usd": -100.9,
+     "worst_dip_usd": -124.24,
+     "cum_usd": 1407.22
+    },
+    {
+     "month": "2007-11",
+     "net_usd": 66.32,
+     "worst_dip_usd": -98.46,
+     "cum_usd": 1473.54
+    },
+    {
+     "month": "2007-12",
+     "net_usd": 252.4,
+     "worst_dip_usd": 41.79,
+     "cum_usd": 1725.94
+    },
+    {
+     "month": "2008-01",
+     "net_usd": 46.31,
+     "worst_dip_usd": -137.8,
+     "cum_usd": 1772.25
+    },
+    {
+     "month": "2008-02",
+     "net_usd": 360.24,
+     "worst_dip_usd": -2.64,
+     "cum_usd": 2132.49
+    },
+    {
+     "month": "2008-03",
+     "net_usd": 83.39,
+     "worst_dip_usd": -42.74,
+     "cum_usd": 2215.88
+    },
+    {
+     "month": "2008-04",
+     "net_usd": 135.14,
+     "worst_dip_usd": -59.65,
+     "cum_usd": 2351.02
+    },
+    {
+     "month": "2008-05",
+     "net_usd": -48.41,
+     "worst_dip_usd": -278.35,
+     "cum_usd": 2302.61
+    },
+    {
+     "month": "2008-06",
+     "net_usd": 199.79,
+     "worst_dip_usd": 16.48,
+     "cum_usd": 2502.4
+    },
+    {
+     "month": "2008-07",
+     "net_usd": 65.9,
+     "worst_dip_usd": -100.47,
+     "cum_usd": 2568.29
+    },
+    {
+     "month": "2008-08",
+     "net_usd": 21.28,
+     "worst_dip_usd": -53.29,
+     "cum_usd": 2589.57
+    },
+    {
+     "month": "2008-09",
+     "net_usd": 85.44,
+     "worst_dip_usd": -8.95,
+     "cum_usd": 2675.02
+    },
+    {
+     "month": "2008-10",
+     "net_usd": 89.71,
+     "worst_dip_usd": -27.72,
+     "cum_usd": 2764.72
+    },
+    {
+     "month": "2008-11",
+     "net_usd": 226.28,
+     "worst_dip_usd": -8.85,
+     "cum_usd": 2991.0
+    },
+    {
+     "month": "2008-12",
+     "net_usd": 130.42,
+     "worst_dip_usd": 7.25,
+     "cum_usd": 3121.42
+    },
+    {
+     "month": "2009-01",
+     "net_usd": -97.65,
+     "worst_dip_usd": -136.25,
+     "cum_usd": 3023.77
+    },
+    {
+     "month": "2009-02",
+     "net_usd": -54.12,
+     "worst_dip_usd": -124.22,
+     "cum_usd": 2969.66
+    },
+    {
+     "month": "2009-03",
+     "net_usd": 139.68,
+     "worst_dip_usd": 9.88,
+     "cum_usd": 3109.34
+    },
+    {
+     "month": "2009-04",
+     "net_usd": 8.41,
+     "worst_dip_usd": -74.24,
+     "cum_usd": 3117.75
+    },
+    {
+     "month": "2009-05",
+     "net_usd": 46.12,
+     "worst_dip_usd": -24.1,
+     "cum_usd": 3163.87
+    },
+    {
+     "month": "2009-06",
+     "net_usd": 8.45,
+     "worst_dip_usd": -51.91,
+     "cum_usd": 3172.32
+    },
+    {
+     "month": "2009-07",
+     "net_usd": 52.55,
+     "worst_dip_usd": -90.78,
+     "cum_usd": 3224.88
+    },
+    {
+     "month": "2009-08",
+     "net_usd": 77.51,
+     "worst_dip_usd": -43.0,
+     "cum_usd": 3302.38
+    },
+    {
+     "month": "2009-09",
+     "net_usd": 33.5,
+     "worst_dip_usd": -74.26,
+     "cum_usd": 3335.89
+    },
+    {
+     "month": "2009-10",
+     "net_usd": 83.74,
+     "worst_dip_usd": -5.2,
+     "cum_usd": 3419.62
+    },
+    {
+     "month": "2009-11",
+     "net_usd": 58.34,
+     "worst_dip_usd": -27.59,
+     "cum_usd": 3477.96
+    },
+    {
+     "month": "2009-12",
+     "net_usd": -57.93,
+     "worst_dip_usd": -106.12,
+     "cum_usd": 3420.03
+    },
+    {
+     "month": "2010-01",
+     "net_usd": 46.29,
+     "worst_dip_usd": -52.01,
+     "cum_usd": 3466.32
+    },
+    {
+     "month": "2010-02",
+     "net_usd": 77.75,
+     "worst_dip_usd": -15.21,
+     "cum_usd": 3544.08
+    },
+    {
+     "month": "2010-03",
+     "net_usd": 40.12,
+     "worst_dip_usd": -15.33,
+     "cum_usd": 3584.2
+    },
+    {
+     "month": "2010-04",
+     "net_usd": 52.65,
+     "worst_dip_usd": -59.49,
+     "cum_usd": 3636.85
+    },
+    {
+     "month": "2010-05",
+     "net_usd": 8.57,
+     "worst_dip_usd": -112.09,
+     "cum_usd": 3645.42
+    },
+    {
+     "month": "2010-06",
+     "net_usd": 33.4,
+     "worst_dip_usd": -14.14,
+     "cum_usd": 3678.82
+    },
+    {
+     "month": "2010-07",
+     "net_usd": 108.51,
+     "worst_dip_usd": 9.9,
+     "cum_usd": 3787.32
+    },
+    {
+     "month": "2010-08",
+     "net_usd": 33.29,
+     "worst_dip_usd": -58.88,
+     "cum_usd": 3820.62
+    },
+    {
+     "month": "2010-09",
+     "net_usd": -4.18,
+     "worst_dip_usd": -32.88,
+     "cum_usd": 3816.43
+    },
+    {
+     "month": "2010-10",
+     "net_usd": 45.7,
+     "worst_dip_usd": -27.56,
+     "cum_usd": 3862.14
+    },
+    {
+     "month": "2010-11",
+     "net_usd": 58.38,
+     "worst_dip_usd": 3.64,
+     "cum_usd": 3920.52
+    },
+    {
+     "month": "2010-12",
+     "net_usd": 159.22,
+     "worst_dip_usd": 16.2,
+     "cum_usd": 4079.74
+    },
+    {
+     "month": "2011-01",
+     "net_usd": 45.94,
+     "worst_dip_usd": 3.65,
+     "cum_usd": 4125.68
+    },
+    {
+     "month": "2011-02",
+     "net_usd": 46.05,
+     "worst_dip_usd": 0.99,
+     "cum_usd": 4171.73
+    },
+    {
+     "month": "2011-03",
+     "net_usd": -29.25,
+     "worst_dip_usd": -27.77,
+     "cum_usd": 4142.48
+    },
+    {
+     "month": "2011-04",
+     "net_usd": 33.4,
+     "worst_dip_usd": -52.74,
+     "cum_usd": 4175.88
+    },
+    {
+     "month": "2011-05",
+     "net_usd": 39.54,
+     "worst_dip_usd": 3.66,
+     "cum_usd": 4215.42
+    },
+    {
+     "month": "2011-06",
+     "net_usd": -110.15,
+     "worst_dip_usd": -145.11,
+     "cum_usd": 4105.27
+    },
+    {
+     "month": "2011-07",
+     "net_usd": 45.69,
+     "worst_dip_usd": -46.35,
+     "cum_usd": 4150.96
+    },
+    {
+     "month": "2011-08",
+     "net_usd": -10.42,
+     "worst_dip_usd": -32.78,
+     "cum_usd": 4140.54
+    },
+    {
+     "month": "2011-09",
+     "net_usd": 8.31,
+     "worst_dip_usd": -27.56,
+     "cum_usd": 4148.85
+    },
+    {
+     "month": "2011-10",
+     "net_usd": 27.0,
+     "worst_dip_usd": -48.91,
+     "cum_usd": 4175.84
+    },
+    {
+     "month": "2011-11",
+     "net_usd": 2.01,
+     "worst_dip_usd": -27.57,
+     "cum_usd": 4177.85
+    },
+    {
+     "month": "2011-12",
+     "net_usd": 39.43,
+     "worst_dip_usd": -15.09,
+     "cum_usd": 4217.28
+    },
+    {
+     "month": "2012-01",
+     "net_usd": -16.67,
+     "worst_dip_usd": -26.61,
+     "cum_usd": 4200.62
+    },
+    {
+     "month": "2012-02",
+     "net_usd": 14.53,
+     "worst_dip_usd": -1.67,
+     "cum_usd": 4215.15
+    },
+    {
+     "month": "2012-03",
+     "net_usd": -10.42,
+     "worst_dip_usd": -15.12,
+     "cum_usd": 4204.73
+    },
+    {
+     "month": "2012-04",
+     "net_usd": -4.22,
+     "worst_dip_usd": -11.5,
+     "cum_usd": 4200.51
+    },
+    {
+     "month": "2012-05",
+     "net_usd": 20.8,
+     "worst_dip_usd": -21.3,
+     "cum_usd": 4221.31
+    },
+    {
+     "month": "2012-06",
+     "net_usd": -4.18,
+     "worst_dip_usd": -15.12,
+     "cum_usd": 4217.13
+    },
+    {
+     "month": "2012-07",
+     "net_usd": -10.41,
+     "worst_dip_usd": -52.42,
+     "cum_usd": 4206.72
+    },
+    {
+     "month": "2012-08",
+     "net_usd": 26.94,
+     "worst_dip_usd": -15.1,
+     "cum_usd": 4233.66
+    },
+    {
+     "month": "2012-09",
+     "net_usd": 33.2,
+     "worst_dip_usd": -2.62,
+     "cum_usd": 4266.86
+    },
+    {
+     "month": "2012-10",
+     "net_usd": 14.52,
+     "worst_dip_usd": -21.39,
+     "cum_usd": 4281.38
+    },
+    {
+     "month": "2012-11",
+     "net_usd": 2.03,
+     "worst_dip_usd": -5.3,
+     "cum_usd": 4283.41
+    },
+    {
+     "month": "2012-12",
+     "net_usd": 8.31,
+     "worst_dip_usd": -7.89,
+     "cum_usd": 4291.72
+    },
+    {
+     "month": "2013-01",
+     "net_usd": 20.71,
+     "worst_dip_usd": 0.97,
+     "cum_usd": 4312.43
+    },
+    {
+     "month": "2013-02",
+     "net_usd": -4.21,
+     "worst_dip_usd": -2.65,
+     "cum_usd": 4308.22
+    },
+    {
+     "month": "2013-03",
+     "net_usd": 14.51,
+     "worst_dip_usd": -8.91,
+     "cum_usd": 4322.72
+    },
+    {
+     "month": "2013-04",
+     "net_usd": 8.2,
+     "worst_dip_usd": -2.65,
+     "cum_usd": 4330.92
+    },
+    {
+     "month": "2013-05",
+     "net_usd": -4.17,
+     "worst_dip_usd": -20.38,
+     "cum_usd": 4326.76
+    },
+    {
+     "month": "2013-06",
+     "net_usd": 39.61,
+     "worst_dip_usd": -2.66,
+     "cum_usd": 4366.37
+    },
+    {
+     "month": "2013-07",
+     "net_usd": -10.43,
+     "worst_dip_usd": -45.34,
+     "cum_usd": 4355.94
+    },
+    {
+     "month": "2013-08",
+     "net_usd": -22.87,
+     "worst_dip_usd": -55.21,
+     "cum_usd": 4333.07
+    },
+    {
+     "month": "2013-09",
+     "net_usd": 8.27,
+     "worst_dip_usd": -33.79,
+     "cum_usd": 4341.34
+    },
+    {
+     "month": "2013-10",
+     "net_usd": -4.16,
+     "worst_dip_usd": -20.34,
+     "cum_usd": 4337.18
+    },
+    {
+     "month": "2013-11",
+     "net_usd": 2.08,
+     "worst_dip_usd": -32.76,
+     "cum_usd": 4339.26
+    },
+    {
+     "month": "2013-12",
+     "net_usd": 14.54,
+     "worst_dip_usd": 16.08,
+     "cum_usd": 4353.8
+    },
+    {
+     "month": "2014-01",
+     "net_usd": 45.66,
+     "worst_dip_usd": 7.18,
+     "cum_usd": 4399.47
+    },
+    {
+     "month": "2014-02",
+     "net_usd": 8.22,
+     "worst_dip_usd": -7.95,
+     "cum_usd": 4407.69
+    },
+    {
+     "month": "2014-03",
+     "net_usd": 14.54,
+     "worst_dip_usd": -30.23,
+     "cum_usd": 4422.23
+    },
+    {
+     "month": "2014-04",
+     "net_usd": 20.73,
+     "worst_dip_usd": -11.49,
+     "cum_usd": 4442.96
+    },
+    {
+     "month": "2014-05",
+     "net_usd": 8.21,
+     "worst_dip_usd": -7.94,
+     "cum_usd": 4451.17
+    },
+    {
+     "month": "2014-06",
+     "net_usd": 20.65,
+     "worst_dip_usd": 9.77,
+     "cum_usd": 4471.82
+    },
+    {
+     "month": "2014-07",
+     "net_usd": 2.08,
+     "worst_dip_usd": -48.9,
+     "cum_usd": 4473.9
+    },
+    {
+     "month": "2014-08",
+     "net_usd": 39.35,
+     "worst_dip_usd": 0.94,
+     "cum_usd": 4513.24
+    },
+    {
+     "month": "2014-09",
+     "net_usd": -35.31,
+     "worst_dip_usd": -46.2,
+     "cum_usd": 4477.94
+    },
+    {
+     "month": "2014-10",
+     "net_usd": -72.47,
+     "worst_dip_usd": -82.39,
+     "cum_usd": 4405.47
+    },
+    {
+     "month": "2014-11",
+     "net_usd": 20.61,
+     "worst_dip_usd": -15.05,
+     "cum_usd": 4426.08
+    },
+    {
+     "month": "2014-12",
+     "net_usd": 39.45,
+     "worst_dip_usd": 34.75,
+     "cum_usd": 4465.53
+    },
+    {
+     "month": "2015-01",
+     "net_usd": 70.21,
+     "worst_dip_usd": -21.22,
+     "cum_usd": 4535.74
+    },
+    {
+     "month": "2015-02",
+     "net_usd": -41.45,
+     "worst_dip_usd": -67.41,
+     "cum_usd": 4494.29
+    },
+    {
+     "month": "2015-03",
+     "net_usd": 57.8,
+     "worst_dip_usd": 9.77,
+     "cum_usd": 4552.09
+    },
+    {
+     "month": "2015-04",
+     "net_usd": -35.24,
+     "worst_dip_usd": -76.14,
+     "cum_usd": 4516.86
+    },
+    {
+     "month": "2015-05",
+     "net_usd": 33.05,
+     "worst_dip_usd": -21.25,
+     "cum_usd": 4549.9
+    },
+    {
+     "month": "2015-06",
+     "net_usd": 45.5,
+     "worst_dip_usd": -33.68,
+     "cum_usd": 4595.4
+    },
+    {
+     "month": "2015-07",
+     "net_usd": 8.18,
+     "worst_dip_usd": -54.94,
+     "cum_usd": 4603.58
+    },
+    {
+     "month": "2015-08",
+     "net_usd": -47.69,
+     "worst_dip_usd": -51.4,
+     "cum_usd": 4555.89
+    },
+    {
+     "month": "2015-09",
+     "net_usd": 63.96,
+     "worst_dip_usd": 3.54,
+     "cum_usd": 4619.84
+    },
+    {
+     "month": "2015-10",
+     "net_usd": -115.71,
+     "worst_dip_usd": -119.41,
+     "cum_usd": 4504.14
+    },
+    {
+     "month": "2015-11",
+     "net_usd": -10.42,
+     "worst_dip_usd": -15.02,
+     "cum_usd": 4493.72
+    },
+    {
+     "month": "2015-12",
+     "net_usd": -35.4,
+     "worst_dip_usd": -42.71,
+     "cum_usd": 4458.32
+    },
+    {
+     "month": "2016-01",
+     "net_usd": 64.02,
+     "worst_dip_usd": -46.11,
+     "cum_usd": 4522.33
+    },
+    {
+     "month": "2016-02",
+     "net_usd": -35.13,
+     "worst_dip_usd": -82.22,
+     "cum_usd": 4487.21
+    },
+    {
+     "month": "2016-03",
+     "net_usd": 119.82,
+     "worst_dip_usd": 15.97,
+     "cum_usd": 4607.03
+    },
+    {
+     "month": "2016-04",
+     "net_usd": 76.38,
+     "worst_dip_usd": -33.63,
+     "cum_usd": 4683.4
+    },
+    {
+     "month": "2016-05",
+     "net_usd": 14.42,
+     "worst_dip_usd": -32.73,
+     "cum_usd": 4697.82
+    },
+    {
+     "month": "2016-06",
+     "net_usd": 14.25,
+     "worst_dip_usd": -23.79,
+     "cum_usd": 4712.07
+    },
+    {
+     "month": "2016-07",
+     "net_usd": 88.54,
+     "worst_dip_usd": -14.99,
+     "cum_usd": 4800.61
+    },
+    {
+     "month": "2016-08",
+     "net_usd": 20.54,
+     "worst_dip_usd": -2.66,
+     "cum_usd": 4821.16
+    },
+    {
+     "month": "2016-09",
+     "net_usd": -41.34,
+     "worst_dip_usd": -42.37,
+     "cum_usd": 4779.82
+    },
+    {
+     "month": "2016-10",
+     "net_usd": 39.18,
+     "worst_dip_usd": -21.23,
+     "cum_usd": 4819.0
+    },
+    {
+     "month": "2016-11",
+     "net_usd": 8.28,
+     "worst_dip_usd": 9.8,
+     "cum_usd": 4827.28
+    },
+    {
+     "month": "2016-12",
+     "net_usd": 83.18,
+     "worst_dip_usd": -15.1,
+     "cum_usd": 4910.46
+    },
+    {
+     "month": "2017-01",
+     "net_usd": 26.96,
+     "worst_dip_usd": 3.58,
+     "cum_usd": 4937.42
+    },
+    {
+     "month": "2017-02",
+     "net_usd": -54.0,
+     "worst_dip_usd": -51.5,
+     "cum_usd": 4883.42
+    },
+    {
+     "month": "2017-03",
+     "net_usd": 14.48,
+     "worst_dip_usd": 0.96,
+     "cum_usd": 4897.9
+    },
+    {
+     "month": "2017-04",
+     "net_usd": 51.82,
+     "worst_dip_usd": -2.64,
+     "cum_usd": 4949.72
+    },
+    {
+     "month": "2017-05",
+     "net_usd": 8.22,
+     "worst_dip_usd": -15.07,
+     "cum_usd": 4957.94
+    },
+    {
+     "month": "2017-06",
+     "net_usd": -16.65,
+     "worst_dip_usd": -26.61,
+     "cum_usd": 4941.29
+    },
+    {
+     "month": "2017-07",
+     "net_usd": 2.05,
+     "worst_dip_usd": -21.3,
+     "cum_usd": 4943.34
+    },
+    {
+     "month": "2017-08",
+     "net_usd": 26.93,
+     "worst_dip_usd": 7.2,
+     "cum_usd": 4970.26
+    },
+    {
+     "month": "2017-09",
+     "net_usd": -22.9,
+     "worst_dip_usd": -39.1,
+     "cum_usd": 4947.36
+    },
+    {
+     "month": "2017-10",
+     "net_usd": 20.83,
+     "worst_dip_usd": -8.9,
+     "cum_usd": 4968.2
+    },
+    {
+     "month": "2017-11",
+     "net_usd": -47.97,
+     "worst_dip_usd": -57.99,
+     "cum_usd": 4920.23
+    },
+    {
+     "month": "2017-12",
+     "net_usd": 33.53,
+     "worst_dip_usd": 3.62,
+     "cum_usd": 4953.76
+    },
+    {
+     "month": "2018-01",
+     "net_usd": -22.97,
+     "worst_dip_usd": -51.95,
+     "cum_usd": 4930.79
+    },
+    {
+     "month": "2018-02",
+     "net_usd": -29.37,
+     "worst_dip_usd": -43.14,
+     "cum_usd": 4901.42
+    },
+    {
+     "month": "2018-03",
+     "net_usd": 52.61,
+     "worst_dip_usd": -2.65,
+     "cum_usd": 4954.03
+    },
+    {
+     "month": "2018-04",
+     "net_usd": -4.06,
+     "worst_dip_usd": -8.94,
+     "cum_usd": 4949.97
+    },
+    {
+     "month": "2018-05",
+     "net_usd": 52.93,
+     "worst_dip_usd": 36.53,
+     "cum_usd": 5002.9
+    },
+    {
+     "month": "2018-06",
+     "net_usd": 8.54,
+     "worst_dip_usd": -1.59,
+     "cum_usd": 5011.44
+    },
+    {
+     "month": "2018-07",
+     "net_usd": -4.08,
+     "worst_dip_usd": -5.27,
+     "cum_usd": 5007.36
+    },
+    {
+     "month": "2018-08",
+     "net_usd": 33.82,
+     "worst_dip_usd": -21.59,
+     "cum_usd": 5041.18
+    },
+    {
+     "month": "2018-09",
+     "net_usd": 21.27,
+     "worst_dip_usd": -8.97,
+     "cum_usd": 5062.44
+    },
+    {
+     "month": "2018-10",
+     "net_usd": -42.06,
+     "worst_dip_usd": -58.56,
+     "cum_usd": 5020.38
+    },
+    {
+     "month": "2018-11",
+     "net_usd": 40.21,
+     "worst_dip_usd": -21.6,
+     "cum_usd": 5060.59
+    },
+    {
+     "month": "2018-12",
+     "net_usd": 140.96,
+     "worst_dip_usd": 47.87,
+     "cum_usd": 5201.55
+    },
+    {
+     "month": "2019-01",
+     "net_usd": 127.99,
+     "worst_dip_usd": 7.33,
+     "cum_usd": 5329.53
+    },
+    {
+     "month": "2019-02",
+     "net_usd": -10.42,
+     "worst_dip_usd": -26.76,
+     "cum_usd": 5319.12
+    },
+    {
+     "month": "2019-03",
+     "net_usd": -4.15,
+     "worst_dip_usd": -26.67,
+     "cum_usd": 5314.96
+    },
+    {
+     "month": "2019-04",
+     "net_usd": 64.74,
+     "worst_dip_usd": 23.41,
+     "cum_usd": 5379.71
+    },
+    {
+     "month": "2019-05",
+     "net_usd": 151.78,
+     "worst_dip_usd": -5.29,
+     "cum_usd": 5531.49
+    },
+    {
+     "month": "2019-06",
+     "net_usd": -28.99,
+     "worst_dip_usd": -70.91,
+     "cum_usd": 5502.5
+    },
+    {
+     "month": "2019-07",
+     "net_usd": -10.43,
+     "worst_dip_usd": -95.04,
+     "cum_usd": 5492.07
+    },
+    {
+     "month": "2019-08",
+     "net_usd": -4.24,
+     "worst_dip_usd": -32.68,
+     "cum_usd": 5487.84
+    },
+    {
+     "month": "2019-09",
+     "net_usd": 70.32,
+     "worst_dip_usd": 22.24,
+     "cum_usd": 5558.15
+    },
+    {
+     "month": "2019-10",
+     "net_usd": 126.14,
+     "worst_dip_usd": -17.7,
+     "cum_usd": 5684.29
+    },
+    {
+     "month": "2019-11",
+     "net_usd": 1.97,
+     "worst_dip_usd": -26.59,
+     "cum_usd": 5686.25
+    },
+    {
+     "month": "2019-12",
+     "net_usd": 39.35,
+     "worst_dip_usd": 9.81,
+     "cum_usd": 5725.6
+    },
+    {
+     "month": "2020-01",
+     "net_usd": 113.45,
+     "worst_dip_usd": 3.53,
+     "cum_usd": 5839.05
+    },
+    {
+     "month": "2020-02",
+     "net_usd": 279.31,
+     "worst_dip_usd": -27.3,
+     "cum_usd": 6118.36
+    },
+    {
+     "month": "2020-03",
+     "net_usd": -10.42,
+     "worst_dip_usd": -93.72,
+     "cum_usd": 6107.94
+    },
+    {
+     "month": "2020-04",
+     "net_usd": 92.84,
+     "worst_dip_usd": 6.9,
+     "cum_usd": 6200.79
+    },
+    {
+     "month": "2020-05",
+     "net_usd": 1.73,
+     "worst_dip_usd": -17.43,
+     "cum_usd": 6202.52
+    },
+    {
+     "month": "2020-06",
+     "net_usd": 13.91,
+     "worst_dip_usd": -2.66,
+     "cum_usd": 6216.42
+    },
+    {
+     "month": "2020-07",
+     "net_usd": 26.02,
+     "worst_dip_usd": -2.65,
+     "cum_usd": 6242.44
+    },
+    {
+     "month": "2020-08",
+     "net_usd": 19.98,
+     "worst_dip_usd": -14.83,
+     "cum_usd": 6262.42
+    },
+    {
+     "month": "2020-09",
+     "net_usd": -4.33,
+     "worst_dip_usd": -14.0,
+     "cum_usd": 6258.09
+    },
+    {
+     "month": "2020-10",
+     "net_usd": -4.32,
+     "worst_dip_usd": -13.99,
+     "cum_usd": 6253.77
+    },
+    {
+     "month": "2020-11",
+     "net_usd": 7.88,
+     "worst_dip_usd": -2.64,
+     "cum_usd": 6261.65
+    },
+    {
+     "month": "2020-12",
+     "net_usd": -10.43,
+     "worst_dip_usd": -20.11,
+     "cum_usd": 6251.23
+    },
+    {
+     "month": "2021-01",
+     "net_usd": 1.79,
+     "worst_dip_usd": -11.37,
+     "cum_usd": 6253.01
+    },
+    {
+     "month": "2021-02",
+     "net_usd": -34.71,
+     "worst_dip_usd": -121.11,
+     "cum_usd": 6218.3
+    },
+    {
+     "month": "2021-03",
+     "net_usd": -40.94,
+     "worst_dip_usd": -38.44,
+     "cum_usd": 6177.37
+    },
+    {
+     "month": "2021-04",
+     "net_usd": 20.09,
+     "worst_dip_usd": -2.63,
+     "cum_usd": 6197.46
+    },
+    {
+     "month": "2021-05",
+     "net_usd": 1.8,
+     "worst_dip_usd": -5.25,
+     "cum_usd": 6199.26
+    },
+    {
+     "month": "2021-06",
+     "net_usd": 14.0,
+     "worst_dip_usd": 0.81,
+     "cum_usd": 6213.26
+    },
+    {
+     "month": "2021-07",
+     "net_usd": 7.89,
+     "worst_dip_usd": -20.93,
+     "cum_usd": 6221.15
+    },
+    {
+     "month": "2021-08",
+     "net_usd": 32.31,
+     "worst_dip_usd": -8.75,
+     "cum_usd": 6253.46
+    },
+    {
+     "month": "2021-09",
+     "net_usd": 26.22,
+     "worst_dip_usd": -2.65,
+     "cum_usd": 6279.68
+    },
+    {
+     "month": "2021-10",
+     "net_usd": -10.42,
+     "worst_dip_usd": -63.1,
+     "cum_usd": 6269.26
+    },
+    {
+     "month": "2021-11",
+     "net_usd": 75.63,
+     "worst_dip_usd": 59.75,
+     "cum_usd": 6344.89
+    },
+    {
+     "month": "2021-12",
+     "net_usd": 8.05,
+     "worst_dip_usd": -14.95,
+     "cum_usd": 6352.94
+    },
+    {
+     "month": "2022-01",
+     "net_usd": -35.16,
+     "worst_dip_usd": -63.64,
+     "cum_usd": 6317.78
+    },
+    {
+     "month": "2022-02",
+     "net_usd": 126.78,
+     "worst_dip_usd": -17.72,
+     "cum_usd": 6444.56
+    },
+    {
+     "month": "2022-03",
+     "net_usd": 52.78,
+     "worst_dip_usd": -15.29,
+     "cum_usd": 6497.34
+    },
+    {
+     "month": "2022-04",
+     "net_usd": -175.12,
+     "worst_dip_usd": -178.96,
+     "cum_usd": 6322.22
+    },
+    {
+     "month": "2022-05",
+     "net_usd": -67.2,
+     "worst_dip_usd": -83.62,
+     "cum_usd": 6255.02
+    },
+    {
+     "month": "2022-06",
+     "net_usd": 142.49,
+     "worst_dip_usd": -40.92,
+     "cum_usd": 6397.51
+    },
+    {
+     "month": "2022-07",
+     "net_usd": 180.23,
+     "worst_dip_usd": -15.37,
+     "cum_usd": 6577.74
+    },
+    {
+     "month": "2022-08",
+     "net_usd": -80.72,
+     "worst_dip_usd": -101.14,
+     "cum_usd": 6497.02
+    },
+    {
+     "month": "2022-09",
+     "net_usd": 100.4,
+     "worst_dip_usd": 83.47,
+     "cum_usd": 6597.42
+    },
+    {
+     "month": "2022-10",
+     "net_usd": -55.61,
+     "worst_dip_usd": -79.07,
+     "cum_usd": 6541.81
+    },
+    {
+     "month": "2022-11",
+     "net_usd": 138.68,
+     "worst_dip_usd": -59.81,
+     "cum_usd": 6680.48
+    },
+    {
+     "month": "2022-12",
+     "net_usd": -36.28,
+     "worst_dip_usd": -40.26,
+     "cum_usd": 6644.2
+    },
+    {
+     "month": "2023-01",
+     "net_usd": 34.76,
+     "worst_dip_usd": -63.25,
+     "cum_usd": 6678.96
+    },
+    {
+     "month": "2023-02",
+     "net_usd": -88.19,
+     "worst_dip_usd": -132.39,
+     "cum_usd": 6590.77
+    },
+    {
+     "month": "2023-03",
+     "net_usd": 40.89,
+     "worst_dip_usd": -75.84,
+     "cum_usd": 6631.65
+    },
+    {
+     "month": "2023-04",
+     "net_usd": -119.02,
+     "worst_dip_usd": -197.15,
+     "cum_usd": 6512.63
+    },
+    {
+     "month": "2023-05",
+     "net_usd": 131.64,
+     "worst_dip_usd": -86.66,
+     "cum_usd": 6644.27
+    },
+    {
+     "month": "2023-06",
+     "net_usd": -62.14,
+     "worst_dip_usd": -95.9,
+     "cum_usd": 6582.13
+    },
+    {
+     "month": "2023-07",
+     "net_usd": -3.84,
+     "worst_dip_usd": -87.01,
+     "cum_usd": 6578.29
+    },
+    {
+     "month": "2023-08",
+     "net_usd": 158.45,
+     "worst_dip_usd": -28.63,
+     "cum_usd": 6736.74
+    },
+    {
+     "month": "2023-09",
+     "net_usd": 48.2,
+     "worst_dip_usd": -67.72,
+     "cum_usd": 6784.94
+    },
+    {
+     "month": "2023-10",
+     "net_usd": -16.9,
+     "worst_dip_usd": -27.38,
+     "cum_usd": 6768.05
+    },
+    {
+     "month": "2023-11",
+     "net_usd": 157.64,
+     "worst_dip_usd": -2.63,
+     "cum_usd": 6925.69
+    },
+    {
+     "month": "2023-12",
+     "net_usd": 73.08,
+     "worst_dip_usd": 23.06,
+     "cum_usd": 6998.76
+    },
+    {
+     "month": "2024-01",
+     "net_usd": 104.92,
+     "worst_dip_usd": -18.04,
+     "cum_usd": 7103.68
+    },
+    {
+     "month": "2024-02",
+     "net_usd": 73.4,
+     "worst_dip_usd": -15.54,
+     "cum_usd": 7177.09
+    },
+    {
+     "month": "2024-03",
+     "net_usd": 28.24,
+     "worst_dip_usd": -15.55,
+     "cum_usd": 7205.33
+    },
+    {
+     "month": "2024-04",
+     "net_usd": -36.33,
+     "worst_dip_usd": -33.83,
+     "cum_usd": 7169.01
+    },
+    {
+     "month": "2024-05",
+     "net_usd": 99.61,
+     "worst_dip_usd": -35.02,
+     "cum_usd": 7268.62
+    },
+    {
+     "month": "2024-06",
+     "net_usd": -16.81,
+     "worst_dip_usd": -54.22,
+     "cum_usd": 7251.81
+    },
+    {
+     "month": "2024-07",
+     "net_usd": 124.1,
+     "worst_dip_usd": -15.44,
+     "cum_usd": 7375.91
+    },
+    {
+     "month": "2024-08",
+     "net_usd": -23.13,
+     "worst_dip_usd": -30.7,
+     "cum_usd": 7352.78
+    },
+    {
+     "month": "2024-09",
+     "net_usd": -54.58,
+     "worst_dip_usd": -64.73,
+     "cum_usd": 7298.2
+    },
+    {
+     "month": "2024-10",
+     "net_usd": -23.2,
+     "worst_dip_usd": -65.45,
+     "cum_usd": 7274.99
+    },
+    {
+     "month": "2024-11",
+     "net_usd": 85.62,
+     "worst_dip_usd": -47.48,
+     "cum_usd": 7360.61
+    },
+    {
+     "month": "2024-12",
+     "net_usd": 111.77,
+     "worst_dip_usd": 10.22,
+     "cum_usd": 7472.38
+    },
+    {
+     "month": "2025-01",
+     "net_usd": -4.0,
+     "worst_dip_usd": -60.19,
+     "cum_usd": 7468.39
+    },
+    {
+     "month": "2025-02",
+     "net_usd": 123.62,
+     "worst_dip_usd": -28.19,
+     "cum_usd": 7592.0
+    },
+    {
+     "month": "2025-03",
+     "net_usd": 148.97,
+     "worst_dip_usd": 10.12,
+     "cum_usd": 7740.97
+    },
+    {
+     "month": "2025-04",
+     "net_usd": 167.3,
+     "worst_dip_usd": -2.62,
+     "cum_usd": 7908.27
+    },
+    {
+     "month": "2025-05",
+     "net_usd": 72.5,
+     "worst_dip_usd": -47.29,
+     "cum_usd": 7980.78
+    },
+    {
+     "month": "2025-06",
+     "net_usd": 72.28,
+     "worst_dip_usd": 22.81,
+     "cum_usd": 8053.06
+    },
+    {
+     "month": "2025-07",
+     "net_usd": -23.12,
+     "worst_dip_usd": -27.0,
+     "cum_usd": 8029.93
+    },
+    {
+     "month": "2025-08",
+     "net_usd": 53.08,
+     "worst_dip_usd": -2.65,
+     "cum_usd": 8083.01
+    },
+    {
+     "month": "2025-09",
+     "net_usd": 65.77,
+     "worst_dip_usd": 3.7,
+     "cum_usd": 8148.78
+    },
+    {
+     "month": "2025-10",
+     "net_usd": -86.36,
+     "worst_dip_usd": -125.64,
+     "cum_usd": 8062.42
+    },
+    {
+     "month": "2025-11",
+     "net_usd": 14.93,
+     "worst_dip_usd": -5.26,
+     "cum_usd": 8077.35
+    },
+    {
+     "month": "2025-12",
+     "net_usd": 8.65,
+     "worst_dip_usd": 11.15,
+     "cum_usd": 8086.0
+    },
+    {
+     "month": "2026-01",
+     "net_usd": 53.06,
+     "worst_dip_usd": -15.34,
+     "cum_usd": 8139.06
+    },
+    {
+     "month": "2026-02",
+     "net_usd": 65.61,
+     "worst_dip_usd": -34.32,
+     "cum_usd": 8204.67
+    },
+    {
+     "month": "2026-03",
+     "net_usd": 213.33,
+     "worst_dip_usd": 35.77,
+     "cum_usd": 8418.0
+    },
+    {
+     "month": "2026-04",
+     "net_usd": -54.99,
+     "worst_dip_usd": -126.48,
+     "cum_usd": 8363.01
+    },
+    {
+     "month": "2026-05",
+     "net_usd": 47.18,
+     "worst_dip_usd": -5.28,
+     "cum_usd": 8410.19
+    },
+    {
+     "month": "2026-06",
+     "net_usd": 2.45,
+     "worst_dip_usd": -1.45,
+     "cum_usd": 8412.64
+    },
+    {
+     "month": "2026-07",
+     "net_usd": 28.11,
+     "worst_dip_usd": -54.03,
+     "cum_usd": 8440.75
+    },
+    {
+     "month": "2026-08",
+     "net_usd": -113.08,
+     "worst_dip_usd": -114.35,
+     "cum_usd": 8327.67
+    }
+   ],
+   "stats": {
+    "months": 289,
+    "first": "2002-08",
+    "last": "2026-08",
+    "gross_usd_month": 31.32,
+    "net_usd_month": 28.82,
+    "cost_usd": 2.5,
+    "t": 6.92,
+    "sharpe": 1.41,
+    "win_pct": 66.1,
+    "sd_usd_month": 70.78,
+    "half1_usd_month": 31.07,
+    "half2_usd_month": 26.58,
+    "worst_month_usd": -175.12,
+    "worst_month": "2022-04",
+    "best_month_usd": 360.24,
+    "best_month": "2008-02",
+    "worst_dip_usd": -278.35,
+    "capital_usd": 641.35,
+    "capital_eur": 593.84
+   }
+  },
+  "fred": {
+   "label": "Jun 1976 – Dec 2001 (FRED yields, before the ETF era)",
+   "rows": [
+    {
+     "month": "1976-06",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -0.43
+    },
+    {
+     "month": "1976-07",
+     "net_usd": 19.57,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 19.14
+    },
+    {
+     "month": "1976-08",
+     "net_usd": 39.57,
+     "worst_dip_usd": -59.31,
+     "cum_usd": 58.71
+    },
+    {
+     "month": "1976-09",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 138.27
+    },
+    {
+     "month": "1976-10",
+     "net_usd": 19.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 157.84
+    },
+    {
+     "month": "1976-11",
+     "net_usd": 139.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 297.41
+    },
+    {
+     "month": "1976-12",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 346.98
+    },
+    {
+     "month": "1977-01",
+     "net_usd": -90.43,
+     "worst_dip_usd": -169.31,
+     "cum_usd": 256.55
+    },
+    {
+     "month": "1977-02",
+     "net_usd": 39.57,
+     "worst_dip_usd": -79.31,
+     "cum_usd": 296.12
+    },
+    {
+     "month": "1977-03",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 395.69
+    },
+    {
+     "month": "1977-04",
+     "net_usd": -140.43,
+     "worst_dip_usd": -137.93,
+     "cum_usd": 255.25
+    },
+    {
+     "month": "1977-05",
+     "net_usd": 49.57,
+     "worst_dip_usd": -9.31,
+     "cum_usd": 304.82
+    },
+    {
+     "month": "1977-06",
+     "net_usd": -20.43,
+     "worst_dip_usd": -17.93,
+     "cum_usd": 284.39
+    },
+    {
+     "month": "1977-07",
+     "net_usd": -220.43,
+     "worst_dip_usd": -217.93,
+     "cum_usd": 63.96
+    },
+    {
+     "month": "1977-08",
+     "net_usd": 29.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 93.53
+    },
+    {
+     "month": "1977-09",
+     "net_usd": -20.43,
+     "worst_dip_usd": -17.93,
+     "cum_usd": 73.1
+    },
+    {
+     "month": "1977-10",
+     "net_usd": -60.43,
+     "worst_dip_usd": -57.93,
+     "cum_usd": 12.67
+    },
+    {
+     "month": "1977-11",
+     "net_usd": -10.43,
+     "worst_dip_usd": -9.31,
+     "cum_usd": 2.23
+    },
+    {
+     "month": "1977-12",
+     "net_usd": 29.57,
+     "worst_dip_usd": -8.62,
+     "cum_usd": 31.8
+    },
+    {
+     "month": "1978-01",
+     "net_usd": 39.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 71.37
+    },
+    {
+     "month": "1978-02",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 150.94
+    },
+    {
+     "month": "1978-03",
+     "net_usd": -60.43,
+     "worst_dip_usd": -57.93,
+     "cum_usd": 90.51
+    },
+    {
+     "month": "1978-04",
+     "net_usd": -170.43,
+     "worst_dip_usd": -167.93,
+     "cum_usd": -79.92
+    },
+    {
+     "month": "1978-05",
+     "net_usd": -20.43,
+     "worst_dip_usd": -17.93,
+     "cum_usd": -100.35
+    },
+    {
+     "month": "1978-06",
+     "net_usd": -40.43,
+     "worst_dip_usd": -37.93,
+     "cum_usd": -140.79
+    },
+    {
+     "month": "1978-07",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -91.22
+    },
+    {
+     "month": "1978-08",
+     "net_usd": -50.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": -141.65
+    },
+    {
+     "month": "1978-09",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -92.08
+    },
+    {
+     "month": "1978-10",
+     "net_usd": -440.43,
+     "worst_dip_usd": -437.93,
+     "cum_usd": -532.51
+    },
+    {
+     "month": "1978-11",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -482.94
+    },
+    {
+     "month": "1978-12",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -483.37
+    },
+    {
+     "month": "1979-01",
+     "net_usd": 29.57,
+     "worst_dip_usd": -8.62,
+     "cum_usd": -453.81
+    },
+    {
+     "month": "1979-02",
+     "net_usd": 29.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -424.24
+    },
+    {
+     "month": "1979-03",
+     "net_usd": 9.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -414.67
+    },
+    {
+     "month": "1979-04",
+     "net_usd": -140.43,
+     "worst_dip_usd": -158.62,
+     "cum_usd": -555.1
+    },
+    {
+     "month": "1979-05",
+     "net_usd": 19.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -535.53
+    },
+    {
+     "month": "1979-06",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -535.96
+    },
+    {
+     "month": "1979-07",
+     "net_usd": -60.43,
+     "worst_dip_usd": -129.31,
+     "cum_usd": -596.39
+    },
+    {
+     "month": "1979-08",
+     "net_usd": -110.43,
+     "worst_dip_usd": -107.93,
+     "cum_usd": -706.83
+    },
+    {
+     "month": "1979-09",
+     "net_usd": -90.43,
+     "worst_dip_usd": -98.62,
+     "cum_usd": -797.26
+    },
+    {
+     "month": "1979-10",
+     "net_usd": -10.43,
+     "worst_dip_usd": -139.31,
+     "cum_usd": -807.69
+    },
+    {
+     "month": "1979-11",
+     "net_usd": -220.43,
+     "worst_dip_usd": -217.93,
+     "cum_usd": -1028.12
+    },
+    {
+     "month": "1979-12",
+     "net_usd": 199.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -828.55
+    },
+    {
+     "month": "1980-01",
+     "net_usd": 39.57,
+     "worst_dip_usd": -89.31,
+     "cum_usd": -788.98
+    },
+    {
+     "month": "1980-02",
+     "net_usd": 179.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": -609.41
+    },
+    {
+     "month": "1980-03",
+     "net_usd": 629.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 20.15
+    },
+    {
+     "month": "1980-04",
+     "net_usd": 579.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 599.72
+    },
+    {
+     "month": "1980-05",
+     "net_usd": -430.43,
+     "worst_dip_usd": -427.93,
+     "cum_usd": 169.29
+    },
+    {
+     "month": "1980-06",
+     "net_usd": -240.43,
+     "worst_dip_usd": -237.93,
+     "cum_usd": -71.14
+    },
+    {
+     "month": "1980-07",
+     "net_usd": -480.43,
+     "worst_dip_usd": -477.93,
+     "cum_usd": -551.57
+    },
+    {
+     "month": "1980-08",
+     "net_usd": -20.43,
+     "worst_dip_usd": -428.62,
+     "cum_usd": -572.0
+    },
+    {
+     "month": "1980-09",
+     "net_usd": -20.43,
+     "worst_dip_usd": -289.31,
+     "cum_usd": -592.43
+    },
+    {
+     "month": "1980-10",
+     "net_usd": -170.43,
+     "worst_dip_usd": -167.93,
+     "cum_usd": -762.87
+    },
+    {
+     "month": "1980-11",
+     "net_usd": -250.43,
+     "worst_dip_usd": -247.93,
+     "cum_usd": -1013.3
+    },
+    {
+     "month": "1980-12",
+     "net_usd": -110.43,
+     "worst_dip_usd": -107.93,
+     "cum_usd": -1123.73
+    },
+    {
+     "month": "1981-01",
+     "net_usd": 139.57,
+     "worst_dip_usd": -79.31,
+     "cum_usd": -984.16
+    },
+    {
+     "month": "1981-02",
+     "net_usd": -80.43,
+     "worst_dip_usd": -98.62,
+     "cum_usd": -1064.59
+    },
+    {
+     "month": "1981-03",
+     "net_usd": 449.57,
+     "worst_dip_usd": -49.31,
+     "cum_usd": -615.02
+    },
+    {
+     "month": "1981-04",
+     "net_usd": -110.43,
+     "worst_dip_usd": -107.93,
+     "cum_usd": -725.45
+    },
+    {
+     "month": "1981-05",
+     "net_usd": 689.57,
+     "worst_dip_usd": -49.31,
+     "cum_usd": -35.89
+    },
+    {
+     "month": "1981-06",
+     "net_usd": -10.43,
+     "worst_dip_usd": -7.93,
+     "cum_usd": -46.32
+    },
+    {
+     "month": "1981-07",
+     "net_usd": -60.43,
+     "worst_dip_usd": -98.62,
+     "cum_usd": -106.75
+    },
+    {
+     "month": "1981-08",
+     "net_usd": -40.43,
+     "worst_dip_usd": -59.31,
+     "cum_usd": -147.18
+    },
+    {
+     "month": "1981-09",
+     "net_usd": -160.43,
+     "worst_dip_usd": -157.93,
+     "cum_usd": -307.61
+    },
+    {
+     "month": "1981-10",
+     "net_usd": 969.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 661.96
+    },
+    {
+     "month": "1981-11",
+     "net_usd": -210.43,
+     "worst_dip_usd": -207.93,
+     "cum_usd": 451.53
+    },
+    {
+     "month": "1981-12",
+     "net_usd": 389.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 841.09
+    },
+    {
+     "month": "1982-01",
+     "net_usd": 459.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1300.66
+    },
+    {
+     "month": "1982-02",
+     "net_usd": -110.43,
+     "worst_dip_usd": -107.93,
+     "cum_usd": 1190.23
+    },
+    {
+     "month": "1982-03",
+     "net_usd": -170.43,
+     "worst_dip_usd": -278.62,
+     "cum_usd": 1019.8
+    },
+    {
+     "month": "1982-04",
+     "net_usd": -40.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 979.37
+    },
+    {
+     "month": "1982-05",
+     "net_usd": 59.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1038.94
+    },
+    {
+     "month": "1982-06",
+     "net_usd": 319.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1358.51
+    },
+    {
+     "month": "1982-07",
+     "net_usd": 179.57,
+     "worst_dip_usd": -99.31,
+     "cum_usd": 1538.07
+    },
+    {
+     "month": "1982-08",
+     "net_usd": -320.43,
+     "worst_dip_usd": -338.62,
+     "cum_usd": 1217.64
+    },
+    {
+     "month": "1982-09",
+     "net_usd": 459.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1677.21
+    },
+    {
+     "month": "1982-10",
+     "net_usd": 39.57,
+     "worst_dip_usd": -49.31,
+     "cum_usd": 1716.78
+    },
+    {
+     "month": "1982-11",
+     "net_usd": -160.43,
+     "worst_dip_usd": -157.93,
+     "cum_usd": 1556.35
+    },
+    {
+     "month": "1982-12",
+     "net_usd": 39.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 1595.92
+    },
+    {
+     "month": "1983-01",
+     "net_usd": -60.43,
+     "worst_dip_usd": -57.93,
+     "cum_usd": 1535.49
+    },
+    {
+     "month": "1983-02",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1665.05
+    },
+    {
+     "month": "1983-03",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1714.62
+    },
+    {
+     "month": "1983-04",
+     "net_usd": 139.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1854.19
+    },
+    {
+     "month": "1983-05",
+     "net_usd": -260.43,
+     "worst_dip_usd": -257.93,
+     "cum_usd": 1593.76
+    },
+    {
+     "month": "1983-06",
+     "net_usd": 209.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1803.33
+    },
+    {
+     "month": "1983-07",
+     "net_usd": -260.43,
+     "worst_dip_usd": -257.93,
+     "cum_usd": 1542.9
+    },
+    {
+     "month": "1983-08",
+     "net_usd": -300.43,
+     "worst_dip_usd": -297.93,
+     "cum_usd": 1242.47
+    },
+    {
+     "month": "1983-09",
+     "net_usd": 39.57,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 1282.03
+    },
+    {
+     "month": "1983-10",
+     "net_usd": 19.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1301.6
+    },
+    {
+     "month": "1983-11",
+     "net_usd": -40.43,
+     "worst_dip_usd": -59.31,
+     "cum_usd": 1261.17
+    },
+    {
+     "month": "1983-12",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1260.74
+    },
+    {
+     "month": "1984-01",
+     "net_usd": 39.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1300.31
+    },
+    {
+     "month": "1984-02",
+     "net_usd": -50.43,
+     "worst_dip_usd": -98.62,
+     "cum_usd": 1249.88
+    },
+    {
+     "month": "1984-03",
+     "net_usd": -20.43,
+     "worst_dip_usd": -17.93,
+     "cum_usd": 1229.45
+    },
+    {
+     "month": "1984-04",
+     "net_usd": -100.43,
+     "worst_dip_usd": -98.62,
+     "cum_usd": 1129.01
+    },
+    {
+     "month": "1984-05",
+     "net_usd": -230.43,
+     "worst_dip_usd": -268.62,
+     "cum_usd": 898.58
+    },
+    {
+     "month": "1984-06",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 898.15
+    },
+    {
+     "month": "1984-07",
+     "net_usd": -20.43,
+     "worst_dip_usd": -108.62,
+     "cum_usd": 877.72
+    },
+    {
+     "month": "1984-08",
+     "net_usd": -0.43,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 877.29
+    },
+    {
+     "month": "1984-09",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 926.86
+    },
+    {
+     "month": "1984-10",
+     "net_usd": 239.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1166.43
+    },
+    {
+     "month": "1984-11",
+     "net_usd": -190.43,
+     "worst_dip_usd": -187.93,
+     "cum_usd": 975.99
+    },
+    {
+     "month": "1984-12",
+     "net_usd": -70.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 905.56
+    },
+    {
+     "month": "1985-01",
+     "net_usd": -110.43,
+     "worst_dip_usd": -107.93,
+     "cum_usd": 795.13
+    },
+    {
+     "month": "1985-02",
+     "net_usd": -300.43,
+     "worst_dip_usd": -297.93,
+     "cum_usd": 494.7
+    },
+    {
+     "month": "1985-03",
+     "net_usd": 199.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 694.27
+    },
+    {
+     "month": "1985-04",
+     "net_usd": -10.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 683.84
+    },
+    {
+     "month": "1985-05",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 813.4
+    },
+    {
+     "month": "1985-06",
+     "net_usd": 289.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1102.97
+    },
+    {
+     "month": "1985-07",
+     "net_usd": -30.43,
+     "worst_dip_usd": -58.62,
+     "cum_usd": 1072.54
+    },
+    {
+     "month": "1985-08",
+     "net_usd": -150.43,
+     "worst_dip_usd": -147.93,
+     "cum_usd": 922.11
+    },
+    {
+     "month": "1985-09",
+     "net_usd": -60.43,
+     "worst_dip_usd": -57.93,
+     "cum_usd": 861.68
+    },
+    {
+     "month": "1985-10",
+     "net_usd": 209.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1071.25
+    },
+    {
+     "month": "1985-11",
+     "net_usd": 59.57,
+     "worst_dip_usd": -9.31,
+     "cum_usd": 1130.82
+    },
+    {
+     "month": "1985-12",
+     "net_usd": 9.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1140.38
+    },
+    {
+     "month": "1986-01",
+     "net_usd": 29.57,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 1169.95
+    },
+    {
+     "month": "1986-02",
+     "net_usd": 179.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1349.52
+    },
+    {
+     "month": "1986-03",
+     "net_usd": 199.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1549.09
+    },
+    {
+     "month": "1986-04",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1628.66
+    },
+    {
+     "month": "1986-05",
+     "net_usd": -220.43,
+     "worst_dip_usd": -217.93,
+     "cum_usd": 1408.23
+    },
+    {
+     "month": "1986-06",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1507.8
+    },
+    {
+     "month": "1986-07",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1697.36
+    },
+    {
+     "month": "1986-08",
+     "net_usd": 79.57,
+     "worst_dip_usd": -99.31,
+     "cum_usd": 1776.93
+    },
+    {
+     "month": "1986-09",
+     "net_usd": -10.43,
+     "worst_dip_usd": -88.62,
+     "cum_usd": 1766.5
+    },
+    {
+     "month": "1986-10",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1846.07
+    },
+    {
+     "month": "1986-11",
+     "net_usd": -20.43,
+     "worst_dip_usd": -39.31,
+     "cum_usd": 1825.64
+    },
+    {
+     "month": "1986-12",
+     "net_usd": -50.43,
+     "worst_dip_usd": -118.62,
+     "cum_usd": 1775.21
+    },
+    {
+     "month": "1987-01",
+     "net_usd": -90.43,
+     "worst_dip_usd": -87.93,
+     "cum_usd": 1684.78
+    },
+    {
+     "month": "1987-02",
+     "net_usd": -30.43,
+     "worst_dip_usd": -49.31,
+     "cum_usd": 1654.34
+    },
+    {
+     "month": "1987-03",
+     "net_usd": -120.43,
+     "worst_dip_usd": -208.62,
+     "cum_usd": 1533.91
+    },
+    {
+     "month": "1987-04",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1653.48
+    },
+    {
+     "month": "1987-05",
+     "net_usd": 99.57,
+     "worst_dip_usd": -49.31,
+     "cum_usd": 1753.05
+    },
+    {
+     "month": "1987-06",
+     "net_usd": -10.43,
+     "worst_dip_usd": -89.31,
+     "cum_usd": 1742.62
+    },
+    {
+     "month": "1987-07",
+     "net_usd": -20.43,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 1722.19
+    },
+    {
+     "month": "1987-08",
+     "net_usd": -100.43,
+     "worst_dip_usd": -138.62,
+     "cum_usd": 1621.76
+    },
+    {
+     "month": "1987-09",
+     "net_usd": -120.43,
+     "worst_dip_usd": -118.62,
+     "cum_usd": 1501.32
+    },
+    {
+     "month": "1987-10",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1580.89
+    },
+    {
+     "month": "1987-11",
+     "net_usd": -0.43,
+     "worst_dip_usd": -138.62,
+     "cum_usd": 1580.46
+    },
+    {
+     "month": "1987-12",
+     "net_usd": 139.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 1720.03
+    },
+    {
+     "month": "1988-01",
+     "net_usd": 339.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2059.6
+    },
+    {
+     "month": "1988-02",
+     "net_usd": 19.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 2079.17
+    },
+    {
+     "month": "1988-03",
+     "net_usd": 9.57,
+     "worst_dip_usd": -8.62,
+     "cum_usd": 2088.74
+    },
+    {
+     "month": "1988-04",
+     "net_usd": -90.43,
+     "worst_dip_usd": -87.93,
+     "cum_usd": 1998.3
+    },
+    {
+     "month": "1988-05",
+     "net_usd": -40.43,
+     "worst_dip_usd": -59.31,
+     "cum_usd": 1957.87
+    },
+    {
+     "month": "1988-06",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2037.44
+    },
+    {
+     "month": "1988-07",
+     "net_usd": -40.43,
+     "worst_dip_usd": -89.31,
+     "cum_usd": 1997.01
+    },
+    {
+     "month": "1988-08",
+     "net_usd": 69.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2066.58
+    },
+    {
+     "month": "1988-09",
+     "net_usd": 119.57,
+     "worst_dip_usd": -39.31,
+     "cum_usd": 2186.15
+    },
+    {
+     "month": "1988-10",
+     "net_usd": 89.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2275.72
+    },
+    {
+     "month": "1988-11",
+     "net_usd": 139.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 2415.28
+    },
+    {
+     "month": "1988-12",
+     "net_usd": 9.57,
+     "worst_dip_usd": -79.31,
+     "cum_usd": 2424.85
+    },
+    {
+     "month": "1989-01",
+     "net_usd": 19.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2444.42
+    },
+    {
+     "month": "1989-02",
+     "net_usd": 49.57,
+     "worst_dip_usd": -59.31,
+     "cum_usd": 2493.99
+    },
+    {
+     "month": "1989-03",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2623.56
+    },
+    {
+     "month": "1989-04",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2813.13
+    },
+    {
+     "month": "1989-05",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 2912.7
+    },
+    {
+     "month": "1989-06",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3102.26
+    },
+    {
+     "month": "1989-07",
+     "net_usd": 219.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3321.83
+    },
+    {
+     "month": "1989-08",
+     "net_usd": -10.43,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 3311.4
+    },
+    {
+     "month": "1989-09",
+     "net_usd": -100.43,
+     "worst_dip_usd": -97.93,
+     "cum_usd": 3210.97
+    },
+    {
+     "month": "1989-10",
+     "net_usd": -70.43,
+     "worst_dip_usd": -89.31,
+     "cum_usd": 3140.54
+    },
+    {
+     "month": "1989-11",
+     "net_usd": 39.57,
+     "worst_dip_usd": -8.62,
+     "cum_usd": 3180.11
+    },
+    {
+     "month": "1989-12",
+     "net_usd": 29.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3209.68
+    },
+    {
+     "month": "1990-01",
+     "net_usd": -0.43,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 3209.24
+    },
+    {
+     "month": "1990-02",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3208.81
+    },
+    {
+     "month": "1990-03",
+     "net_usd": -50.43,
+     "worst_dip_usd": -47.93,
+     "cum_usd": 3158.38
+    },
+    {
+     "month": "1990-04",
+     "net_usd": -10.43,
+     "worst_dip_usd": -79.31,
+     "cum_usd": 3147.95
+    },
+    {
+     "month": "1990-05",
+     "net_usd": 29.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3177.52
+    },
+    {
+     "month": "1990-06",
+     "net_usd": 169.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3347.09
+    },
+    {
+     "month": "1990-07",
+     "net_usd": 169.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3516.66
+    },
+    {
+     "month": "1990-08",
+     "net_usd": 159.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3676.22
+    },
+    {
+     "month": "1990-09",
+     "net_usd": 159.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3835.79
+    },
+    {
+     "month": "1990-10",
+     "net_usd": 29.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 3865.36
+    },
+    {
+     "month": "1990-11",
+     "net_usd": -30.43,
+     "worst_dip_usd": -78.62,
+     "cum_usd": 3834.93
+    },
+    {
+     "month": "1990-12",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 3954.5
+    },
+    {
+     "month": "1991-01",
+     "net_usd": 69.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4024.07
+    },
+    {
+     "month": "1991-02",
+     "net_usd": -50.43,
+     "worst_dip_usd": -47.93,
+     "cum_usd": 3973.64
+    },
+    {
+     "month": "1991-03",
+     "net_usd": 119.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 4093.2
+    },
+    {
+     "month": "1991-04",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4222.77
+    },
+    {
+     "month": "1991-05",
+     "net_usd": -20.43,
+     "worst_dip_usd": -17.93,
+     "cum_usd": 4202.34
+    },
+    {
+     "month": "1991-06",
+     "net_usd": 139.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4341.91
+    },
+    {
+     "month": "1991-07",
+     "net_usd": 39.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4381.48
+    },
+    {
+     "month": "1991-08",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4431.05
+    },
+    {
+     "month": "1991-09",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4560.62
+    },
+    {
+     "month": "1991-10",
+     "net_usd": 179.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4740.18
+    },
+    {
+     "month": "1991-11",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4859.75
+    },
+    {
+     "month": "1991-12",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4939.32
+    },
+    {
+     "month": "1992-01",
+     "net_usd": -10.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 4928.89
+    },
+    {
+     "month": "1992-02",
+     "net_usd": 159.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5088.46
+    },
+    {
+     "month": "1992-03",
+     "net_usd": 89.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5178.03
+    },
+    {
+     "month": "1992-04",
+     "net_usd": -40.43,
+     "worst_dip_usd": -37.93,
+     "cum_usd": 5137.6
+    },
+    {
+     "month": "1992-05",
+     "net_usd": 159.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5297.16
+    },
+    {
+     "month": "1992-06",
+     "net_usd": 59.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5356.73
+    },
+    {
+     "month": "1992-07",
+     "net_usd": -150.43,
+     "worst_dip_usd": -147.93,
+     "cum_usd": 5206.3
+    },
+    {
+     "month": "1992-08",
+     "net_usd": 109.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5315.87
+    },
+    {
+     "month": "1992-09",
+     "net_usd": -20.43,
+     "worst_dip_usd": -18.62,
+     "cum_usd": 5295.44
+    },
+    {
+     "month": "1992-10",
+     "net_usd": -80.43,
+     "worst_dip_usd": -77.93,
+     "cum_usd": 5215.01
+    },
+    {
+     "month": "1992-11",
+     "net_usd": -180.43,
+     "worst_dip_usd": -177.93,
+     "cum_usd": 5034.58
+    },
+    {
+     "month": "1992-12",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5114.14
+    },
+    {
+     "month": "1993-01",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5213.71
+    },
+    {
+     "month": "1993-02",
+     "net_usd": -20.43,
+     "worst_dip_usd": -69.31,
+     "cum_usd": 5193.28
+    },
+    {
+     "month": "1993-03",
+     "net_usd": 59.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5252.85
+    },
+    {
+     "month": "1993-04",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5302.42
+    },
+    {
+     "month": "1993-05",
+     "net_usd": -50.43,
+     "worst_dip_usd": -47.93,
+     "cum_usd": 5251.99
+    },
+    {
+     "month": "1993-06",
+     "net_usd": 69.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5321.56
+    },
+    {
+     "month": "1993-07",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5441.12
+    },
+    {
+     "month": "1993-08",
+     "net_usd": -60.43,
+     "worst_dip_usd": -57.93,
+     "cum_usd": 5380.69
+    },
+    {
+     "month": "1993-09",
+     "net_usd": -80.43,
+     "worst_dip_usd": -77.93,
+     "cum_usd": 5300.26
+    },
+    {
+     "month": "1993-10",
+     "net_usd": -60.43,
+     "worst_dip_usd": -59.31,
+     "cum_usd": 5239.83
+    },
+    {
+     "month": "1993-11",
+     "net_usd": -40.43,
+     "worst_dip_usd": -37.93,
+     "cum_usd": 5199.4
+    },
+    {
+     "month": "1993-12",
+     "net_usd": -50.43,
+     "worst_dip_usd": -48.62,
+     "cum_usd": 5148.97
+    },
+    {
+     "month": "1994-01",
+     "net_usd": 9.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5158.54
+    },
+    {
+     "month": "1994-02",
+     "net_usd": -0.43,
+     "worst_dip_usd": -49.31,
+     "cum_usd": 5158.1
+    },
+    {
+     "month": "1994-03",
+     "net_usd": -90.43,
+     "worst_dip_usd": -87.93,
+     "cum_usd": 5067.67
+    },
+    {
+     "month": "1994-04",
+     "net_usd": -120.43,
+     "worst_dip_usd": -138.62,
+     "cum_usd": 4947.24
+    },
+    {
+     "month": "1994-05",
+     "net_usd": -60.43,
+     "worst_dip_usd": -57.93,
+     "cum_usd": 4886.81
+    },
+    {
+     "month": "1994-06",
+     "net_usd": -140.43,
+     "worst_dip_usd": -137.93,
+     "cum_usd": 4746.38
+    },
+    {
+     "month": "1994-07",
+     "net_usd": 169.57,
+     "worst_dip_usd": -59.31,
+     "cum_usd": 4915.95
+    },
+    {
+     "month": "1994-08",
+     "net_usd": 39.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4955.52
+    },
+    {
+     "month": "1994-09",
+     "net_usd": -100.43,
+     "worst_dip_usd": -97.93,
+     "cum_usd": 4855.08
+    },
+    {
+     "month": "1994-10",
+     "net_usd": 59.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4914.65
+    },
+    {
+     "month": "1994-11",
+     "net_usd": -210.43,
+     "worst_dip_usd": -248.62,
+     "cum_usd": 4704.22
+    },
+    {
+     "month": "1994-12",
+     "net_usd": -20.43,
+     "worst_dip_usd": -39.31,
+     "cum_usd": 4683.79
+    },
+    {
+     "month": "1995-01",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4813.36
+    },
+    {
+     "month": "1995-02",
+     "net_usd": 129.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4942.93
+    },
+    {
+     "month": "1995-03",
+     "net_usd": -70.43,
+     "worst_dip_usd": -67.93,
+     "cum_usd": 4872.5
+    },
+    {
+     "month": "1995-04",
+     "net_usd": -120.43,
+     "worst_dip_usd": -117.93,
+     "cum_usd": 4752.06
+    },
+    {
+     "month": "1995-05",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4851.63
+    },
+    {
+     "month": "1995-06",
+     "net_usd": -90.43,
+     "worst_dip_usd": -188.62,
+     "cum_usd": 4761.2
+    },
+    {
+     "month": "1995-07",
+     "net_usd": 89.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4850.77
+    },
+    {
+     "month": "1995-08",
+     "net_usd": -0.43,
+     "worst_dip_usd": -79.31,
+     "cum_usd": 4850.34
+    },
+    {
+     "month": "1995-09",
+     "net_usd": 49.57,
+     "worst_dip_usd": -39.31,
+     "cum_usd": 4899.91
+    },
+    {
+     "month": "1995-10",
+     "net_usd": -0.43,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 4899.48
+    },
+    {
+     "month": "1995-11",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4999.04
+    },
+    {
+     "month": "1995-12",
+     "net_usd": 89.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5088.61
+    },
+    {
+     "month": "1996-01",
+     "net_usd": 149.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 5238.18
+    },
+    {
+     "month": "1996-02",
+     "net_usd": -260.43,
+     "worst_dip_usd": -257.93,
+     "cum_usd": 4977.75
+    },
+    {
+     "month": "1996-03",
+     "net_usd": -70.43,
+     "worst_dip_usd": -158.62,
+     "cum_usd": 4907.32
+    },
+    {
+     "month": "1996-04",
+     "net_usd": -40.43,
+     "worst_dip_usd": -37.93,
+     "cum_usd": 4866.89
+    },
+    {
+     "month": "1996-05",
+     "net_usd": -220.43,
+     "worst_dip_usd": -217.93,
+     "cum_usd": 4646.46
+    },
+    {
+     "month": "1996-06",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4836.02
+    },
+    {
+     "month": "1996-07",
+     "net_usd": 29.57,
+     "worst_dip_usd": -69.31,
+     "cum_usd": 4865.59
+    },
+    {
+     "month": "1996-08",
+     "net_usd": -170.43,
+     "worst_dip_usd": -167.93,
+     "cum_usd": 4695.16
+    },
+    {
+     "month": "1996-09",
+     "net_usd": -20.43,
+     "worst_dip_usd": -17.93,
+     "cum_usd": 4674.73
+    },
+    {
+     "month": "1996-10",
+     "net_usd": 149.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4824.3
+    },
+    {
+     "month": "1996-11",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4903.87
+    },
+    {
+     "month": "1996-12",
+     "net_usd": -30.43,
+     "worst_dip_usd": -27.93,
+     "cum_usd": 4873.44
+    },
+    {
+     "month": "1997-01",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4973.0
+    },
+    {
+     "month": "1997-02",
+     "net_usd": -190.43,
+     "worst_dip_usd": -188.62,
+     "cum_usd": 4782.57
+    },
+    {
+     "month": "1997-03",
+     "net_usd": -120.43,
+     "worst_dip_usd": -118.62,
+     "cum_usd": 4662.14
+    },
+    {
+     "month": "1997-04",
+     "net_usd": 249.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 4911.71
+    },
+    {
+     "month": "1997-05",
+     "net_usd": 79.57,
+     "worst_dip_usd": -39.31,
+     "cum_usd": 4991.28
+    },
+    {
+     "month": "1997-06",
+     "net_usd": -30.43,
+     "worst_dip_usd": -27.93,
+     "cum_usd": 4960.85
+    },
+    {
+     "month": "1997-07",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5080.42
+    },
+    {
+     "month": "1997-08",
+     "net_usd": 19.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 5099.98
+    },
+    {
+     "month": "1997-09",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5149.55
+    },
+    {
+     "month": "1997-10",
+     "net_usd": 109.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5259.12
+    },
+    {
+     "month": "1997-11",
+     "net_usd": -50.43,
+     "worst_dip_usd": -47.93,
+     "cum_usd": 5208.69
+    },
+    {
+     "month": "1997-12",
+     "net_usd": 29.57,
+     "worst_dip_usd": -18.62,
+     "cum_usd": 5238.26
+    },
+    {
+     "month": "1998-01",
+     "net_usd": 139.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5377.83
+    },
+    {
+     "month": "1998-02",
+     "net_usd": 19.57,
+     "worst_dip_usd": -8.62,
+     "cum_usd": 5397.4
+    },
+    {
+     "month": "1998-03",
+     "net_usd": 19.57,
+     "worst_dip_usd": -28.62,
+     "cum_usd": 5416.96
+    },
+    {
+     "month": "1998-04",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5536.53
+    },
+    {
+     "month": "1998-05",
+     "net_usd": 79.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5616.1
+    },
+    {
+     "month": "1998-06",
+     "net_usd": 39.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5655.67
+    },
+    {
+     "month": "1998-07",
+     "net_usd": -30.43,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 5625.24
+    },
+    {
+     "month": "1998-08",
+     "net_usd": 209.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5834.81
+    },
+    {
+     "month": "1998-09",
+     "net_usd": 129.57,
+     "worst_dip_usd": -38.62,
+     "cum_usd": 5964.38
+    },
+    {
+     "month": "1998-10",
+     "net_usd": -0.43,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 5963.94
+    },
+    {
+     "month": "1998-11",
+     "net_usd": 99.57,
+     "worst_dip_usd": -19.31,
+     "cum_usd": 6063.51
+    },
+    {
+     "month": "1998-12",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6253.08
+    },
+    {
+     "month": "1999-01",
+     "net_usd": 49.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6302.65
+    },
+    {
+     "month": "1999-02",
+     "net_usd": -130.43,
+     "worst_dip_usd": -148.62,
+     "cum_usd": 6172.22
+    },
+    {
+     "month": "1999-03",
+     "net_usd": -0.43,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 6171.79
+    },
+    {
+     "month": "1999-04",
+     "net_usd": -40.43,
+     "worst_dip_usd": -37.93,
+     "cum_usd": 6131.36
+    },
+    {
+     "month": "1999-05",
+     "net_usd": -120.43,
+     "worst_dip_usd": -128.62,
+     "cum_usd": 6010.92
+    },
+    {
+     "month": "1999-06",
+     "net_usd": 199.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6210.49
+    },
+    {
+     "month": "1999-07",
+     "net_usd": -70.43,
+     "worst_dip_usd": -67.93,
+     "cum_usd": 6140.06
+    },
+    {
+     "month": "1999-08",
+     "net_usd": -170.43,
+     "worst_dip_usd": -168.62,
+     "cum_usd": 5969.63
+    },
+    {
+     "month": "1999-09",
+     "net_usd": -10.43,
+     "worst_dip_usd": -58.62,
+     "cum_usd": 5959.2
+    },
+    {
+     "month": "1999-10",
+     "net_usd": 229.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6188.77
+    },
+    {
+     "month": "1999-11",
+     "net_usd": -40.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 6148.34
+    },
+    {
+     "month": "1999-12",
+     "net_usd": -10.43,
+     "worst_dip_usd": -7.93,
+     "cum_usd": 6137.9
+    },
+    {
+     "month": "2000-01",
+     "net_usd": -160.43,
+     "worst_dip_usd": -157.93,
+     "cum_usd": 5977.47
+    },
+    {
+     "month": "2000-02",
+     "net_usd": -10.43,
+     "worst_dip_usd": -7.93,
+     "cum_usd": 5967.04
+    },
+    {
+     "month": "2000-03",
+     "net_usd": 99.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6066.61
+    },
+    {
+     "month": "2000-04",
+     "net_usd": -200.43,
+     "worst_dip_usd": -197.93,
+     "cum_usd": 5866.18
+    },
+    {
+     "month": "2000-05",
+     "net_usd": 19.57,
+     "worst_dip_usd": -28.62,
+     "cum_usd": 5885.75
+    },
+    {
+     "month": "2000-06",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6005.32
+    },
+    {
+     "month": "2000-07",
+     "net_usd": -10.43,
+     "worst_dip_usd": -8.62,
+     "cum_usd": 5994.88
+    },
+    {
+     "month": "2000-08",
+     "net_usd": 49.57,
+     "worst_dip_usd": -29.31,
+     "cum_usd": 6044.45
+    },
+    {
+     "month": "2000-09",
+     "net_usd": 89.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6134.02
+    },
+    {
+     "month": "2000-10",
+     "net_usd": -40.43,
+     "worst_dip_usd": -68.62,
+     "cum_usd": 6093.59
+    },
+    {
+     "month": "2000-11",
+     "net_usd": 249.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6343.16
+    },
+    {
+     "month": "2000-12",
+     "net_usd": -10.43,
+     "worst_dip_usd": -78.62,
+     "cum_usd": 6332.73
+    },
+    {
+     "month": "2001-01",
+     "net_usd": 159.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6492.3
+    },
+    {
+     "month": "2001-02",
+     "net_usd": 119.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6611.86
+    },
+    {
+     "month": "2001-03",
+     "net_usd": 229.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6841.43
+    },
+    {
+     "month": "2001-04",
+     "net_usd": -100.43,
+     "worst_dip_usd": -97.93,
+     "cum_usd": 6741.0
+    },
+    {
+     "month": "2001-05",
+     "net_usd": 89.57,
+     "worst_dip_usd": -28.62,
+     "cum_usd": 6830.57
+    },
+    {
+     "month": "2001-06",
+     "net_usd": -220.43,
+     "worst_dip_usd": -217.93,
+     "cum_usd": 6610.14
+    },
+    {
+     "month": "2001-07",
+     "net_usd": 149.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6759.71
+    },
+    {
+     "month": "2001-08",
+     "net_usd": 69.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6829.28
+    },
+    {
+     "month": "2001-09",
+     "net_usd": 19.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 6848.84
+    },
+    {
+     "month": "2001-10",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 7038.41
+    },
+    {
+     "month": "2001-11",
+     "net_usd": 269.57,
+     "worst_dip_usd": -9.31,
+     "cum_usd": 7307.98
+    },
+    {
+     "month": "2001-12",
+     "net_usd": 189.57,
+     "worst_dip_usd": 0.0,
+     "cum_usd": 7497.55
+    }
+   ],
+   "stats": {
+    "months": 307,
+    "first": "1976-06",
+    "last": "2001-12",
+    "gross_usd_month": 26.92,
+    "net_usd_month": 24.42,
+    "cost_usd": 2.5,
+    "t": 2.71,
+    "sharpe": 0.54,
+    "win_pct": 53.1,
+    "sd_usd_month": 157.97,
+    "half1_usd_month": 16.3,
+    "half2_usd_month": 32.49,
+    "worst_month_usd": -480.43,
+    "worst_month": "1980-07",
+    "best_month_usd": 969.57,
+    "best_month": "1981-10",
+    "worst_dip_usd": -477.93,
+    "capital_usd": 840.93,
+    "capital_eur": 778.64
+   }
+  }
+ },
+ "rule": "sell one Micro 2-Year Yield future (2YY) at the close 3 trading days before the last trading day of the month (L−3); it cash-settles at L"
+}

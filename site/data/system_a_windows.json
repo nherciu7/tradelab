@@ -1,0 +1,148 @@
+{
+ "_meta": {
+  "sources": [
+   "scripts/short_end_controls.py (method)",
+   "tradelab/strategies/relval.py"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:39+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "shy": [
+  {
+   "window": "Last 3 days (month end)",
+   "start_days_before_end": 1,
+   "months": 289,
+   "mean_bps": 7.46,
+   "t": 9.42,
+   "win_pct": 72.7
+  },
+  {
+   "window": "4–6 days before the end",
+   "start_days_before_end": 4,
+   "months": 289,
+   "mean_bps": 1.97,
+   "t": 2.53,
+   "win_pct": 53.3
+  },
+  {
+   "window": "7–9 days before",
+   "start_days_before_end": 7,
+   "months": 289,
+   "mean_bps": 0.81,
+   "t": 0.99,
+   "win_pct": 49.1
+  },
+  {
+   "window": "10–12 days before",
+   "start_days_before_end": 10,
+   "months": 289,
+   "mean_bps": 3.2,
+   "t": 3.49,
+   "win_pct": 58.1
+  },
+  {
+   "window": "13–15 days before",
+   "start_days_before_end": 13,
+   "months": 289,
+   "mean_bps": 0.9,
+   "t": 0.87,
+   "win_pct": 49.5
+  },
+  {
+   "window": "16–18 days before",
+   "start_days_before_end": 16,
+   "months": 289,
+   "mean_bps": 0.93,
+   "t": 1.01,
+   "win_pct": 51.6
+  }
+ ],
+ "funds": [
+  {
+   "fund": "SHY",
+   "months": 289,
+   "first": "2002-08",
+   "month_end_bps": 7.46,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "AGG",
+   "months": 120,
+   "first": "2016-09",
+   "month_end_bps": 15.28,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "BND",
+   "months": 120,
+   "first": "2016-09",
+   "month_end_bps": 15.64,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "VCIT",
+   "months": 120,
+   "first": "2016-09",
+   "month_end_bps": 20.14,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "MUB",
+   "months": 120,
+   "first": "2016-09",
+   "month_end_bps": 7.15,
+   "rank_of_month_end": 3,
+   "windows": 6
+  },
+  {
+   "fund": "TIP",
+   "months": 120,
+   "first": "2016-09",
+   "month_end_bps": 17.7,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "IEF",
+   "months": 289,
+   "first": "2002-08",
+   "month_end_bps": 22.48,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "LQD",
+   "months": 289,
+   "first": "2002-08",
+   "month_end_bps": 20.26,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "VCLT",
+   "months": 120,
+   "first": "2016-09",
+   "month_end_bps": 20.66,
+   "rank_of_month_end": 1,
+   "windows": 6
+  },
+  {
+   "fund": "TLT",
+   "months": 289,
+   "first": "2002-08",
+   "month_end_bps": 36.35,
+   "rank_of_month_end": 1,
+   "windows": 6
+  }
+ ],
+ "rank1_count": 9,
+ "fund_count": 10,
+ "method": "same 3-session hold at six points of the month; compounded; SHY, Aug 2002 – Aug 2026"
+}

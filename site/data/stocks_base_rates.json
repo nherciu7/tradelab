@@ -1,0 +1,127 @@
+{
+ "_meta": {
+  "sources": [
+   "reports/stocks/s9a_base_rates.csv",
+   "reports/stocks/s9a_by_age.csv"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "horizon": "12 months",
+ "period": "2000–2025",
+ "source_note": "S9 Part A, descriptive, not a test",
+ "buckets": [
+  {
+   "bucket": "<$1",
+   "stock_months": 99327,
+   "doubled_pct": 14.4,
+   "tripled_pct": 7.9,
+   "halved_pct": 37.1,
+   "delisted_pct": 15.6,
+   "delisted_failure_pct": 11.2,
+   "median_pct": -26.4,
+   "mean_pct": 27.3
+  },
+  {
+   "bucket": "$1-5",
+   "stock_months": 240884,
+   "doubled_pct": 12.6,
+   "tripled_pct": 4.9,
+   "halved_pct": 23.2,
+   "delisted_pct": 8.2,
+   "delisted_failure_pct": 2.4,
+   "median_pct": -6.7,
+   "mean_pct": 16.9
+  },
+  {
+   "bucket": "$5+",
+   "stock_months": 1056384,
+   "doubled_pct": 4.0,
+   "tripled_pct": 0.8,
+   "halved_pct": 9.0,
+   "delisted_pct": 4.7,
+   "delisted_failure_pct": 0.2,
+   "median_pct": 5.1,
+   "mean_pct": 9.0
+  }
+ ],
+ "by_age": [
+  {
+   "bucket": "<$1",
+   "young": false,
+   "stock_months": 81937,
+   "doubled_pct": 14.6,
+   "tripled_pct": 8.0,
+   "halved_pct": 35.9,
+   "delisted_pct": 14.7,
+   "delisted_failure_pct": 10.3,
+   "median_pct": -24.4,
+   "mean_pct": 28.7
+  },
+  {
+   "bucket": "<$1",
+   "young": true,
+   "stock_months": 15001,
+   "doubled_pct": 13.5,
+   "tripled_pct": 8.0,
+   "halved_pct": 43.1,
+   "delisted_pct": 17.9,
+   "delisted_failure_pct": 13.4,
+   "median_pct": -37.3,
+   "mean_pct": 22.9
+  },
+  {
+   "bucket": "$1-5",
+   "young": false,
+   "stock_months": 193247,
+   "doubled_pct": 12.7,
+   "tripled_pct": 4.9,
+   "halved_pct": 21.0,
+   "delisted_pct": 7.3,
+   "delisted_failure_pct": 1.7,
+   "median_pct": -4.0,
+   "mean_pct": 19.3
+  },
+  {
+   "bucket": "$1-5",
+   "young": true,
+   "stock_months": 34222,
+   "doubled_pct": 12.9,
+   "tripled_pct": 5.5,
+   "halved_pct": 32.5,
+   "delisted_pct": 9.6,
+   "delisted_failure_pct": 3.5,
+   "median_pct": -19.5,
+   "mean_pct": 9.6
+  },
+  {
+   "bucket": "$5+",
+   "young": false,
+   "stock_months": 871844,
+   "doubled_pct": 3.8,
+   "tripled_pct": 0.8,
+   "halved_pct": 6.9,
+   "delisted_pct": 4.4,
+   "delisted_failure_pct": 0.2,
+   "median_pct": 6.2,
+   "mean_pct": 10.5
+  },
+  {
+   "bucket": "$5+",
+   "young": true,
+   "stock_months": 136281,
+   "doubled_pct": 5.4,
+   "tripled_pct": 1.3,
+   "halved_pct": 17.5,
+   "delisted_pct": 5.1,
+   "delisted_failure_pct": 0.4,
+   "median_pct": -1.6,
+   "mean_pct": 2.8
+  }
+ ],
+ "total_stock_months": 1396595,
+ "young_definition": "listed less than 3 years"
+}

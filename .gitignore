@@ -3,3 +3,27 @@ reports/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# The site's exported JSON is derived results only (no raw prices) and is needed by the build.
+!site/data/
+
+# Never public: AI session memory, prompts and personal drafts
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+AGENTS.md
+**/HANDOFF*.md
+**/LINKEDIN_DRAFTS.md
+**/SITE_FACTS.md
+**/SITE_STYLE.md
+**/SITE_PROMPT.md
+# Keys and local settings
+.env
+.env.*
+*.key
+*_key.txt
+*.pem
+# Local research artefacts
+*.parquet
+*.pkl
+*.npy

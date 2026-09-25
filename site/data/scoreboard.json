@@ -1,0 +1,59 @@
+{
+ "_meta": {
+  "sources": [
+   "reports/forward_log.csv"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "rows": [
+  {
+   "month": "2026-09",
+   "system": "A",
+   "contract": "2YYU6",
+   "side": "SELL",
+   "entry_date": "2026-09-25",
+   "exit_date": "2026-09-30",
+   "result_bp": null,
+   "result_usd": null,
+   "shy_bps": null,
+   "status": "pending",
+   "updated": "2026-09-25T17:33:28",
+   "notes": ""
+  },
+  {
+   "month": "2026-12",
+   "system": "C1",
+   "contract": "IWM-SPY",
+   "side": "LONG IWM/SHORT SPY",
+   "entry_date": "2026-12-09",
+   "exit_date": "2026-12-11",
+   "result_bp": null,
+   "result_usd": null,
+   "shy_bps": null,
+   "status": "pending",
+   "updated": "2026-09-23T20:09:31",
+   "notes": ""
+  },
+  {
+   "month": "2026-12",
+   "system": "C2",
+   "contract": "SPY-IWM",
+   "side": "SHORT IWM/LONG SPY",
+   "entry_date": "2026-12-11",
+   "exit_date": "2026-12-18",
+   "result_bp": null,
+   "result_usd": null,
+   "shy_bps": null,
+   "status": "pending",
+   "updated": "2026-09-23T20:09:31",
+   "notes": ""
+  }
+ ],
+ "started": "2026-09",
+ "mode": "paper",
+ "note": "Paper trades logged by scripts/forward_log.py. Nothing here is real money."
+}

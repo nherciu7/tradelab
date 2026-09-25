@@ -1,0 +1,902 @@
+{
+ "_meta": {
+  "sources": [
+   "reports/stocks/s8_monthly_primary.csv",
+   "reports/stocks/s8_results.json",
+   "FRED DEXUSEU"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "rows": [
+  {
+   "month": "2012-02",
+   "deposited_usd": 527.16,
+   "value_usd": 465.7
+  },
+  {
+   "month": "2012-03",
+   "deposited_usd": 573.78,
+   "value_usd": 470.61
+  },
+  {
+   "month": "2012-04",
+   "deposited_usd": 620.42,
+   "value_usd": 542.27
+  },
+  {
+   "month": "2012-05",
+   "deposited_usd": 666.71,
+   "value_usd": 526.36
+  },
+  {
+   "month": "2012-06",
+   "deposited_usd": 710.18,
+   "value_usd": 632.89
+  },
+  {
+   "month": "2012-07",
+   "deposited_usd": 754.22,
+   "value_usd": 634.73
+  },
+  {
+   "month": "2012-08",
+   "deposited_usd": 797.27,
+   "value_usd": 733.79
+  },
+  {
+   "month": "2012-09",
+   "deposited_usd": 841.25,
+   "value_usd": 796.03
+  },
+  {
+   "month": "2012-10",
+   "deposited_usd": 886.4,
+   "value_usd": 801.13
+  },
+  {
+   "month": "2012-11",
+   "deposited_usd": 931.68,
+   "value_usd": 841.77
+  },
+  {
+   "month": "2012-12",
+   "deposited_usd": 977.41,
+   "value_usd": 766.24
+  },
+  {
+   "month": "2013-01",
+   "deposited_usd": 1023.59,
+   "value_usd": 780.29
+  },
+  {
+   "month": "2013-02",
+   "deposited_usd": 1071.52,
+   "value_usd": 821.18
+  },
+  {
+   "month": "2013-03",
+   "deposited_usd": 1116.97,
+   "value_usd": 885.08
+  },
+  {
+   "month": "2013-04",
+   "deposited_usd": 1161.97,
+   "value_usd": 895.7
+  },
+  {
+   "month": "2013-05",
+   "deposited_usd": 1208.14,
+   "value_usd": 963.55
+  },
+  {
+   "month": "2013-06",
+   "deposited_usd": 1253.99,
+   "value_usd": 1074.14
+  },
+  {
+   "month": "2013-07",
+   "deposited_usd": 1299.7,
+   "value_usd": 1165.64
+  },
+  {
+   "month": "2013-08",
+   "deposited_usd": 1345.96,
+   "value_usd": 1255.0
+  },
+  {
+   "month": "2013-09",
+   "deposited_usd": 1392.03,
+   "value_usd": 1382.53
+  },
+  {
+   "month": "2013-10",
+   "deposited_usd": 1439.4,
+   "value_usd": 1303.9
+  },
+  {
+   "month": "2013-11",
+   "deposited_usd": 1486.61,
+   "value_usd": 1383.88
+  },
+  {
+   "month": "2013-12",
+   "deposited_usd": 1534.04,
+   "value_usd": 1494.18
+  },
+  {
+   "month": "2014-01",
+   "deposited_usd": 1581.89,
+   "value_usd": 1657.66
+  },
+  {
+   "month": "2014-02",
+   "deposited_usd": 1629.22,
+   "value_usd": 2008.39
+  },
+  {
+   "month": "2014-03",
+   "deposited_usd": 1677.39,
+   "value_usd": 2490.96
+  },
+  {
+   "month": "2014-04",
+   "deposited_usd": 1725.7,
+   "value_usd": 2149.66
+  },
+  {
+   "month": "2014-05",
+   "deposited_usd": 1774.23,
+   "value_usd": 2395.88
+  },
+  {
+   "month": "2014-06",
+   "deposited_usd": 1821.86,
+   "value_usd": 2425.17
+  },
+  {
+   "month": "2014-07",
+   "deposited_usd": 1869.74,
+   "value_usd": 2404.48
+  },
+  {
+   "month": "2014-08",
+   "deposited_usd": 1916.77,
+   "value_usd": 2582.95
+  },
+  {
+   "month": "2014-09",
+   "deposited_usd": 1962.7,
+   "value_usd": 2536.86
+  },
+  {
+   "month": "2014-10",
+   "deposited_usd": 2006.86,
+   "value_usd": 2302.67
+  },
+  {
+   "month": "2014-11",
+   "deposited_usd": 2050.57,
+   "value_usd": 2164.92
+  },
+  {
+   "month": "2014-12",
+   "deposited_usd": 2094.28,
+   "value_usd": 2336.89
+  },
+  {
+   "month": "2015-01",
+   "deposited_usd": 2136.33,
+   "value_usd": 2321.54
+  },
+  {
+   "month": "2015-02",
+   "deposited_usd": 2176.01,
+   "value_usd": 2487.63
+  },
+  {
+   "month": "2015-03",
+   "deposited_usd": 2215.18,
+   "value_usd": 2669.54
+  },
+  {
+   "month": "2015-04",
+   "deposited_usd": 2252.87,
+   "value_usd": 2627.96
+  },
+  {
+   "month": "2015-05",
+   "deposited_usd": 2292.05,
+   "value_usd": 2262.1
+  },
+  {
+   "month": "2015-06",
+   "deposited_usd": 2330.24,
+   "value_usd": 2149.21
+  },
+  {
+   "month": "2015-07",
+   "deposited_usd": 2369.04,
+   "value_usd": 2142.98
+  },
+  {
+   "month": "2015-08",
+   "deposited_usd": 2407.4,
+   "value_usd": 1729.07
+  },
+  {
+   "month": "2015-09",
+   "deposited_usd": 2446.82,
+   "value_usd": 1516.72
+  },
+  {
+   "month": "2015-10",
+   "deposited_usd": 2486.02,
+   "value_usd": 1544.95
+  },
+  {
+   "month": "2015-11",
+   "deposited_usd": 2524.61,
+   "value_usd": 1711.24
+  },
+  {
+   "month": "2015-12",
+   "deposited_usd": 2561.78,
+   "value_usd": 1435.36
+  },
+  {
+   "month": "2016-01",
+   "deposited_usd": 2599.59,
+   "value_usd": 1210.34
+  },
+  {
+   "month": "2016-02",
+   "deposited_usd": 2637.7,
+   "value_usd": 1218.69
+  },
+  {
+   "month": "2016-03",
+   "deposited_usd": 2675.67,
+   "value_usd": 1264.53
+  },
+  {
+   "month": "2016-04",
+   "deposited_usd": 2715.51,
+   "value_usd": 1319.61
+  },
+  {
+   "month": "2016-05",
+   "deposited_usd": 2755.82,
+   "value_usd": 1331.91
+  },
+  {
+   "month": "2016-06",
+   "deposited_usd": 2794.9,
+   "value_usd": 1358.8
+  },
+  {
+   "month": "2016-07",
+   "deposited_usd": 2833.91,
+   "value_usd": 1734.86
+  },
+  {
+   "month": "2016-08",
+   "deposited_usd": 2873.02,
+   "value_usd": 1687.41
+  },
+  {
+   "month": "2016-09",
+   "deposited_usd": 2912.2,
+   "value_usd": 1759.97
+  },
+  {
+   "month": "2016-10",
+   "deposited_usd": 2951.44,
+   "value_usd": 1569.67
+  },
+  {
+   "month": "2016-11",
+   "deposited_usd": 2990.08,
+   "value_usd": 1721.67
+  },
+  {
+   "month": "2016-12",
+   "deposited_usd": 3027.3,
+   "value_usd": 1678.05
+  },
+  {
+   "month": "2017-01",
+   "deposited_usd": 3063.76,
+   "value_usd": 1759.83
+  },
+  {
+   "month": "2017-02",
+   "deposited_usd": 3101.41,
+   "value_usd": 1955.6
+  },
+  {
+   "month": "2017-03",
+   "deposited_usd": 3138.38,
+   "value_usd": 2130.44
+  },
+  {
+   "month": "2017-04",
+   "deposited_usd": 3175.68,
+   "value_usd": 2016.33
+  },
+  {
+   "month": "2017-05",
+   "deposited_usd": 3213.87,
+   "value_usd": 2077.1
+  },
+  {
+   "month": "2017-06",
+   "deposited_usd": 3253.12,
+   "value_usd": 2024.14
+  },
+  {
+   "month": "2017-07",
+   "deposited_usd": 3292.9,
+   "value_usd": 1778.05
+  },
+  {
+   "month": "2017-08",
+   "deposited_usd": 3334.2,
+   "value_usd": 1598.38
+  },
+  {
+   "month": "2017-09",
+   "deposited_usd": 3375.77,
+   "value_usd": 2001.61
+  },
+  {
+   "month": "2017-10",
+   "deposited_usd": 3416.88,
+   "value_usd": 1772.65
+  },
+  {
+   "month": "2017-11",
+   "deposited_usd": 3457.54,
+   "value_usd": 1839.91
+  },
+  {
+   "month": "2017-12",
+   "deposited_usd": 3499.23,
+   "value_usd": 1718.68
+  },
+  {
+   "month": "2018-01",
+   "deposited_usd": 3541.4,
+   "value_usd": 1707.69
+  },
+  {
+   "month": "2018-02",
+   "deposited_usd": 3585.09,
+   "value_usd": 1579.24
+  },
+  {
+   "month": "2018-03",
+   "deposited_usd": 3627.85,
+   "value_usd": 1600.87
+  },
+  {
+   "month": "2018-04",
+   "deposited_usd": 3670.85,
+   "value_usd": 1770.54
+  },
+  {
+   "month": "2018-05",
+   "deposited_usd": 3712.85,
+   "value_usd": 1823.23
+  },
+  {
+   "month": "2018-06",
+   "deposited_usd": 3753.73,
+   "value_usd": 1816.1
+  },
+  {
+   "month": "2018-07",
+   "deposited_usd": 3794.34,
+   "value_usd": 1627.23
+  },
+  {
+   "month": "2018-08",
+   "deposited_usd": 3835.17,
+   "value_usd": 1712.53
+  },
+  {
+   "month": "2018-09",
+   "deposited_usd": 3875.66,
+   "value_usd": 2227.87
+  },
+  {
+   "month": "2018-10",
+   "deposited_usd": 3916.14,
+   "value_usd": 1302.81
+  },
+  {
+   "month": "2018-11",
+   "deposited_usd": 3956.03,
+   "value_usd": 1230.53
+  },
+  {
+   "month": "2018-12",
+   "deposited_usd": 3995.77,
+   "value_usd": 1031.82
+  },
+  {
+   "month": "2019-01",
+   "deposited_usd": 4035.52,
+   "value_usd": 1222.29
+  },
+  {
+   "month": "2019-02",
+   "deposited_usd": 4075.68,
+   "value_usd": 1151.06
+  },
+  {
+   "month": "2019-03",
+   "deposited_usd": 4115.5,
+   "value_usd": 955.38
+  },
+  {
+   "month": "2019-04",
+   "deposited_usd": 4154.73,
+   "value_usd": 939.58
+  },
+  {
+   "month": "2019-05",
+   "deposited_usd": 4194.09,
+   "value_usd": 837.79
+  },
+  {
+   "month": "2019-06",
+   "deposited_usd": 4233.31,
+   "value_usd": 813.36
+  },
+  {
+   "month": "2019-07",
+   "deposited_usd": 4272.89,
+   "value_usd": 765.97
+  },
+  {
+   "month": "2019-08",
+   "deposited_usd": 4311.6,
+   "value_usd": 749.77
+  },
+  {
+   "month": "2019-09",
+   "deposited_usd": 4349.99,
+   "value_usd": 708.64
+  },
+  {
+   "month": "2019-10",
+   "deposited_usd": 4388.25,
+   "value_usd": 830.3
+  },
+  {
+   "month": "2019-11",
+   "deposited_usd": 4427.35,
+   "value_usd": 845.17
+  },
+  {
+   "month": "2019-12",
+   "deposited_usd": 4466.11,
+   "value_usd": 999.14
+  },
+  {
+   "month": "2020-01",
+   "deposited_usd": 4505.19,
+   "value_usd": 976.69
+  },
+  {
+   "month": "2020-02",
+   "deposited_usd": 4543.91,
+   "value_usd": 871.06
+  },
+  {
+   "month": "2020-03",
+   "deposited_usd": 4582.98,
+   "value_usd": 673.09
+  },
+  {
+   "month": "2020-04",
+   "deposited_usd": 4621.25,
+   "value_usd": 810.02
+  },
+  {
+   "month": "2020-05",
+   "deposited_usd": 4659.74,
+   "value_usd": 757.64
+  },
+  {
+   "month": "2020-06",
+   "deposited_usd": 4698.67,
+   "value_usd": 873.61
+  },
+  {
+   "month": "2020-07",
+   "deposited_usd": 4738.08,
+   "value_usd": 901.06
+  },
+  {
+   "month": "2020-08",
+   "deposited_usd": 4779.2,
+   "value_usd": 916.17
+  },
+  {
+   "month": "2020-09",
+   "deposited_usd": 4821.03,
+   "value_usd": 864.66
+  },
+  {
+   "month": "2020-10",
+   "deposited_usd": 4862.16,
+   "value_usd": 804.57
+  },
+  {
+   "month": "2020-11",
+   "deposited_usd": 4902.88,
+   "value_usd": 985.21
+  },
+  {
+   "month": "2020-12",
+   "deposited_usd": 4945.01,
+   "value_usd": 1076.69
+  },
+  {
+   "month": "2021-01",
+   "deposited_usd": 4987.9,
+   "value_usd": 1198.03
+  },
+  {
+   "month": "2021-02",
+   "deposited_usd": 5030.15,
+   "value_usd": 1092.57
+  },
+  {
+   "month": "2021-03",
+   "deposited_usd": 5072.34,
+   "value_usd": 996.39
+  },
+  {
+   "month": "2021-04",
+   "deposited_usd": 5113.54,
+   "value_usd": 925.94
+  },
+  {
+   "month": "2021-05",
+   "deposited_usd": 5155.75,
+   "value_usd": 925.58
+  },
+  {
+   "month": "2021-06",
+   "deposited_usd": 5198.59,
+   "value_usd": 1041.58
+  },
+  {
+   "month": "2021-07",
+   "deposited_usd": 5240.09,
+   "value_usd": 767.78
+  },
+  {
+   "month": "2021-08",
+   "deposited_usd": 5281.64,
+   "value_usd": 740.31
+  },
+  {
+   "month": "2021-09",
+   "deposited_usd": 5323.12,
+   "value_usd": 699.74
+  },
+  {
+   "month": "2021-10",
+   "deposited_usd": 5363.71,
+   "value_usd": 660.12
+  },
+  {
+   "month": "2021-11",
+   "deposited_usd": 5404.28,
+   "value_usd": 631.86
+  },
+  {
+   "month": "2021-12",
+   "deposited_usd": 5443.91,
+   "value_usd": 616.33
+  },
+  {
+   "month": "2022-01",
+   "deposited_usd": 5483.43,
+   "value_usd": 425.15
+  },
+  {
+   "month": "2022-02",
+   "deposited_usd": 5522.76,
+   "value_usd": 434.32
+  },
+  {
+   "month": "2022-03",
+   "deposited_usd": 5561.62,
+   "value_usd": 509.48
+  },
+  {
+   "month": "2022-04",
+   "deposited_usd": 5600.27,
+   "value_usd": 425.31
+  },
+  {
+   "month": "2022-05",
+   "deposited_usd": 5637.1,
+   "value_usd": 398.23
+  },
+  {
+   "month": "2022-06",
+   "deposited_usd": 5674.36,
+   "value_usd": 349.18
+  },
+  {
+   "month": "2022-07",
+   "deposited_usd": 5710.79,
+   "value_usd": 411.13
+  },
+  {
+   "month": "2022-08",
+   "deposited_usd": 5746.73,
+   "value_usd": 438.81
+  },
+  {
+   "month": "2022-09",
+   "deposited_usd": 5781.56,
+   "value_usd": 382.11
+  },
+  {
+   "month": "2022-10",
+   "deposited_usd": 5815.89,
+   "value_usd": 403.29
+  },
+  {
+   "month": "2022-11",
+   "deposited_usd": 5850.44,
+   "value_usd": 424.27
+  },
+  {
+   "month": "2022-12",
+   "deposited_usd": 5887.18,
+   "value_usd": 434.02
+  },
+  {
+   "month": "2023-01",
+   "deposited_usd": 5924.14,
+   "value_usd": 510.16
+  },
+  {
+   "month": "2023-02",
+   "deposited_usd": 5962.35,
+   "value_usd": 446.8
+  },
+  {
+   "month": "2023-03",
+   "deposited_usd": 5999.71,
+   "value_usd": 359.79
+  },
+  {
+   "month": "2023-04",
+   "deposited_usd": 6037.83,
+   "value_usd": 374.19
+  },
+  {
+   "month": "2023-05",
+   "deposited_usd": 6076.22,
+   "value_usd": 387.1
+  },
+  {
+   "month": "2023-06",
+   "deposited_usd": 6113.85,
+   "value_usd": 431.08
+  },
+  {
+   "month": "2023-07",
+   "deposited_usd": 6152.07,
+   "value_usd": 419.72
+  },
+  {
+   "month": "2023-08",
+   "deposited_usd": 6190.47,
+   "value_usd": 301.46
+  },
+  {
+   "month": "2023-09",
+   "deposited_usd": 6228.22,
+   "value_usd": 317.89
+  },
+  {
+   "month": "2023-10",
+   "deposited_usd": 6264.97,
+   "value_usd": 295.57
+  },
+  {
+   "month": "2023-11",
+   "deposited_usd": 6301.86,
+   "value_usd": 326.53
+  },
+  {
+   "month": "2023-12",
+   "deposited_usd": 6339.93,
+   "value_usd": 392.78
+  },
+  {
+   "month": "2024-01",
+   "deposited_usd": 6378.28,
+   "value_usd": 671.42
+  },
+  {
+   "month": "2024-02",
+   "deposited_usd": 6416.31,
+   "value_usd": 569.16
+  },
+  {
+   "month": "2024-03",
+   "deposited_usd": 6454.22,
+   "value_usd": 575.2
+  },
+  {
+   "month": "2024-04",
+   "deposited_usd": 6491.78,
+   "value_usd": 469.11
+  },
+  {
+   "month": "2024-05",
+   "deposited_usd": 6529.16,
+   "value_usd": 514.66
+  },
+  {
+   "month": "2024-06",
+   "deposited_usd": 6567.28,
+   "value_usd": 419.31
+  },
+  {
+   "month": "2024-07",
+   "deposited_usd": 6604.83,
+   "value_usd": 449.08
+  },
+  {
+   "month": "2024-08",
+   "deposited_usd": 6642.59,
+   "value_usd": 363.82
+  },
+  {
+   "month": "2024-09",
+   "deposited_usd": 6681.24,
+   "value_usd": 345.13
+  },
+  {
+   "month": "2024-10",
+   "deposited_usd": 6719.97,
+   "value_usd": 294.42
+  },
+  {
+   "month": "2024-11",
+   "deposited_usd": 6757.94,
+   "value_usd": 344.62
+  },
+  {
+   "month": "2024-12",
+   "deposited_usd": 6794.63,
+   "value_usd": 650.05
+  },
+  {
+   "month": "2025-01",
+   "deposited_usd": 6830.55,
+   "value_usd": 522.95
+  },
+  {
+   "month": "2025-02",
+   "deposited_usd": 6866.52,
+   "value_usd": 432.89
+  },
+  {
+   "month": "2025-03",
+   "deposited_usd": 6903.25,
+   "value_usd": 312.78
+  },
+  {
+   "month": "2025-04",
+   "deposited_usd": 6941.05,
+   "value_usd": 358.17
+  },
+  {
+   "month": "2025-05",
+   "deposited_usd": 6980.53,
+   "value_usd": 379.82
+  },
+  {
+   "month": "2025-06",
+   "deposited_usd": 7020.54,
+   "value_usd": 365.2
+  },
+  {
+   "month": "2025-07",
+   "deposited_usd": 7061.76,
+   "value_usd": 402.69
+  },
+  {
+   "month": "2025-08",
+   "deposited_usd": 7102.2,
+   "value_usd": 422.51
+  },
+  {
+   "month": "2025-09",
+   "deposited_usd": 7142.99,
+   "value_usd": 342.52
+  },
+  {
+   "month": "2025-10",
+   "deposited_usd": 7184.02,
+   "value_usd": 395.93
+  },
+  {
+   "month": "2025-11",
+   "deposited_usd": 7224.38,
+   "value_usd": 363.33
+  },
+  {
+   "month": "2025-12",
+   "deposited_usd": 7265.06,
+   "value_usd": 377.1
+  },
+  {
+   "month": "2026-01",
+   "deposited_usd": 7306.14,
+   "value_usd": 328.57
+  },
+  {
+   "month": "2026-02",
+   "deposited_usd": 7347.46,
+   "value_usd": 339.96
+  },
+  {
+   "month": "2026-03",
+   "deposited_usd": 7388.38,
+   "value_usd": 371.31
+  },
+  {
+   "month": "2026-04",
+   "deposited_usd": 7429.03,
+   "value_usd": 348.34
+  },
+  {
+   "month": "2026-05",
+   "deposited_usd": 7470.17,
+   "value_usd": 317.65
+  },
+  {
+   "month": "2026-06",
+   "deposited_usd": 7510.85,
+   "value_usd": 351.84
+  },
+  {
+   "month": "2026-07",
+   "deposited_usd": 7550.7,
+   "value_usd": 249.64
+  },
+  {
+   "month": "2026-08",
+   "deposited_usd": 7590.98,
+   "value_usd": 312.88
+  },
+  {
+   "month": "2026-09",
+   "deposited_usd": 7631.55,
+   "value_usd": 356.2,
+   "note": "end of the simulation, 18 Sep 2026"
+  }
+ ],
+ "deposits_usd": 7631.55,
+ "end_value_usd": 356.2,
+ "months": 175,
+ "rule": "each month, buy the 10 US stocks with the biggest one-day jump in the previous month (the top of the 'MAX' ranking); €400 to start, €35 a month; zero-commission broker; spreads and FX fees included",
+ "method": "month-end values rebuilt from the simulation's monthly time-weighted returns and its deposits (€ converted at FRED DEXUSEU on the first trading day of each month); last point from s8_results.json"
+}

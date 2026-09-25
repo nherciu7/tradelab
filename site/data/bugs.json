@@ -1,0 +1,184 @@
+{
+ "_meta": {
+  "sources": [
+   "public:docs/case_studies/03_v0_vendor_data.md",
+   "tradelab:CLAUDE.md",
+   "tradelab:docs/PREREG.md",
+   "tradelab:docs/stocks/V0_REPORT.md",
+   "tradelab:reports/finding_the_gems.html",
+   "tradelab:reports/h7b_funding.log",
+   "tradelab:reports/hunt_scorecard.csv",
+   "tradelab:reports/ict_summary.csv"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "bugs": [
+  {
+   "id": "ict-lookahead",
+   "featured": true,
+   "trap": 1,
+   "title": "The engine peeked at the future",
+   "fake": "t = 5.74",
+   "real": "t = 0.90",
+   "fake_label": "ICT variant, 5,898 trades",
+   "real_label": "walk-forward, years it hadn't seen",
+   "story": "The backtest engine knew an order would expire unfilled before deciding to place it. Fixed and tested on unseen years, the edge was luck-sized.",
+   "sources": [
+    "reports/ict_summary.csv",
+    "CLAUDE.md"
+   ]
+  },
+  {
+   "id": "sign-agnostic",
+   "featured": true,
+   "trap": 27,
+   "title": "A loser that passed",
+   "fake": "PASS",
+   "real": "FAIL at t −5.95",
+   "fake_label": "pass check on the size of t",
+   "real_label": "t signed in the trade's direction",
+   "story": "The pass check looked at how big t was, not which way it pointed. A trade losing money at t −5.95 printed PASS.",
+   "sources": [
+    "reports/h7b_funding.log",
+    "CLAUDE.md"
+   ]
+  },
+  {
+   "id": "risk-free",
+   "featured": true,
+   "trap": 11,
+   "title": "A Sharpe of 4.13 that was the interest rate",
+   "fake": "t = 10.39",
+   "real": "t = −1.94",
+   "fake_label": "'hedged' bill vs bond pair",
+   "real_label": "after removing the interest",
+   "story": "A pair meant to be hedged had 98.9% of its money in Treasury bills. The 'edge' was just the interest they pay.",
+   "sources": [
+    "reports/finding_the_gems.html",
+    "reports/finding_the_gems.html"
+   ]
+  },
+  {
+   "id": "placebo-lookahead",
+   "featured": true,
+   "trap": 53,
+   "title": "A placebo that found a fake lead",
+   "fake": "t = 6.0",
+   "real": "−1.73% a month",
+   "fake_label": "the 'lead' from a placebo",
+   "real_label": "frozen rule, 10 stocks, out of sample",
+   "story": "The fake dates were picked next to future earnings jumps. The rule built on that lead lost money in and out of sample.",
+   "sources": [
+    "docs/PREREG.md",
+    "reports/finding_the_gems.html"
+   ]
+  },
+  {
+   "id": "vendor-data",
+   "featured": true,
+   "trap": 47,
+   "title": "Vendor data that couldn't be true",
+   "fake": "0.47",
+   "real": "0.984",
+   "fake_label": "first match with academic reference data",
+   "real_label": "after 11 fixes",
+   "story": "A $1,000,000 placeholder price, a +144,000% day, 317 trillion Seagate shares. The pipeline had to match academic data before any test could run.",
+   "sources": [
+    "docs/case_studies/03_v0_vendor_data.md",
+    "docs/stocks/V0_REPORT.md",
+    "CLAUDE.md",
+    "CLAUDE.md"
+   ]
+  },
+  {
+   "id": "hidden-month-end",
+   "featured": true,
+   "trap": null,
+   "title": "An idea that was secretly System A",
+   "fake": "t = 3.26",
+   "real": "t = 0.14",
+   "fake_label": "pre-refunding Friday",
+   "real_label": "with month ends removed",
+   "story": "75 of 96 events sat next to a month end. Take those out and nothing was left.",
+   "sources": [
+    "reports/hunt_scorecard.csv",
+    "reports/finding_the_gems.html"
+   ]
+  },
+  {
+   "id": "summed-returns",
+   "featured": false,
+   "trap": 26,
+   "title": "Returns added up instead of compounded",
+   "fake": "76.2% wins",
+   "real": "72.7% wins",
+   "fake_label": "SHY month-end win rate",
+   "real_label": "compounded",
+   "story": "A tick up and back down counted as a win.",
+   "sources": [
+    "CLAUDE.md"
+   ]
+  },
+  {
+   "id": "unfinished-month",
+   "featured": false,
+   "trap": 25,
+   "title": "A month end that never happened",
+   "fake": "290 months",
+   "real": "289 months",
+   "fake_label": "System A sample",
+   "real_label": "without the unfinished month",
+   "story": "The last day in the data was treated as a month end.",
+   "sources": [
+    "CLAUDE.md"
+   ]
+  },
+  {
+   "id": "vwap-stop",
+   "featured": false,
+   "trap": 5,
+   "title": "Wins that could not lose, from a misplaced stop",
+   "fake": "+0.156 R",
+   "real": "+0.006 R",
+   "fake_label": "VWAP system on DAX",
+   "real_label": "stop on the right side",
+   "story": "The stop sometimes sat above the entry, so the engine booked wins labelled 'stop'.",
+   "sources": [
+    "reports/finding_the_gems.html"
+   ]
+  },
+  {
+   "id": "etf-cost",
+   "featured": false,
+   "trap": 9,
+   "title": "The best system, costed three times too high",
+   "fake": "t = 1.35",
+   "real": "t = 4.97",
+   "fake_label": "System A 2016+, ETF costs",
+   "real_label": "futures costs",
+   "story": "System A was charged an ETF's cost when it trades as a future. It almost got thrown away.",
+   "sources": [
+    "reports/finding_the_gems.html",
+    "reports/finding_the_gems.html"
+   ]
+  },
+  {
+   "id": "row-alignment",
+   "featured": false,
+   "trap": 7,
+   "title": "Two price files lined up by row number",
+   "fake": "+7.7 bps",
+   "real": "−69.4 bps",
+   "fake_label": "Russell 'reversal'",
+   "real_label": "aligned by date",
+   "story": "Caught only because it disagreed with an earlier run.",
+   "sources": [
+    "reports/finding_the_gems.html"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "_meta": {
+  "sources": [
+   "scripts/p1a_sysA_window.py",
+   "scripts/own_account_plan.py (EURUSD)"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:34+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "periods": {
+  "etf": {
+   "label": "Aug 2002 – Aug 2026 (ETF era)",
+   "full_years": "2003–2025",
+   "n_years": 23,
+   "years": [
+    {
+     "year": 2003,
+     "usd": 57.85,
+     "eur": 53.56
+    },
+    {
+     "year": 2004,
+     "usd": 91.58,
+     "eur": 84.8
+    },
+    {
+     "year": 2005,
+     "usd": 148.01,
+     "eur": 137.05
+    },
+    {
+     "year": 2006,
+     "usd": 366.0,
+     "eur": 338.89
+    },
+    {
+     "year": 2007,
+     "usd": 452.82,
+     "eur": 419.28
+    },
+    {
+     "year": 2008,
+     "usd": 1395.49,
+     "eur": 1292.12
+    },
+    {
+     "year": 2009,
+     "usd": 298.6,
+     "eur": 276.48
+    },
+    {
+     "year": 2010,
+     "usd": 659.7,
+     "eur": 610.83
+    },
+    {
+     "year": 2011,
+     "usd": 137.55,
+     "eur": 127.36
+    },
+    {
+     "year": 2012,
+     "usd": 74.43,
+     "eur": 68.92
+    },
+    {
+     "year": 2013,
+     "usd": 62.08,
+     "eur": 57.48
+    },
+    {
+     "year": 2014,
+     "usd": 111.72,
+     "eur": 103.44
+    },
+    {
+     "year": 2015,
+     "usd": -7.21,
+     "eur": -6.68
+    },
+    {
+     "year": 2016,
+     "usd": 452.14,
+     "eur": 418.65
+    },
+    {
+     "year": 2017,
+     "usd": 43.3,
+     "eur": 40.09
+    },
+    {
+     "year": 2018,
+     "usd": 247.8,
+     "eur": 229.44
+    },
+    {
+     "year": 2019,
+     "usd": 524.06,
+     "eur": 485.24
+    },
+    {
+     "year": 2020,
+     "usd": 525.62,
+     "eur": 486.69
+    },
+    {
+     "year": 2021,
+     "usd": 101.71,
+     "eur": 94.18
+    },
+    {
+     "year": 2022,
+     "usd": 291.27,
+     "eur": 269.69
+    },
+    {
+     "year": 2023,
+     "usd": 354.57,
+     "eur": 328.31
+    },
+    {
+     "year": 2024,
+     "usd": 473.61,
+     "eur": 438.53
+    },
+    {
+     "year": 2025,
+     "usd": 613.62,
+     "eur": 568.17
+    }
+   ],
+   "per_contract_eur": {
+    "median": 269.69,
+    "p10": 54.35,
+    "p90": 551.87,
+    "worst": -6.68,
+    "worst_year": 2015,
+    "mean": 300.98
+   },
+   "losing_years": 1,
+   "winning_years": 22,
+   "losing_pct": 4.3,
+   "capital_needed_eur": 593.84
+  },
+  "fred": {
+   "label": "Jun 1976 – Dec 2001 (FRED yields, before the ETF era)",
+   "full_years": "1977–2001",
+   "n_years": 25,
+   "years": [
+    {
+     "year": 1977,
+     "usd": -315.16,
+     "eur": -291.81
+    },
+    {
+     "year": 1978,
+     "usd": -515.16,
+     "eur": -477.0
+    },
+    {
+     "year": 1979,
+     "usd": -345.16,
+     "eur": -319.59
+    },
+    {
+     "year": 1980,
+     "usd": -295.16,
+     "eur": -273.3
+    },
+    {
+     "year": 1981,
+     "usd": 1964.84,
+     "eur": 1819.3
+    },
+    {
+     "year": 1982,
+     "usd": 754.84,
+     "eur": 698.93
+    },
+    {
+     "year": 1983,
+     "usd": -335.16,
+     "eur": -310.33
+    },
+    {
+     "year": 1984,
+     "usd": -355.16,
+     "eur": -328.85
+    },
+    {
+     "year": 1985,
+     "usd": 234.84,
+     "eur": 217.44
+    },
+    {
+     "year": 1986,
+     "usd": 634.84,
+     "eur": 587.81
+    },
+    {
+     "year": 1987,
+     "usd": -55.16,
+     "eur": -51.07
+    },
+    {
+     "year": 1988,
+     "usd": 704.84,
+     "eur": 652.63
+    },
+    {
+     "year": 1989,
+     "usd": 784.84,
+     "eur": 726.7
+    },
+    {
+     "year": 1990,
+     "usd": 744.84,
+     "eur": 689.67
+    },
+    {
+     "year": 1991,
+     "usd": 984.84,
+     "eur": 911.89
+    },
+    {
+     "year": 1992,
+     "usd": 174.84,
+     "eur": 161.89
+    },
+    {
+     "year": 1993,
+     "usd": 34.84,
+     "eur": 32.26
+    },
+    {
+     "year": 1994,
+     "usd": -465.16,
+     "eur": -430.7
+    },
+    {
+     "year": 1995,
+     "usd": 404.84,
+     "eur": 374.85
+    },
+    {
+     "year": 1996,
+     "usd": -215.16,
+     "eur": -199.22
+    },
+    {
+     "year": 1997,
+     "usd": 364.84,
+     "eur": 337.81
+    },
+    {
+     "year": 1998,
+     "usd": 1014.84,
+     "eur": 939.67
+    },
+    {
+     "year": 1999,
+     "usd": -115.16,
+     "eur": -106.63
+    },
+    {
+     "year": 2000,
+     "usd": 194.84,
+     "eur": 180.41
+    },
+    {
+     "year": 2001,
+     "usd": 1164.84,
+     "eur": 1078.56
+    }
+   ],
+   "per_contract_eur": {
+    "median": 180.41,
+    "p10": -325.15,
+    "p90": 928.56,
+    "worst": -477.0,
+    "worst_year": 1978,
+    "mean": 264.85
+   },
+   "losing_years": 10,
+   "winning_years": 15,
+   "losing_pct": 40.0,
+   "capital_needed_eur": 778.64
+  }
+ },
+ "capital_per_contract_eur": 593.84,
+ "capital_per_contract_usd": 641.35,
+ "capital_rule": "maintenance margin $363 + worst dip in 2002–2026, converted at EURUSD 1.08",
+ "eurusd": 1.08,
+ "cost_usd_round_turn": 2.5,
+ "input_min_eur": 600,
+ "input_max_eur": 10000,
+ "percentile_method": "numpy linear interpolation over full calendar years",
+ "label": "backtest, hypothetical, before taxes and FX"
+}

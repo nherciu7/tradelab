@@ -1,0 +1,576 @@
+{
+ "_meta": {
+  "sources": [
+   "tradelab:CLAUDE.md",
+   "tradelab:reports/finding_the_gems.html"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "ideas": [
+  {
+   "id": "orb",
+   "name": "Opening-range breakout",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": "variance ratio 0.87–0.94",
+   "reason": "Index prices tend to snap back within the day, which works against breakouts. It didn't survive costs.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "asian-range",
+   "name": "Asian-range breakout",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates once an exit bug was fixed (the stop check started before the trade existed).",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "vwap",
+   "name": "VWAP systems",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": "+0.006 R per trade",
+   "reason": "The profit came from a bug that put the stop on the wrong side of the entry. Fixed, nothing was left.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "trend-day",
+   "name": "Trend-day entries",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "tight-stops",
+   "name": "Tight-stop intraday entries",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "school-run",
+   "name": "School-run (a mid-morning time-of-day pattern)",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "hf-reversal",
+   "name": "High-frequency reversal",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "The profit per trade was too small to survive costs.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "overnight-drift",
+   "name": "Overnight drift",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "The profit per trade was too small to survive costs.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "cross-asset-rv",
+   "name": "Cross-asset relative value",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "session-reversals",
+   "name": "Session reversals",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "breadth-divergence",
+   "name": "Breadth divergence",
+   "group": "Intraday patterns",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "Failed the four gates.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "ict-2022",
+   "name": "ICT 2022 model, coded as taught",
+   "group": "ICT / Smart Money",
+   "verdict": "Failed",
+   "key": "t −1.51",
+   "reason": "It lost money over 866 trades, and fake time windows did just as well.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "ict-optimised",
+   "name": "ICT, optimised over 34,560 settings",
+   "group": "ICT / Smart Money",
+   "verdict": "Failed",
+   "key": "out-of-sample t +0.90",
+   "reason": "Tuned on past years and tested on the next one, it couldn't be told apart from luck. The chance the tuning was overfit: 51%.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "ict-candidate",
+   "name": "ICT: volatile day + weekly trend + pullback",
+   "group": "ICT / Smart Money",
+   "verdict": "Failed",
+   "key": "t 2.06",
+   "reason": "Below the bar, and 92% of its profit came from shorting one index.",
+   "source": "CLAUDE.md"
+  },
+  {
+   "id": "lev-etf",
+   "name": "Leveraged-ETF rebalancing at the close",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "NDX −1.83",
+   "reason": "Leveraged funds must trade at the close, but the effect showed up in the wrong markets, with the wrong signs.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "buyback",
+   "name": "Buyback blackout windows",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "wrong sign in all six markets",
+   "reason": "Companies pause buybacks before earnings. Prices moved the opposite way to the prediction in every market.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "vol-target",
+   "name": "Vol-target deleveraging",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "control t 6.04",
+   "reason": "It looked like a pass at t 3.07, but a plain 'price fell for 5 days' rule did better. It was ordinary short-term reversal.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "fx-hedge",
+   "name": "Month-end FX hedge rebalancing",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t 1.71",
+   "reason": "Hedges should push prices in proportion to the month's move. They didn't.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "payroll",
+   "name": "Semi-monthly payroll",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "−26 bps",
+   "reason": "If paydays drove buying, moving payday should move the effect. When it moved, the effect went negative.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "60-40",
+   "name": "60/40 fund rebalancing",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t 0.47",
+   "reason": "Real in theory, but tiny next to normal daily price noise.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "settlement",
+   "name": "Treasury settlement calendar",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "+17.5 → −2.5 bps",
+   "reason": "Worked in the years used to find it, then disappeared in the years after.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "seasonality",
+   "name": "Quarter-end, December and Japanese fiscal-year seasonality",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t 0.59 / 0.33 / 1.85",
+   "reason": "None of the seasonal windows beat the rest of the year by more than luck.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "global-bonds",
+   "name": "Adding foreign bond markets to System A",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "correlation 0.60–0.80",
+   "reason": "Every blend did worse than the US trade alone.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "auctions",
+   "name": "Treasury auction cycle",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "placebo t 6.62",
+   "reason": "The fake dates beat the real ones because they landed on month end. It was System A again.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "goldman-roll",
+   "name": "Commodity index roll (the 'Goldman roll')",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "GLD t −2.09",
+   "reason": "A gold fund that never rolls futures showed the same pattern, so the roll wasn't the cause.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "opex",
+   "name": "Monthly option expiry",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "placebo t 2.63",
+   "reason": "The fake week did better than expiry week.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "mid-month",
+   "name": "Mid-month bond window",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "+24.6 → +2.3 bps",
+   "reason": "Lost 85–90% of its return on years it hadn't seen.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "recon-siblings",
+   "name": "Other index rebalances (MSCI, Nasdaq-100, S&P)",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "+46.5 vs +29.8 bps",
+   "reason": "Funds that don't track MSCI moved more on MSCI dates than the funds that do.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "drift-filter",
+   "name": "A within-month filter for System A",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "−$57 a month",
+   "reason": "Meant to improve System A. It cost money instead.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "zero-duration",
+   "name": "A month-end edge in Treasury bills",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "+0.17 bps",
+   "reason": "The apparent edge was just the interest the bills pay.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "close-flow",
+   "name": "Month-end bond buying in the last hour",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "The buying doesn't bunch into the closing hour, so there's no sharper trade inside the day.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "pre-refunding",
+   "name": "Pre-refunding Friday (confirm or kill)",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t 0.14",
+   "reason": "75 of 96 events sat next to a month end. Away from month end it earned nothing.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h1-dividends",
+   "name": "Dividend-payment days",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t 1.00",
+   "reason": "Reinvested dividends were supposed to lift prices on payment days. Nothing since 2014.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h2-pensions",
+   "name": "Pension rebalancing into bonds",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t −0.31",
+   "reason": "No mark on bond prices, and the wrong sign at quarter ends.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h3-curve",
+   "name": "2-year vs 10-year month-end pair",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t 0.65",
+   "reason": "The 2-year leg earned everything and the 10-year leg lost it back.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h4-cot",
+   "name": "Commodity hedging pressure (COT)",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "Sharpe −0.32",
+   "reason": "Following producers' hedging positions lost money.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h5-sp600",
+   "name": "S&P 600 / 400 quarterly rebalance",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "−10.9 bps per event",
+   "reason": "Lost money, and the fake dates did better.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h6-bitcoin",
+   "name": "CME bitcoin settlement hour",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "t −0.17",
+   "reason": "Nothing around the settlement hour, in either direction.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h7a-mbs",
+   "name": "Mortgage-bond payments on the 25th",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "−1.4 bps",
+   "reason": "Its t above 3 came from month end again. Compared fairly, it was zero.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "h7b-funding",
+   "name": "Crypto funding avoidance",
+   "group": "Calendar and flow ideas",
+   "verdict": "Failed",
+   "key": "−7.3 bps after costs",
+   "reason": "Real, but smaller than what a retail trader pays to trade it.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t1-pretra",
+   "name": "Pre-refunding drift in Treasuries",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": "placebo +4.7 bps",
+   "reason": "The fake dates five sessions earlier earned almost as much.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t6-expiry",
+   "name": "Expiry-Friday spike",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": "+19.8 → +1.2 bps",
+   "reason": "It existed until about 2014, then it was gone.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t4-premacro",
+   "name": "Overnight drift before economic releases",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": "t 0.39",
+   "reason": "Gone after the paper that found it was published.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t5-annday",
+   "name": "Announcement-day premium",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": "+3.2 vs +6.4 bps",
+   "reason": "Announcement days used to be special. Since 2010, ordinary days earn more.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t7-fomc-cycle",
+   "name": "FOMC-cycle even weeks",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": "t −2.3 since 2017",
+   "reason": "Reversed after it was published.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t2-prefomc",
+   "name": "Pre-FOMC drift in Treasuries",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": null,
+   "reason": "The fake dates five sessions earlier were just as strong.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "t8-fomc-reversal",
+   "name": "FOMC announcement reversal",
+   "group": "Research-paper leads",
+   "verdict": "Failed",
+   "key": "t 0.87",
+   "reason": "Right direction, but eight meetings a year is too few to tell it from luck.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "b-quarter-start",
+   "name": "Quarter-start pension contributions",
+   "group": "System B mechanism checks",
+   "verdict": "Rejected",
+   "key": "+28.5 vs +36.8 bps",
+   "reason": "If contributions drove System B, quarter starts should be strongest. They were the weakest.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "b-vol-target",
+   "name": "Vol-target fund rebalancing",
+   "group": "System B mechanism checks",
+   "verdict": "Rejected",
+   "key": "t −1.55",
+   "reason": "Present all month, and weakest exactly where System B trades.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "b-buyback",
+   "name": "Buyback blackout",
+   "group": "System B mechanism checks",
+   "verdict": "Rejected",
+   "key": "+57.6 vs +36.0 bps",
+   "reason": "The pattern ran backwards from what buybacks predict.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "b-dash-for-cash",
+   "name": "Dash for cash before month end",
+   "group": "System B mechanism checks",
+   "verdict": "Rejected",
+   "key": "t 0.21",
+   "reason": "The predicted dip before month end wasn't there.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "b-plain-totm",
+   "name": "Plain turn of the month, SPY alone",
+   "group": "System B mechanism checks",
+   "verdict": "Failed",
+   "key": "days 9–12: t 2.50",
+   "reason": "On SPY alone, the plain version is no better than the middle of the month. A caution for System B.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "trend",
+   "name": "Trend following, 12-month signal, 33 markets",
+   "group": "Trend following",
+   "verdict": "Failed (narrowly)",
+   "key": "t 2.61",
+   "reason": "A real, well-known premium that fell just short of 2.8, and it needs about €20,000 with whole contracts.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s8",
+   "name": "Buying last month's biggest jumpers",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "$7,632 → $356",
+   "reason": "Ten names at a time, bought every month, lost almost everything deposited.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s1",
+   "name": "Insider purchase clusters",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "−0.41% a month",
+   "reason": "Real but tiny since 2012, and costs ate it.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s3",
+   "name": "Post-earnings drift in microcaps",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "−0.64% a month",
+   "reason": "The academic drift was there; a small account couldn't collect it after spreads.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s4",
+   "name": "Graham net-nets",
+   "group": "US stocks",
+   "verdict": "Failed (kept on paper)",
+   "key": "t 1.11",
+   "reason": "The closest call: the cheapest stocks did best, but the first half of the sample lost money.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s5",
+   "name": "Graham: P/E of 7 or less",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "t −0.26",
+   "reason": "No better than random stocks of the same size.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s2",
+   "name": "Opportunistic insider purchases",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "−1.58% a month",
+   "reason": "Rebalancing every month cost about 1% a month, more than any edge.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s7",
+   "name": "Piotroski F-score among cheap stocks",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "t −0.21",
+   "reason": "The low scorers did better than the high scorers.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "s6",
+   "name": "Graham's enterprising-investor screen",
+   "group": "US stocks",
+   "verdict": "Failed (too few stocks)",
+   "key": "25 stocks in 11 years",
+   "reason": "Too few stocks passed all six tests to judge, and those lost money.",
+   "source": "reports/finding_the_gems.html"
+  },
+  {
+   "id": "l1",
+   "name": "Microcap continuation after big moves",
+   "group": "US stocks",
+   "verdict": "Failed",
+   "key": "−1.73% a month",
+   "reason": "The lead came from a flawed placebo. The frozen rule lost money in both periods.",
+   "source": "reports/finding_the_gems.html"
+  }
+ ],
+ "listed": 62,
+ "tally": 139,
+ "note": "139 ideas are in the tally; the ones with their own write-up are listed here. Most of the rest were variants and quick checks of these."
+}

@@ -1,0 +1,244 @@
+{
+ "_meta": {
+  "sources": [
+   "scripts/recon_siblings.py (S3 method)"
+  ],
+  "tradelab_commit": "da8da6e",
+  "tradelab_commit_full": "da8da6e2cb88f55b689dc58cce94a7876a18d7cc",
+  "tradelab_uncommitted_changes": true,
+  "generated_at": "2026-09-25T19:21:42+00:00",
+  "generator": "scripts/site/export_site_data.py"
+ },
+ "events": [
+  {
+   "year": 2000,
+   "recon_date": "2000-06-30",
+   "into_bps": -50.3,
+   "unwind_bps": -105.2,
+   "total_bps": -155.5
+  },
+  {
+   "year": 2001,
+   "recon_date": "2001-06-29",
+   "into_bps": 197.9,
+   "unwind_bps": 255.9,
+   "total_bps": 453.9
+  },
+  {
+   "year": 2002,
+   "recon_date": "2002-06-28",
+   "into_bps": -59.3,
+   "unwind_bps": 404.0,
+   "total_bps": 344.7
+  },
+  {
+   "year": 2003,
+   "recon_date": "2003-06-27",
+   "into_bps": 85.2,
+   "unwind_bps": -108.2,
+   "total_bps": -23.0
+  },
+  {
+   "year": 2004,
+   "recon_date": "2004-06-25",
+   "into_bps": 152.2,
+   "unwind_bps": -58.0,
+   "total_bps": 94.2
+  },
+  {
+   "year": 2005,
+   "recon_date": "2005-06-24",
+   "into_bps": -76.2,
+   "unwind_bps": -246.3,
+   "total_bps": -322.5
+  },
+  {
+   "year": 2006,
+   "recon_date": "2006-06-30",
+   "into_bps": 245.5,
+   "unwind_bps": 129.7,
+   "total_bps": 375.2
+  },
+  {
+   "year": 2007,
+   "recon_date": "2007-06-29",
+   "into_bps": -73.6,
+   "unwind_bps": -50.1,
+   "total_bps": -123.7
+  },
+  {
+   "year": 2008,
+   "recon_date": "2008-06-27",
+   "into_bps": 69.2,
+   "unwind_bps": 339.4,
+   "total_bps": 408.5
+  },
+  {
+   "year": 2009,
+   "recon_date": "2009-06-26",
+   "into_bps": 125.6,
+   "unwind_bps": 79.6,
+   "total_bps": 205.2
+  },
+  {
+   "year": 2010,
+   "recon_date": "2010-06-25",
+   "into_bps": 125.8,
+   "unwind_bps": 180.1,
+   "total_bps": 305.9
+  },
+  {
+   "year": 2011,
+   "recon_date": "2011-06-24",
+   "into_bps": 124.1,
+   "unwind_bps": 33.5,
+   "total_bps": 157.6
+  },
+  {
+   "year": 2012,
+   "recon_date": "2012-06-29",
+   "into_bps": 45.7,
+   "unwind_bps": -148.3,
+   "total_bps": -102.5
+  },
+  {
+   "year": 2013,
+   "recon_date": "2013-06-28",
+   "into_bps": 71.3,
+   "unwind_bps": -149.6,
+   "total_bps": -78.3
+  },
+  {
+   "year": 2014,
+   "recon_date": "2014-06-27",
+   "into_bps": 29.8,
+   "unwind_bps": 88.3,
+   "total_bps": 118.1
+  },
+  {
+   "year": 2015,
+   "recon_date": "2015-06-26",
+   "into_bps": -8.5,
+   "unwind_bps": 98.0,
+   "total_bps": 89.5
+  },
+  {
+   "year": 2016,
+   "recon_date": "2016-06-24",
+   "into_bps": 29.3,
+   "unwind_bps": 52.8,
+   "total_bps": 82.1
+  },
+  {
+   "year": 2017,
+   "recon_date": "2017-06-30",
+   "into_bps": -13.3,
+   "unwind_bps": 46.5,
+   "total_bps": 33.2
+  },
+  {
+   "year": 2018,
+   "recon_date": "2018-06-29",
+   "into_bps": -55.8,
+   "unwind_bps": -139.7,
+   "total_bps": -195.5
+  },
+  {
+   "year": 2019,
+   "recon_date": "2019-06-28",
+   "into_bps": 216.6,
+   "unwind_bps": 142.3,
+   "total_bps": 358.9
+  },
+  {
+   "year": 2020,
+   "recon_date": "2020-06-26",
+   "into_bps": 2.7,
+   "unwind_bps": 64.0,
+   "total_bps": 66.7
+  },
+  {
+   "year": 2021,
+   "recon_date": "2021-06-25",
+   "into_bps": 55.4,
+   "unwind_bps": 291.7,
+   "total_bps": 347.1
+  },
+  {
+   "year": 2022,
+   "recon_date": "2022-06-24",
+   "into_bps": 6.1,
+   "unwind_bps": -24.4,
+   "total_bps": -18.3
+  },
+  {
+   "year": 2023,
+   "recon_date": "2023-06-30",
+   "into_bps": -2.5,
+   "unwind_bps": -121.7,
+   "total_bps": -124.2
+  },
+  {
+   "year": 2024,
+   "recon_date": "2024-06-28",
+   "into_bps": 158.6,
+   "unwind_bps": 225.3,
+   "total_bps": 383.9
+  },
+  {
+   "year": 2025,
+   "recon_date": "2025-06-27",
+   "into_bps": 29.3,
+   "unwind_bps": -111.4,
+   "total_bps": -82.1
+  },
+  {
+   "year": 2026,
+   "recon_date": "2026-06-26",
+   "into_bps": 155.8,
+   "unwind_bps": 328.8,
+   "total_bps": 484.6
+  }
+ ],
+ "stats": {
+  "events": 27,
+  "first": 2000,
+  "last": 2026,
+  "cost_bps_per_leg_trade": 8.0,
+  "into": {
+   "mean_bps": 58.8,
+   "t": 3.33,
+   "win_pct": 70.4,
+   "wins": 19,
+   "sd_bps": 91.6,
+   "worst_bps": -76.2,
+   "worst_year": 2005,
+   "best_bps": 245.5
+  },
+  "unwind": {
+   "mean_bps": 55.4,
+   "t": 1.65,
+   "win_pct": 59.3,
+   "wins": 16,
+   "sd_bps": 174.2,
+   "worst_bps": -246.3,
+   "worst_year": 2005,
+   "best_bps": 404.0
+  },
+  "total": {
+   "mean_bps": 114.2,
+   "t": 2.62,
+   "win_pct": 63.0,
+   "wins": 17,
+   "sd_bps": 226.8,
+   "worst_bps": -322.5,
+   "worst_year": 2005,
+   "best_bps": 484.6
+  }
+ },
+ "rule": {
+  "into": "long IWM / short SPY, equal dollars, from the close 2 sessions before the reconstitution close (last Friday of June) to that close",
+  "unwind": "short IWM / long SPY from the reconstitution close to the close 5 sessions later",
+  "december_2026": "long IWM / short SPY Wed 9 Dec close → Fri 11 Dec close; reverse Fri 11 Dec close → Fri 18 Dec close"
+ }
+}
